@@ -1,22 +1,1259 @@
-pyobfuscate=(lambda getattr:[((lambda IIlII,IlIIl:setattr(__builtins__,IIlII,IlIIl))(IIlII,IlIIl)) for IIlII,IlIIl in getattr.items()]);Il=chr(114)+chr(101);lI=r'[^a-zA-Z0-9]';lIl=chr(115)+chr(117)+chr(98)
-pyobfuscate({getattr(__import__(Il),lIl)(lI,'',"https://pyobfuscate.com"):"IlIlIlIIIIIllIIIIIlllIIIllIlIIllIII",'pyc':"""FHoB1$s{kB;VommR&SoPJd|SJF~368(F4H3{FuMml6Ik5rG?xSTS@UagoDKXOY-N<Dvl-7D66L%?Wf=<esDKx&JB>!S>pL`Z>3(+!QfR#&ZYp9*WQLeQY{9ngMt|(p&nEg^zVB_?$<mq_I&BYF1obQ`$HI%{_CV7EI#c#x-k8z_-Q6H$6g0nx+|8#L5Z=?<&+gM8@HwVN8p1H|6WIUJZ^#vo2j}UKM}m4sp71=L4W+8{L41gdEXm&dY9HJ&I{D-<n^1POvWD8mzFMdOtgygdu{v_tFo!bP6gX;aQFzXHbBrDU5+BOAzw*T-a_A*oI}72;OctRjfNw%v4Nu~p&p&<CIOh^5@ccv*h2DgF*AesWJ48xK(a&TRfPnzpdEu&Lz0fKm)0!Pc^@sddNrw<oRfEwB#A8f=KmrtJb=yW&N%6H;jU{)nO;Z6R-0Jn1P0&)jV6HwXW9B}T7l4P{99HUh(WJVk3A|~N^U-G30Ogm?2Z;-+ZgVWOHoyDAw2GFYW?2U{A2@SgAs>RIs|}Oqikb9$bRbhc<_xs$}QH^HnN%!9m-0fdP&zhAQGlcZ|6Qfr$6!35H-!2EJP@VUmvLItY7>%bdo0XW6SYiOz2x(9yh)=jtBjY;mJZQTBkjfMrkc2u)B{xKv$1=C~a{#VpVZD{W)b|xS}ft*yG;MOx*L%r!KP3y%T_wJP8D^YyZ--mBY@EC<_>pN}Ar_#{<%6)3fDkAH>}D<_LcS0%Tab!khW}BPwhiw>Vft<yMZhBZ_Gc=K=M>Q5wkv@;}>gp9103%VW$1eyD)K0yZD0eAk4NeVi(l)ssL`JBrnBy^}I+C@VajGPWJ&W>toncQ-wl3MRA@QQ$e9;52@Kp|XG1U`i$|b<22|M3!$-S*Sd(3L`44MEi8Zl7Qpbr>i*Z5^Mf5F+gJ6UrO<*@ltY&6Dwra%YXbSS7IC8jvdz)T&e+XCC$OI-M^p}^`(?7U>)G8SnRIpd-MSoMOz;xMOP~{(hBovt!3F9#9IehQh1E(a6H#?<ExtPg%E0&pZg^lnT?up+*u(D!KB%oBsJ+E@d;fqM2Y6M*;NT*>%CCL<Ueacv|LF`)xGC7WAmdC&H_vz0Ad$DkEN=m4xXpxqYW$yIGum1cQs`92+3Wuqo@?ZwzAZWi3>5V1suZSQGO6<<?KPm?!7eUq%yB3kpLJB$fLWh+y`|@Bu6C}lr`X%t4xP2a#ipg2H`XxDhp6Bv0OI}TE4XZKP9Y5hzg!`mvd;SSDn+BeEP+*ex$#b{A6g>c${KJsQw|WS(QzX%5;eQveo5J@i~r_(!McuLIQik^(9=ao%6jwa&+f!e#~zYnU~^qY?iK4t<5AcC_qVDZZWDQGU{{$lN)GzUV+k(2bte3$zg%4yKxqX0Hq@7#NEZdZX71qc(~e%(?_YK)q#MCb$43W-27P;r9RWLZ!KnH(Qfe5^@9Bf)R#-u$yVC)0~xf`ScBxuo_syOmW)Wp9Nlx%m_Y_?0q(dY&fxrqTx6R@5r*tnkoBoJQh17YB1mg7GCp;>^byGOkhCNK@!obipW*VkbZwg#1PgOnjYI5=jyN`G>3YEi@X<c#UzddBmYeuey!McX!kACtw9!U_|1)c>mrA)69lL}`qJv71K*ivm=heI5FLL8J_F}mHxScGn+|ox)b0IeDx;I!u!CB|yx`@qs`NEY!yEiaKH4<>fA&OE}G&jH!uBn!7Df-!){Vc(4g7{paH^}0jv|!OqwRo&GA@OVp4^_VPht`2}<k^(vuH;QO*Zi#xn+=3(#Cc=s1$k=R5H>%~2u=d9%rP!<{3d!Mw-<5OBP!zpm4n90W%3z1zHAqliHE)S8d~$U?%iL5G8^#yHOm^o%a|h^$SUro3jB2iDbtj`*&DofN~V&Klw`DXULG-1*EhB4<rS0bQQCylIN#nSZl@Z(*@HUgsmBK(t?@*46*bZME-c<YA@sBq=s~O&Ws~bNqCyT9l6O@~pN-cdTZ2VF%h5`gyY-7i$>JX#O_0$F3K{UdJuF<1gp30Wz?uclRb1VYuO?Rda3iL`la#8WRNPOQxUW-k?ZjM`4xx@eT05T?>6;Q*X!HPt$OhO7m|UGTi$b*Kq<%w&XV9kQUN~6UzsTkTw49TGCc#_S)h)P(E}Rydr`x*XZw^ik+e}sJ$UA1|?$ijyug?gij2Xj~lJHwoigsSNOjW`JfP^P6COpJLlAkemjD!M;qP&Zxe!3X5f=X_Tyc$=#(E_GCz^R5lCakZ2>@G@@*b!CUnmC;WOYzYLu3Yf;&Z^||@52*&9R0Y=D^ZlsW0etvXz8|uZBd3Ixr1cGl%kn7@Y7SZa_&`!@jDGY;y6=2f{|^v8R)MNfh9&1euP59!=r|I8H`%VTSHp^U7q1WtsKwyXW`%y(2SB_bouY~IIg$EODKOli<>d}PgRx_3A)=F_4eO3j<=k8^`Il6Gzq3wup!PAAJytyF5nWKU%&E~Mo9To{;?qu0<AMRo&<nx_VEXjS02g6xqZ$^x4{3Td=4&i7OK8~xUpQxeI@Ru1GEfJPKV<K_xou-8zf5s^}!#@W$}oNhEvZ0Fdsf{ddz_b*ocKI`$R}3=5GQ7_TWl7k>Cq~I*Q?6d8j~DlK*f`aGHWZI!RIw+;FF{blrg9c|LBJqCnqp%S>W5AXCJRSL4yIcWI?AJB1E5srwf34>SoCh(kge01IUC^bV7yNd+8G!Vs_U)^=5p6o59#zf6Z#F}FdSt^&V@v-FmImPl}+l()O-aK$p-?0)I(haN5jzE4BPN5(<uH?8PZE(2F`#Fj@IZz<F@QX?SI{9G%gPpmFQK|?V~thgw2a+Bd+dq^_DdRNZ4#y^JvHgx5!ZYP^W)s7ehr-}wRLmP^#Ss!a|G=z+{JQs8;*UE>L+ORK`LQeEt&B<Fpd+LvIp*Q@4_J`k}Sce^T^Xm76v`U520<g+kBz?7z4;B=7Rdi6GKEKaGJH7hW2<iL}RP}q?om&$iAVCGLyz!rfB{O_c#aQDCH+aIxp5l5h_8((MPqAQt>4aao9#}Y|J}l^D)XO2{)r$2^3p2y{K;TsTIkQJMN?*P$#`ly4_De!1P9IhmdHpZoSIueD0CmGbODgwOUO1XmIPAj8Ia7)jy{3UfdLbe3Rj0uDjV>DhO8qcy)0e!kVp86Bj+8@=UPTtz^$Xmc8%x@c*dlcs<KtZ6Y*Y;U79zga_Cb>7U`r<lO$FLhJa=rRfI*mnqGTH@H!&JCht$Er)#Ppu^(v!1Q8SgIeidzRnGbt)m$(%*n`LMyiNV43)E5Uck8e`ucsN?3z4K6f-uQ^v>>h~afFev}Gkqlteh#R{d+3I6E*S(a0r?()8(QDh3^3zXgQlMYL8j7HSi=H$Etav$MhOp{U;QWIx+y^Sb`^)Hmcu_p78#WbAH}yduG<ZLb1o*LJp{KWu9$f3WFG`0DB>3CjgX-pCAFRV6YNWH_%nS$*JtfBxfcsBNL9KL>Z^#)IWw8H3YQHj=k#=0W(gmVw@Vm^kJTmTS`g@_(8onL5WVml=rxWyZ1A&UdwIDAxWQ`pN?_&y>zz?CT>%N(7t#aq=cdeUCQp@yTGyt&C)~xvI(g$M>@%pEMuNNvU~2RC{*D0;2s-R{oCZ16PVrr%-QrE)M)+Zzu^VY#h2>^1mE!P3ey<z&d7mD_6y^<U#)c15G$RZ17ya}%;ktm)h+80H@?b_=uClFJ3}zy{0RnmoRFgE5bjY7`tI!R+;D~KmMGbnUY2p~eABW%6)LPmvXx-JQ5QS1w%a-!8;0JN(CB&;c&E%gc*VujV&8aZ5X=;BGxrVP5<EC&_25Q@e)}fwS8S#4(4r{f--sf2ad!@deU~$+$i4&R_6KeYz00h>jXX=w`v7Si4r8(FeDvT~sCPhZb?uaI9*;vI-@FZ{r4J=8;=9oC;&==3}jM(R|+RlNk?($Ea5&ZmYV&Qnj-kE9ek8M?gfxDYzoCw=v1I}kgh2qAQ<Zl{tqK#bV$dWkH$V8o|J)5XVk%D{y{e_>t4F9*<;-wSlRoW!QOp}y(AuFuq*mIDZ<BgQ8i@^mv-Ho(_pQ`c@K^#PGRMxnS7^h?K!x}0B6#d8VgX5(DtRz<j9Q=GXi@|?RevR>Ig_Zfvn6;PfZ*qRVltm*hRS*0)tEwRwG7JiGD;4;r+czU2EsJj!919Fc<v`kzArWRI6nk;ylRhZB<N}7ffX94w4B`pf-anf!KIF_69$NZ~S9y_yJ;LyoU>EX%UoNF6FTU@N;?eS`%mPPMt-;RwM^?IM6Tn&MwHPTJPVdW1qppfovvakIOcBpZERo(oNX^X2+I9^s+uhXU?zGm#7AJ9Z29wj4|JiIqrxfJ&EU{>0Vi_)4Bk2Y`g5t%8p7={mI&6+`^Xo>+GXPX|RSF%26aNDu0j8`XAPMt`Ey>3Tnjg9pcL^0ue-`<A62|K=#TxA5NaJTBKuT#J`i2}bI+J!e1Z@Fm_P0nwtnJJbg0{shX-(+9m90upKN#8}dHu2WAAX|5pfFK4U?8Dpm2n(7WKhpby~_75LxbSWoSOC7p?Ovnh6xT?*w&i~O&L|iM$N9DU!<7-7G}!9I6&HYJE!|?K5F9@Z%OvdN=3whUt<5G`-Lqsdvs_bjsp1XQ)5paNvO`A3}W3+#V5@%v?mz9;C!0>Krdj0>DkK;FzFJ}ST3GL8l2?=>ao}9@sgih74*^&C|=-yx>-a6uSM+eunSH5*8tEQjWilPO+mU=KI`J6Rlt>WV^dx#qX~p>e&t0za=e@iodA_>9#VEn$4sU9G#gCp)TEZh4m~74#lsJ#$ll8#-ADLRM-VP%xF5L*M{rMjzan^`no}ZuH9HK3oLQ{J6%N;qcwI8$JQU%gO1!wRi{(8+XVf=t5L%OeES%NqDH2{ly?{l~)Kmj&alpYl>ZLIVrFO+Pl7s(LQK)NSicRwiVX+3Ydn-S1BHMCk3as5wz2uiv#>stKAJVV>_3aC7{>$jv%%c4vD`3I&Jb{2C5dr}qA-$J85`Utpv=nF{GJ*A~mq^N+{iQ7!rWjk0<|J0qz{%F3gOl9cUjLyj<B<a$7>)EmcNaK~onuN#+NmTJG|DV5`n`~}IyaIxMa_}W*@G4qY&Ur|5VVE@XW-h6dI$4?TIo~wZ%hrztXrS!RUFEJ>=ZISf757^`xKm89$R9L8~W-LQ|?sKI%&*U`WLTFty)`632Zow#kSwk;t94{VShpO7d~30X=(&<V;4)Q6O5d<Lbd72aYAE$usTh5Y4FlOdnH{27!_DGK=S{A!>AOHs6upUYPW@MC<C!0M(s<oV?4Y>M%9qPDW7lOY2}W~XWnPr+OWLf{Q1roPZ!>6EI`IAD0l((hhz?b(#jw3k`~4k5Oujht#oH5&Qh0nwsgNWx5<xn{B#<O*`>uP?yu!d&>-&o%d)Zq&Kz-8-(*Ic4y}PNVVmVKl)<pHpUtU&CF&f^1fSnL=0=;oFW1^;yc1KjE#Pgx`Ht=ky?R1$Whz?Y#XO|aRY5Q%V~2P`Lon%^p5rm$;m!JXEyW;>s6e}6M5DIoWin>asvw5(XFB1&RFY>*+XsCvkUR}a{}55ALiA!BM5F9QY|%#DTkrb?FlB@$kt4lq5JX$l3xLS}D1U~)+z%}k9G3&u4h*51<;dP1f|n!CYGz*@&NDguwXEr%uESlD*sN2CnOd$maJSJaE76PJunxSP5v`o7tYm)U)>VOx9p4WbA+K_*(#EsiGC+)tURj@_`ra(?Mt%OJM&)ay-$Wr%^+aL6QUpr;+()rpna<-c42P1L7slMUTg;29S4$Z})<a_)8x5s9(TkaMCEqKP(5snUR#Fy}-u>Sla)6R|t<%fN&->qkMQPt_GPj?c=t$s7i3Hksu5j2eW|{lL-}=Ztg}#y=Bn;F6S<Nmn3jn<k>7~U?Vm-MNb8918h$u7<kRf~r8xW?Eob(mF1?Go&uIxa7PP>^@NO@cA0><80V%n1Q-^}XL)Pt-UKkmH7ysi*I{;;mSsDQ6@=;n6GUpf<n9H1IPZM7f)`c^FoK41;#dv?i{^b18Vi=HP_9-g2GQrQ{URZyxaOP+bj(%&oj8{jS4;zWVgwN27b=16=j{$S1PsfCT*F#Q8oCM;ZB3v|-dw6~5Q6KM?V&O@KncNQ<YEaH^@k$Ee({nDQ2agvw>S<<yI()6cxh!Obn2jt5U8Z>2D73i>~Db&3<8Xt7}n<u@mYE}}mq~#n|Sm<Y@HmWp<oz1m%mIeWZgk8x~@nfifUe>#<Cs8pd9k-t4se7OkDFe~D;_gatryB-=RtSj+l)+W`S6#nDE39L%>ODuTgdM|kxo67*HxN$ohB4Ntg?$t9nYEsYc4}pP6kJd=y3aRS`R89FUqP~i3`P5q0zU!=!EhaGRGE$S6_t4qp@sJD+G$WfT^+L5TO>5F++nuFC-$AIPLYVv7hi=ql6B@yl0^>RmNo`?geaN4(SD8`Xfr=aeo+AV#GM0cjg0jKEpHceEA+bPoW7xh%{?}WX^BuvDGXq37JKBf(147AZqHY83uZeFM1v^eQ=z$<!tt>9vQbMI#z+qp(8-4Uv02S!^*)lm7BySQ&{-Ft$dSgJ+#jp8?~k-RGJhH<nk^H3h#uoQ2!h3#MN9Aje-FK@43v92fRmNn?K%p|Ej?Y1m$ynMqt8&&JAF9sp|>Bnk>}POEDxX%E>W>_`rmjdo@y#+vk?1Ijnk^#EP-uSnyK%+MB%V4SG(=+J0;9f@y`yD&zw^wC`q<>)>w8fG(VyFT>S~{xEsKMH5ua*lYT!N!LCj92Q@)yGOxz55A?|_44(sbMKn(@h5WsQe~5%S_}MykW6+TRp~UNz>-^mL2GgD55{G}^`I~bb(g(~V>=SvuA_=5OqS>%#?9BjC-=X29?2U6GqQLA*ok6}1!>gKSz0+zqKKt`#nJU|~Z><dmv034b8Ia8VDsm!_m<8me6gCrYvstJpk58<PcjgK+S1hdYADyf8uxIdGLSIeV<&DAfB#OPuKX@5;ZHn&}0M?NW(kX|I!S=G9{};6`=vRZ<mW{Gwv83-d$FIFiu8B$d?4r)}fe?`BFQP&jHCaurb{V8RLxFaM?E}-)kW5GPD4v|UlNgO$#^Wl;F+4@R*nQas`iw^8UI#i-EW1)mAqJ@x48h@Xa!(E8%4$mjJ4NQ*Wygrf<NBP^$<3`+CJf7#*qvd01B*Fv6MYrzUL*2<2qYZjDk-_co#li5^y3VWQ^7+FG4RA)A<k)TSb)33X_%nsIA<N0dLlQx;C=;ursrjXB8<{1g8Tqq*9#ZPrc~+j8%q6{3Jm9BW=5QX7sklQas9^9-9HkED!V>%@+6F@C|_G!af`l*62W4LR_Fzb8lorXxW1S$$k3|gg|74#PZBaq4N+Q(WTU$Kdvm||ea)$u0NCJ_TIv{1^Lf$r>G(z!;5@pblIY6*(+#T81N_#C*NkKaWO-{6K3`#WT*dXdEpXyL5ZV|9*Bit{_tLqYbM@fS2S^;697X78dShnjV+i59!^SMDD7xeL<;vFTz|mW2stV=)dFQUbMSOMZ9_e*89N4_?wxPXPCsJ}T<(}I>A|q?6j$qsENJ{CU@WfcO8x?oM!>f_!7y`uLw7E4N_smdJv6zI5L@}IsOr}NaE2pcMS3TA`P%&;6Y;y`{gMbHu4=Sr}EmS&z-uUjych411W_}f=i`{e*1n&xlB6<AMe9X7EmcWmf-{vCG+7mnUxt^-v?4)|D+i$HhX+it34R+S=GEMG5CHroxfZ{0Z52&vgOO=lpl&Cst{`l^QS8FZRYXUo&>j-vk74ac<Vt~JVp`N%gKRTUSV3I--XGflbZ%dcl(b}$46@x}dydbsaT@ac2z$MvFzzqe0;UkesBgJhJU2D-p<eYQvs;-@NEZ13a5kCm-VZ#>&nCoIwA$;snI1SV?`(tS$r@(*P^C+RH(&DdaSBr)Go)VzjdlnkVVBrKRO1$?~C5&l^0bY}(C-HRW7Fpt80q{{5$8~;V0e)za3A;97i)qZ2>F#iWrNfAgS?*qx^Y+bpvWY7>8X)G6SB-XS@((rMj)a@oKbGJ)>1~w>y${x`T8iXvp^nqaOK=ORw0VqM{*FwlQZRy<62y|4EGxj@Vkq@eC<KktlJG#F?Yz>dPR{WmA8Q_=6q|_mEuw#fTSfa}_rk^)O<yEfu+qYgB0@{J{0)0KrpBSAHH!}JSU$v+YWsC?pGeHBZjanM7SprK%-XsRFBWHixN)m5;P}hmW@qlZvfwSYCqwu=F$zzhcPTqA>0ab_ifay4CvGgV!+zitPEPY#$2I>`XX*g#5sqVLX@0_x%JP10(q*VAeoBcI2(UzS_(e>Ms`__W)OJJX%XSm=pcel$1Ld{pS_g|;vrfMR2~fi)_w!W{WppOXbWM06p-2hTSG6%eR@l3b0LwTn6+$3x^b>Ou?T&+W{8ej{Al8o0!QhXKO!cE(6LCE{Ykz)#QOZbhtCHnkXIa)2Z}n~%>A{{57d%HJXSlhJ*HZt;!@2T3#bODSpUAU`an~1DJaz@dw@Gt6cx*#?Uy?a_I_ilVemI)$X}CP5fHtSfX`C!w{6LlZD1^CFsj8U~jYVpG-crbnVfwFrP8MVoKney)^^0y{c9wzW<K<g*m{w>&i~?MYa({;RDor)u5zRb;B-b$0HEdA$PY(x#xxhG3O9r*w5*whQu{+ay|0~@Z>T59kBV*v@*ngJYGVMd%xJBBfSs}rX15)lRdau7Y1!_DSA5yF9eDZQ#C$Yq@_(-+=7$=jVAfEi3$Olt-YLt=ou}r^izO9r@0?(nxWhpEJ_1!kNH7r|NIQ{DmHp5ksDOuVfTw@h!b8oZ9_>sP3A`D^ZrgYK5MgMP2?Auqa&;+bd|C8@1IWi%cHWq9;;&AkQ(tZF59iNeUvAgo|^t<D#-Q9pcq&LpyCuv?Mp_GMJYj}b>D8_+Qi$FPrRqEz-W{N-Xj`f^=60{fE=ONBC98GEJqUGc>$&8VjVdf!kVWW(Q#hc4KTM>)aCbrj2O)16)c8N%YEYHi92X^Z(vb-X(-f@Y-<!CLLhB}KGzuiQ4Ku=b_Hw6>cLelYmX=ODJPca<SPns)WJd>~H+$>(^P@+xozGfLyf}KqkfZbHw?8y&uqM7hZhpw$P(!&mUtUZ5QA#iII+HP6AD3G<hbOi&rJ^PrZty8s{Y^Q4i0LX<vC1tt)KKTnRlSP~axQe-VeBuQ7mmWmm`4GdPi$*Xa-3vf)&=)9f^g}8wv5F~L=ZslEJ6l15X_hp>UBbrGsh06Z``0^c>l4K>BRfjr0N3{Gt$3@HZN(BnL0)5tOPPhQkCp(g^wh5SpO~?UIq%5#D6tuivA^_d*%KYheXI95YDn14J>X|L4-Qunim;5K%ImEiinl-p4NVSy_-nl0NZwh2%aOrL_bc>Z*7``pU2#k_ZP>S~16Ab591~<QI4a)7M1nJ9dZsw0q#B7Jw3D5eQ^+4Mq2Tg#ZMTDQav^rZ$st{ckc>?hWAi=ht%PmkpX3orWr4~G26%7%CF3$I&&k~uIyW1`i!Kn%gpTPc8XLwQCA{ZER~^GOO$NWxS_GUQ%97XgMb81u^uAFf<5_T=)9zrrVK5AU615pupHP)8q$OJb0>LwVIW^~F2hxqRE9wH$RQ~;_kHsXC(@#DR9AFGdP-#1o0(qx>?J5jeuUSEXbJlS+It=UG5>Hjn;v~`O@)o_A{N?=7sh0kYOIP`gGmX`w-l)3pJ2|6Z{tr~SzTI&t$ZxIc@I2V7KFr~i1+tvu6T&e31o90{KwshD(!G*)^*8_1ndVcW_`i{Am(=ZcR``xA?)_462ZdW6H`GSveorIO!BL1=lQ6F{ZL=8&j>VN!Lv*)v4VY%BQUVjZ*b7$$`kX3&Ht9oCktk<N-V79{ZR;ahR!$UR=U&}&bsBnP@>u7pqtoY-kG^=L{bSN&aVX9samRAq+Q{Sx*L6JX?@p9(ZO;YSHlMC73J@!zxs7yxz!tH1Rojf#v_t~tJv=#fI9n&hhKS{3)Rlu`!sjdoP8^L3a6*rLA1>DOc-={Un0y3a8EM%dSuUT`gctx7mX&jJDXe3ycsUFiR5WD#ZQ38&rPK0x!SbX8pp@x?(#iV18RVdXWT1tBv}hg76WLueKOe9j5J>=5x0($*b3_mmxV>ed6A$5#ss(}IJrh}9&w}?#rm&~iH`@Os4+!!uy`fp-Ivy&mG0ZYGeiX4&lVRLc$1T^lhl2mRMlK!z#EVyou_CVMMvKH*;5KvnXfRM_DdZ~Na(YE25TouVXQ|>iuD*Rw_fyA+$8pOt(Zv(Po7%urO@_3fxV$*B_LSyfk)<f-VJAqN7ZpBaV)xA-k?)dV5-xXXw!L&&et|~9gNjTIfM8Hc8Qjn}eQtB6kv{@vedDYu7|l`0Yifi0hIB7Q@yxuE<^H(lwow;<Sbh_xs|A#FUMiafAYTyaxZw&_HIQ7B2ul_N<zu`=qLwL{KDAaVtgeqe8fvc5#1AGV*SwAgK*U-0<lg{ak8l?{ZIX-BSjJ^p)+5`U=Q-T9K0~e4#z1kTJZqA<OE|Wil0IV|x%_VS`w=&pZw|a2-v*iW=e5DnucC7X1#mu6(=j)xwCSlzP3)BwR=VE1)w$q~h%06%(AUod8A8{|pXK9IR)PYzR=z*C@T@D)*`bW^H>~whA9}HfyW3JGsY5v)4ss}y{BW>%LOGe&<fT@uq6)$wn&G7+LPJG;jSB5yR`joPCsg<fr&kj4ts#=8NiehIv9=?~TDg^@_n}y7%K%|E+Zn(>PUl!B1ngB0#mq_cvGlPsYQ>Z_RsfRd(&cM!-<gIij4U5+mj*JO13C3Bj^U-KuZA?DMYYHiH?3dWyiKleSKk4a2b@N+-U7D9hB%UwO^s5kLj%5QKM9CAR6}|ZABSJ1{9{%|>VqZiYdl@ZHto`+;O~fxRn`tfLsJS+0s!?4As|J;4ak~VvQNr4MD^CQ3oplBGvx_QV4sIQ^-r<62gcM@w<Q3*(g6;)O#D=+P%Ft-U7{m!;L;_~V~Ay|EG0+y(xV32fRgN(H-bSw;|2$pFaHi-hl%A!pcffg#n+hPR1%%mx_^Pi)gX=@bjn+Fa@^4dvbvVg-9>Y~2XSz5-gE;5evYm&rvmDyeC#xAV)WxlR8UUiV~wRY`wj^ZrM|9z(kQzMYA#z+np_f2S5$9W-F}Kw(q4jp97<YeKK>nnhAW%WwtmjHz_v<;UZ>6HTXj7FqY~nV(xqEk0~qM;JR}f`f#Z5olh6`n$4$v0DRofG-wr~9a%%tcI*hJa1U58XHjx;cEIECK$K|P^g8$yUIM+u&toHP^-M&J;3y^W{h$!@!3Y+FI?C+YCh{2-F;r#mwJZoZ}Kdwh3%J0*~bmK87?@A-0iiuR<Fj^z=C+N0WiDtZ&gP;w?%qliER|QOm<9$$#5zTUlgx*YM`oNF|IumrX^nj`{49}DjlX^AY48^#LjGI|lOhYi$xV&P?R42ezWzKGd4uu4|BMln%1NOl3h|xiTHE#_YS4Xj6QJ})m$C?;qR@P<M2zL{VZ#)irU5=dI88+HLvs5`|FA9qQ*m)YI>+kD2>JG-2v|r8}FluzqV~z8Hquf#p3$hiU=gf#SYv4+|-X6xEGRwzZxIyxm835>V-}>I>^%iz?y?Sj8j58VG6eFk4l(Ibv3=Y3ZeYjKV9rxqxkTq(&gJiPvEO#Qww)BM#$CGjNBs<kv6BKid7xvoCka=n5y5V^w8zCrRraZE#SHI(dWl25Bim{@7t_c($fM9oUu<z#8-}5X0ek|NOkRM=uBu&l(8XV1dN&!COz=VGliR#Ci{{29gr3BsH+y6tuO#NYEY>hR%s7A)UY{JhLlF6+aDDvwYDu>DjVCeI%lfB8cPmgGz$`DI&5LhpfJk{7`LDC(F7*4;nZJz?rnHHE9G;M~{Y~4#Ey~RJE?9*$PsYT6{(7bVt?yrHLF%mNzQ^tGod8D_S8(O0lZkQ_%M)o`51Wj+vvy7ZEPMXf-@I-|SqdGvhVFB#h$`-^oq9o))yXZ~nM|%0=;YB+G4~InqGhSAoSsN9o&s<mj8D+FKx##cLs`0h08KLa<fMeOAq1f&)y|kWGWEw<cAJ0+&r$k$s5jFZkCRC4~gfJEBVEl)-|3$x0sI+M1*(;O;R-QFcHY(4bflOe@g)RV%GsfvUk>Y^1j5Kjr<lyJ3e}}0V)r;GYfQF$Ga-KCBU`4Ub4I~%CFcJd4-_rSWAV_EAUb-}n2mpd}1}W4}PsaZ?sy?A-Pt-c2f^lbZnVG1a;!WptU^WN6G9%b}mX?E~9dRzE7WgmqAL0xGm*dc<sUU@vRo*^ca=w7@7q=V99ir{XDG;At$^2|#XYzR=C)QN3=jG#E^JfV~z-`mVW^>hsEb!*iaxez_79Jmm2DFtnDc#}CQ!J4#_-rH&gMI0zq9bq<Q3Ju=CU%CG`QTy1hFZs|ghJ@7s<F%m9T($i?1~rzT7`1tQ+VD1wH}3Wuan+V1^QGzeIei~VbJ$QDM6qBM|&uJfVZ#O`gMbLFf;&QWtuDpKWK)m2AgbHq3Z0Etj6w`oCQrfZ-RJ`7NPE6M?P`<DwkJ+teed(b-4$D2!9@rC*I+dj(zywORi+rUB>&s+CXL?D#FVn>$Bk#+}#oewP3InocnR0PCP*7%Yjme=+G&=H3-)OXnx04^;t>$1;jS`*;{=nr=~*R#{_J4jaFs4HI~t$1vDA0gn`cq%rx_AqDU!hKDVm6j7%K=*v0S*&dI(Kq^&A<a)b>K7<TDX%_I6{(O7L0MA!*aH+lK5G)~8sMBzS_vqxHkTvnBp_cWX8uWRM9`6PINk@aaJZ(dSk0ASjq;2K6}SiiNWceS&E1N{r0VNTMJN9LpAUq0L<Js}Zta*;(&0A;yB_Job4@XTcO{e#@Whv|tFykhS<rauzE@TcgZ3g2$o8J^}f_|&W!!Z$<vvdwOPm{IY?`DwFy5tRP3%RDekHd>=wo{IZre^=3fyN@LZJG%KFy*>CCez&{BRs&<X@u1)tK8&9>gUY^@KjGy1J+SNfr~Y{5?AY?BsvIibyD2>+E#Qcqe5}^O+WIvA9MrVdV!*?hsDJfGaZ5Np8zIPUp%yvJJ{&1UMtS4gMi%foab|SY=5*;nNkjMm-9pOsJV)PWZOK)YUYUJ^*T%K+%d1NFx2&=jpU2BwyVnxeAa!upgH$%bKS2UVv+`*p77Z<ecOv&ioE2vBk$M5H#i{g@;tWE*Z(G36jG`gV&P1cu*$V3ldJrJZ7@ctk$jn&pbH?N>Q;omnaU&t|eD)NLVF+{UvBB)X1sThSiH&+0oDct_AW8_DV@UOON^IzlQJqx|vd5>t2$-J8&Ww<B*UR*(@?~+PnfaDI*S^sZmQS~97HPqiUg?~ORnsm~1rM-cx(Cu~(7i%lJ`8ghz1oeG;-5bLOqZUUiJpI4)1@eDA=MXA^(DEOYjz>jLL3wVu;dI~L6*Jxg}bP7Hmze(ftF<kpqGzE0vsk$sN)FCiD*<rzZfUDxRGj`o~QJ*s)XV(FI-lK-ylY?r7Xayt^XW;t+f^TrINabTih+X$d1UjC%9HB2p;E4SsT!Ia-0J)SR2ai<FFX^gEV5iU-uOgF|Td9UWdcfMw@*RL->{wtob^nBuGpu6oM<r4|JboMmH=1YC0Ut&D(-x%Refzb9OF$N$5|U=hLQNP>y<C&@W=0H0ko8H5#4D(5p{%xDTIJ(0QuUFt_}&Y9n7zzGJc%ecYj1X?3nq&SB&JZiLw2;4@e#L!PJ*9+(fB*KWpfF!~c1`tkA}jHe2B)^qO?G3p4a%Ny0k0e98eBx1XxjI`nbYT7Hla7{FX4&^D>SKHFX=5O~yJwQJ!44%FG9QmCZhrVI}0TpXaa@!M5du2ys)txE&ysV;Iy*JPC!c};9K!hncF6*Ikr7rNB9n_A3QqeBebUvlY4mC9Oq88^TNBQ&SzG6U(T(Nl%jqL!Z+_6p0|Gof1IR5tm^jm@A(D=B*OzvyldW*P`L*;yHeBa<m$YO~rAhaltMP+9m>GTHjiwp61Z;Nw&nF+`tT;`qKD?+dF1Lvt)C!H~i9Mu-+hNVMosC5NkVWr21oY_$NWr)NnH+ixUyD~E5hr6}L6S%2{q>Nr4lH~*BlC8$mP)e?win2QSN4CeB1P$BOszmN-`OWgOEvf8Ja=!+Z_xgK@cO%9_&)q&wn&S8@B6XNy;+8m1Ix{?YJD*VAN?&~`mAZaQ%HXA=r=-CL(G*iRuNPeMg{s}&WN=KWnqgJWKu!7_q>v}pA55uMKeg+T4EL)GuZ2c$@|^>2kRf)2SygkNr+-g&6Fy6qrZaiRcN@s5+GOcusN*KMHn$5<1-kT7t5+Ojh~C#M$O^zsIsq25H+};NtJpjV8u59rzpx6o+XRE~cLUaen+|Dmn6+}jcJ8sh&t4qfx;akIu_*QJ*5FM02MfL9eTZ+mgFhdEM;9M9scH5mQbW~VGAW`W+Bv`A3(gEbxJUW36wnxKW)La;5(`&E!{cN<x*!8VOhy2}-!&?sp45K?RZA`c0snVha(`7-y+PK#d5W=pQ;-~8{YakuPKOeOLf>d`FJ^4@6sQw*c4PYh+a`@Nwr<)e*><OV?}Ck6;H>W-%ziWvAGH=a=<8H;F6KaY5e^miU!x3y=Gb7_@Y3P?vvzJkFPFe-&~eI3@YWd0K*{Lg&=e0YFK_;S3sDyICyb-A5)fWDs({MRBmBhNA^M5s3BsSVpIfa%&K}_i(Qj4wMHdTRu^Dcitv4jCLjJg4mB5uQ+SFUDLM{Pt!a5ie&gA=Lzi{knuWe{b3E91xj@VWTSrG{uJRx6RH};-CakoTFS*}LEn<+V%?lfVV*c17v&T!aN7hLeu3<6`WBrK6{|FE5Phbm$cJtOZtWovj+B(b?Y@zBck_qMEFr+h%=0f~FIYC@PRnR%o6Lkk~E5f=@eM2%So5W_tiAi*_#r=4DwgjIymrA&t2?s&74B9ACX+RZvZ2CD^jd;DypDpF9^QO_k%n6H~&Ay}U5oS}X<eRO)lQ<o3Z9f%Sx*dv*p&uaM|R6n4y2ksHXY6o!`ux@!Sy`eF<V_D(v`HYGK2&;9j8okR}X~0mulV^?{?lit-y5B`2G4C+^rU7)P*y%ZNrywlf?tyz>gnKQy_9X#AWE{EwnbIual}0=nKuyC@F~^05JPbH^yqvuK;kHh`AHa1LhhedWNh=R=&%cXC!LD;9F_9&*z-UI}p5KzCYCA%?hMsiT-ehxq%5Tva&8Tv~yw}Kvm`zznK;Q``5mZJ=hN<|;gFjsN7X~mhs_c^NEH)5?<ZyJgtvrvUR?7K2*slki6m{%Ahm>)gTuA_-cv`k=5oY=lnOh^cHsGbRQK-)6P?5*n*MzqrE+LY<jOTt>2!7)VMB{6=h?W{U5-s)@e>?$d$(kP>kc0y3;%7*<RxL$7IPnwvtz1slPhA9Ci^$)G{Z20e{3L>CQ7;C+wgGh%0RmJ3c-HYhlJ*n?>Zds4hF#t<Q?W$Wq{mT`<k2yJU@tg*-IejIM^Jb6Kt~MO)29T*M)hq4Ocm>=1OOkh{_b`_O5F272|)D*M?j7YYt~@>c@~b<U2jigc1SSZ(xl4dofAy;Hb*Pj+tkhD)@ev`k^X^Wi05wSLNj0<C`u`xROdfHApbza7Bjpic%dinG<WfS5}%dk%zy=nvZw<4Ouz}jbW*7!o=WLy40{d6i{F>Tf0z070vEw8<sNP8g~QGu-`<&Y*Vu~SaUTj3`eM(^`#B&tW1Ncr5w}%oxj25q1aB%hzb=Jm=KBD!(KMRr8WA`d;^9DJv<hXKmkt`6cPm+yl;IZ-BWBVWxf`7Mbs@dBg2dgNDVoFGX>JB4p^0HI^9VX6y+7`u(+f*%l;${e9(x{dmH*X*w?qo;_!Sh}F;eo=4DARK>YI7;7>OdJ<Q450MTNaDl1W<+k!9i{AQ~OcP7=^}mr@P6{M;av%{+RT5B$uwy4f&CB4i>0Lt^>3dTvG4Bg)yWOabe)*3%)>mu-<yiMzH%#`Ub$WvKZ)d$u`Sh>P*8d@CBdiR#h@aXd!<@nR18i|!`H!)FHAAN9g+3EG!2bZYHqWKcRzh%_;JiD8V5O59)u$-!JfB$|vba$;s}2j1#5ys^?~UQh)adf0?7N9|3Vg%N&n-ZhoUv|j5XRLHuE_48<~hBt?Gs+bJTAj6_WJ(f4wrY-T4odVk{*?Ob586asfSVSEwG9|t<A3y0LY^G?BhGpG_4cg~D31K$!NW4Sf$|*&2N<B$3$F8x1#qQbBo-$c9$@dO12@GUD>Z%=~0&esa66(LpdS6pAe1v(aU0)M<F_r+l{Jy7O;hJ?boDuMooM2~G*3$0Le#?+;A%+|4f{G~p+qLlR(5}_({$2Tc7a)Cpz{;Jp)nc&BQ;<=ybC$w)u;?U}#eXHN5dhm?h^3D*s}>NQ2;VvJzL|tXdCi>0oU+6_zw#;eFr|W7+r~8k!gtNaDQhn!jlJ+`0eAd324d*XGpfN^<(OS^<VLwrsu7)-*4}~4OsF0{v?-Gar;bF|u48d#LO(M4VJVfb5W5DVX+g~AW^FkQ^|aak^ax8{NCUgPoAESLnGewT;%b6$b<-Pr0jRJB@gygO?j>jmmfk5(kG0my)%NOT@*)nGXz-M8Rpo&{zJMhB+&7PB$eSt*3bXRI_t*vJ5&kxWG3-0b3aYO>^cBw)Zu2Pe?oHMQb87xX<Z>(qL4&ODU*I{~R~%^GD1l5L(;_70lJNlfW9ZinBiEb4g||2K>ne7LMlBHc4S)OmF9SL@04$--WVzP!tYKucf~wr==G<B6$9}VnQ1{4_eaIt1(V`R$)p|e($VonTF?p45l<<gx!HwIjj1jPR9-xi=N*pvhh#s7?v(6g3Qc~FT#hl|Zpy?_lmOxt%W_JUnt00HA%S;@j>G8c;og`i`YEzqHZz1@9`3%pHHRG`Afi|!6fYH{5EeRdJi}+;awp-i`^xfUsonkY$nj|mHTk!9o%bVRw%JaZ3be07&Ggvltp=w^+a+I!SZAfdtNYi%q_jER_<H>xjsm6ua1H+-1ExaqSH7%@qgOw9}cnjWh|4-)xp%#wg!q6I-@?QZuWNt?K41ycb*KTI(%O6G^o$-E)-e8YIFf)L#8miT@o1y}Ww6O9!G8KUq7xo0XsfE2--kF`K>fcmx4HL6dgnb)1;7gehdk#niadI1`0cC6moA~iv4yN2=;kHDX7|FT<nMoqRznaq5^%;zKNTU{VxX?WN3KA&hgs#{L_0%B3a=!i`Vvx-3j&Gpm)JzqzLsUGf_3`t`6|uj0HwuKX>Uv`m(OzdE20g}3cCFLITb@$d6Jy<Ov^8_LGP%Q;CfjFWlvzxOI{9res0DY5WHBBh<@A&0GMk8&Jsu7pDt0uY9SwsxTpmR(4d$5A2hh>K4dqZMY1XOvNHqZfQ#Eq5fqd!;=aRDjD1u)RL8IC*Empczkp@kQA~on{Egthvos$3(mk{K)gQMMqK|wmP4j1i6;_~Jh_EFZnjSgA-{!(<Xi;)b2z1I{eaKX1>L!N%aaO?Y{GG0WLl8YMj_sOm@p6m7SIkWeJctM|UbdlJbvlys&ntrUzJ10oX+(UrO!BO%ZQ~TABPw;85U!dIk)X`1QXsDdj&sXBCRxSsxeuS>Na@W<_;C)m3A6e>N*2rQ9r(`v!`-r1si#GRkYxWig`xR|1w?w#2!PkH{5J=`NQ;o_DDUEIv3AujTb&t2a=7X#U`P{}0^OhmQTT-Ye`!zh@(*H?h_$&jUmlp!0`=>ROMLc13yIXdJ%dxXyXVDCG^FgLsnK_Jr7Cs5QvS99WIcGTGyT?|#aV)e-M0fpKH;Rw)^xumw#>7qrv2oHy>qhYR#78nt(5Pc00wwO32wMD6CTlny-^b}t;N8jeGc{J(DCbf>rKG@INl>cG`|}XwggTeSjA}QklfyE$^|o4ega(ypo6W>JpBE_KZyL?lbM^#dp6LKI5>Y-tf?ZFBcXrf*)s4p|fs^I99Qw|)s>D^#vjK;*Dm~#9c<Ys2r$~1sttP;si(zckh{V0U;u8yY_F6<sCPQjae(WPN(hEjXJkh{m!q|V$-tn36z0vfSjeXgleEHppcMLt?VsvO~&RV_Z^>2xF&0<K!W#08yG`*vCH{{JpT3LjEi`8j0rhC*9e-O{*wO>B?0(_HMb|8YyKQM?_DgdeUC4Qy%T;Zrvo&lLV`00I`dTxmhhi=Y^EBgoLkk-HjDcP9oyseJ>dXWeB0Uxef21r7GUSj}oK=Rvk5cl}2(3gEA0JgmB_Hvp)%4(!a(eKn;i`J~-z4}H<_-kSWGRvtbjbZ~$=e_pwl%gSR!}vN{Z@GQy2N0><749T-gk8zAApzQdpkjjP?A_3CT=I;1nDT#sr(tD*r3Wy-r4jR}h;PEi>38Ww*Z}-Tl2uj_OU5;%4_^t`#Sm*~6BelxTN62bc8R+m7Yjb|wafLTxtmf1LG~g0Uf}o?9vVbdctQXxKGbTezNNOjTA^r{ZFJk<k~C4}>g`9;mTh4E5*=}^4a&EfTD|8%$ow|)h>8+Wm8S1!AA7CghXA4dYE(AFK{v+XmHT-D7EJqU={@boAd$K#`{NUxI6ekklVzAann&Y=$)VTAW9B*uQTBD0Z??0EPZI020UM0MCWn`FeHOPw*)A<T4pJ9r)`{hhSET$qE8$n2eR`Kk#u@H4ppo;jHLLuzu3`Mw$a;hNBM*y?A2Lu^4swT5U*<ir;Tx4=W|8+0jceDOTpNal_n0xi(BW;tm;fS`p9U)T0L2;T!?EWK`F7pT)`}qGU3Cf{PKT%P@80l)U{`ho(txLKpkMxvx-<h0Pya<}uzvNH#uhYDJ2f4ck!o?Dn^W{s!y%(dN8uPXEE;#xO;daccuXHq!rpjMEZXc2%mx!do;-aPr9`RT9-4F3rL10FH+_JZw5<S_Knu9M$AI!0z@{kY_sT|;;1!@MHBPeWxK-`%;J7w8%-xB+fCXwjOntWT26E_x37<_JSIg<TP#)>zZ)WA;$eQ&g-Vj9xg2U>cZMhahx+lvM!;S!qJ0anDG?-WbT}+7l@v|WwrKl?u!Kq!?DQJOK<i8a8DmEERM)+;uO{r{x?<1fKCGD@g5r)7Fc+4LJmcbmfSiBg9U@Ermt+iNaJFoHlX^=lp4bf(#`(!T7Rn>4Lu}pr-+uATc979JIptWF``K#hwS_x9^nrkd>gl$+sfX2HZ(3hVY37}o?I8Pu^>6|eOXI;P?xF`xZT6r1e<r#j6T6YCp1cetSL>(cQbT)TN@X^jxG{WHoDkKQa7PV;Sy{SokdD+%IePgqmC^5>uhyt%NY<ABdAwZ5MotVDWWmta-(l+b-pS5E6NQ1Q|f|#wvuF5Zg3&`^w#8gfK++MR>6tV*HJX~k;Px0P8pHi{Q%!lv)*3Bl^x^%3jY%wVh#oI>)WCD?bd!qnYgVy;=323uAXM_%f;@P~gNR^|lBS^Xc73WDuX|k#d<>)nUNm}eAYiiP;H9?E^x<l8?xNyZ?X0>Y7vE`w?>~*||Bg<H!yz3Nq)MQeW@<`Utd%M>nBpt&W5|s3}O9h7f{loy3aS>&`3=8hl&&v2_f8r={1_cZ(eKYq)HiVm@@=0}IiG0fJLuc;GO@vYwm22`gwRdGLhMu!36dU)rpY{ytSCJ_rn(jJ0rlFi!<uAPW{HwjFrxrRSRdq-kVWG#JsWjm0lo=Vu(>``u@y=BB*1szBn1AW5ib&jPJLvFL8!|hzd!MW5L&VPmieGD+O$z70I{L!pB+)!2w_?S7#k<!VBfqY+OB`zeSugkwKK~P>la+<u>RLcRLn4h7tR<?W88w>3aqWMHc9B;H8gHOzFNaD4YTrO9OB&yc`zmv%|A5$-O<ZYgb%z%W-7Dd?xz?U^dfTFCe72-SB{UVI8I8TwjC|{(E(Vfa2|l|o;3L-E;->rCtpc`!T=h7B5^@lCA{>a#R~sIwixRjNl>|_o=0@~4v=sTM(Yl)6q&HgtOmhi`71U#k$a$t!a8+o{j3fzw>SvBme2&E`>pDAu-(4+~x5dDyq1J35FX((-O=e^Pi&gFLS1N8PdXY>R^3hM+h=i@UO{yHTF|tnh(V-;l%CxcBCF}3?w{>d_p9~8%3fR)oN&GK>kemHPW7KPQYhC51aan{#(GMQRi0qbJ86s4|v@NxOswr<G^qiZ1p?OGWHNKr2t#l)sd4V#b)tmh}!SeWIxlioi5NV8iZR~WG^L1ppRM=dY2sl-kKrL)BT(Z!I(Z;KhcSiCRY-Khvz9Lfkov4}GE;>9|fVq!Rm(jx(BlIe*c3FHYcfOO3zYzdOq+oIW^qzC%oC>m4Ft$F-w!_KX*CzBEYnwyKWNo7kLWrdVhPf(uWsW$WU&51$Lv2w2LvhbMx?0l|UHLJxHMrCrKEqtD63`Dr^=oJ<^VF{SLPYN$Wsz+l;IOC4MuTEjyVW3vUesL|uers=b0iPq7yv{pKeodS+_@$typv!_pVA^I8Ud}g%Mn&)*$jr8@;W91-|wX2BlxYvH^U-`w%QYqf2^U!EsLCcu8&7gUbAnGb${!@yjz$#@W5GZP|8~d7EMdj$Y6Xo$=P+A*<O)$k^LBls`7HtLet*Jp&wJ+(s$K^r_E>S;I3@!PT={&(Y65bkxR5nAMVN<Y~q*&c@Z&RoT@~}UOseY)@6#rw}{eh^#rMwdkY@p4~sHBpb(?ZmdzQ<(%ejnZnNR-{!~rv%*yZ!02$^1RZ}T)q0o=??$zQYGdGy;0caON|BMtfUng|S1TR9V3AT*dKdCk&##w1e0;a=-1&T&r;J%6#9)~e!0YfO`)5hqB9Xi|d*Mj9@8FzarEYmYck{N`I^%+EiWg{v;-|8_~qURP0-mS0H1)>as5VDt6D+rVY3xnaC8Lhe>JX~gL_dK)1DZLIi`M*z0uNYSni}RO@uhYfJx<7#XKDu$SJ%phfjv~aR{oL%T!aD>j3ZoZ8csU{rLKm;E=f0~Oy{!mNsyuIFY%*t3fLEAfH)yBm*mj^Q^()1Jk7&)A=5*73Im*uo-WN))yl~Tb;_#=6?OAq1fWM|mM%{G~S+5$I_i!2+wXxZW?}gVWk#c>M9{L<qjRPxY`Cb#Kb-+`or$&TxD-A+IDT&&2A^`uG$B2DfEaW+}fu3R2@wJyoy@2vP%`Jq3OYN?Y9`SwRal?HW6P`sOQdf2kc$(q*hb^5Y4X_81Ul-t?&CF$fAb#$>L!;?@&-Dt4l-xJ*i~aV2Dez{+_93zgdiZH*FDSyqI4#(3JV}QpHs9Bs;KG5-&8b_#)wj`qMz`Xe-otI(ZFD^%$JT$Rrzi|T{@|?CR8y_os+qb5_yuDKK5Fy>LXKSeqd|>w0MZ7mKS3n~<uV?8CvgqX()Z!+*~>VBZYPi~E3)GRi-MooB)4okRUSvWa4H%}FUNdl9DDmp7zA7b0G*3dGtu@3t{~fIi@x~<a2`^tgquIc`JTM*7*A^A*yTxlZzds>($?x|rI|=xm_+K?wyV-PTYCpXNk|}DI#RGVn;X4sY~@^?CD_3t)k~x>t`kqV89hN6&}(3X5(Uo6KCLA~it9ii|C?9+CSgH&+}-VoI?xwC8z)$E&_q!C7<^|l>1@Yz7tx%4G<Fx*?bqJ|1%Q2MR$G(;hv1G_)_!J8^jEXLsphx9NbhXmPSeIJMzmmKV`patn;joI02YiSZe0tSs+oXoN+M0>Y%XgTXMY!sam%CmK++#8!{UT?9}2L*kZ%CB-#Q!u2diRrFicWde!?+zM5DUZ>A)LcDxZm6sY!CXH{MPAHVo*-c$M8?Un@>wgCHf8<Vu7s`WC%I3dK~EY=3w8A?Pa3W|=wA-5@h-{C0z#c)+Pvx?=dV3{D`wu{Z9+Q2EqI17v+si=<#Ib9UlgS$ji1DD3RfR_&mXz{ZX~siRWt;+F6@4M1Vxvg8C7c4*MJb+~gwZ0pg9nh4>H<<u|jq_i#hOtHX?k6kTipfYe-S!e5?XG{LqBAo_vfbSn?-$~gzR){R;D@f<T-kGyWzGpZDUIsLuJ;UQBzE}cp--b3It-3B^r+MfU*E$~!*e(Z!j~((7?&GxBV&3bipTOcB7+#l7mCM$!9P4E0{w9eNWOB-Np&0MJKiGiU;nzs>AR!lG^JiFYo88rpz8Q0n{@jU?;OcdSUa7|SK?R-wyLp&%a-WWGoXQ$4TY5w;Pi{(i8($S+tzL<;D?qWQW8ymIak-4cIuZ~{!uH>Z^Q+P&=QESCv>xDAG4>AeZkz0;o|sl;fP+H1DRicw&yBwlyLCx&kSGZmkr}<H*$dY4^#72_M1J<d2up@OB@QTtA&_kFH+a^9tC2TLzu<}uR+rvH%WEj?C<DTbW;5WUUCH$<B?#2ny&Jvh;fTm(RwbvrM(W82g?e_d6x|Qpv7dC#2H1t;DtEp_i8a0z_SpdkvS{H4ZXT<3p$7o20vC(|d)#|aaU|avxi*ohiG!a0Z;mXze3kl1VOc`q_U|`86;9zH1qJ^KgwsXB06o!T!+T4o%82o6m0~ev3j_~_xU((sze08_p@bWVE2lG^qS!{aFzyrFN~d5e&|GE|?l(H!;I89XHed_<Zd9&%0Sb0iZ_i`;yB!!9rGk*9pvO0Mi*jnh3?m$F>rp9Yw}H^_!PFwk`c(F3J`C!p-5=9Q-n4m*f9wHDoPrc-Iz}aw-7MuC=~KS%JEM)n@g*IxdlYs&J6&xN<Vg+D&`LbJ1{VqI4luVt_;U5^8N?bYG*AtmezRoWF>_3@jGGNOe&f_sf5T7Ts?f?VrP{s_-|#^eCd3ox9~$dEXr>RH4W(U7g5y_$8%Poy#PeG$L0Gm@lX}LYN4e%qec@IYLtOXILEoJ6MRJ@*{*<|<Sq|x%r4*x8PUQ{L)q`H+KOi7itS<L_mz(o6nbQDomYY#a<>_Dh&AC_F3Jd(H7_YAjfW#WjxDLqipN|o)Tm`5J&MYRC^C27zW|TFNuz6K4ToDFOGR51ODZ%Xx;MSNL1+V{+cL1XZ7ci|n=5>voRn+kKDF+kHn%k4rGrz)Im1A}1gP&C<))Ypk+Q4~h`cNilAD&R`U*MKTsc7ai4zyA|47dSI9Bwdd60Sp0yah4R{{s#~Dlb{{Bu{xKWpIph#`iNKvXV=G^!|E_U5M-#{8&(Fpbz&$4p&Tsn=6s}VESr2U(vEkjc!Lzy+i;L=U&hU7NiNB+nN}4IjElNS_s(SF|q^N17ay*TFnV%8EYS5+kD#BN25D`UR#GBb!pE4Z4>7DFd9=)n1?T+rP~J4-al#=hZINSn!W+CRd_Luu=k1a?1ATIs$V17^~@x`v4TS72b}6lAsWI_l%*}#NAp<q;s!g~U?qgE%kndBO`Vw6z+;N9GtUtpUQx8dbLj&gO#L!La-&P7w=8ws^`}MYp%bfhrGsRtH-_tjD(;z1mnK8!axM!p)-3swm32b8WtGTKxc%u?2z}8qg<2Os`2QrIOSlY@#|`59CDC(ge(C~AXAPJ@<7i*J5&~m#z0%nngL#eU7P;~Uxnt1Eis^ES#qRaH*b6lAWDAXrlRg~KSnn1AR0rTo_`9f=UaFQdi-{y!1~d#E%YyZz8)2jr{===Odo{v>a^{e5A5N>|WRTS+tCzTE1kH?Q?7lI4qZ8Roa9SExS6GadR&^rUIw)q+L+@6|s5MO6B(?5+=BlpPn;ETyy+F7HBg%>7!tRVygQkX~xl>AQ)RX6%-za8`w4L<VoEkKg%<5xjW)l;sLXCoa!9QBq+$%tl>wJi<Ts@P+0BLmhfW{az0<(!LOXQ#tUgHH=CLeg{8!AihvZ!t+rArK``wSc|{!pZWkIj~S5zWAm)T}fwRxBb!)Lr|JBuhFzJ3SG#7$O`8rw-+^xt5`kPbZ>B%%PyZCiu9IZh&N6n8bi3e-QxG2@}N*T=y_l4Kk-e>-q`Z&vV_xG$h#=rsGctfHN~ajWtm(yum;cHjq2fTsjAJ_&ZM+?l=E1?Y9H5%cC{Ka7bo8IX3T-Y*^i$_-Q1f=q_5?_yh|dW_1Bp+003h*3n<!0oj6-;bI>;ac4iR!>=n7l={NnDx!7SK}Q{NIxJO!fpo(m^@~374J&}3SsgIRr8YWcT@r3j<@0_D*|n@!duxH9iZ$qFX8|iAEa1lzSn(u`uOD9BIlH3eB5;vCO~?P7(uVJ%!G_+)>HVXh{n#WtYZYpef@QIKXE!GJkNcv8539agTO*G`0}@S2MFEQMESc3kqI}OoNexUCsTUlt$A}oA;)Z;rd|E|?Tg;$BZ}-zAY)j0<aLXb=Dfd~YYNC1mbeLt>q{U*67;os#v^J)JQV#h1FQ2Z49Uo-D_wsh^n#s<V9+~abd1QE@Xmp&(N)GVi4g};to^)3kO04(Kv5fJkS=IO^^8fr116fynMv%k*inhE;BQpzrCjP2|rg0kBkpiF##x^4C)a8%OqkR7V!KmGpWL_)RYHgJa&aT`^1V~7{!X7mLyvp)MzKW|V4zUB`OrCqM4RzrG4OK9Pkej=B8Rr<Fd7gl_!RHtjeT5FIuQWT7O+La#Dk*jV$VrNw<!*_`P6xY_L{b3?cx;@Yj%L^bQ5S)PK5U(TzUjE{0=tL1a?M$eFC~`a9C@l*gSXwt{Ag4rJ&jZrJDQMPpy;`s2muASTP;p_BVlOTU3mWZOPU^)nerSJDqWkGF(+mm;Vb^eU%V#ST(m!#6S880C0!`4U5Aj43_&r7yRVI$_oUMZwCV8;3bzv}!Z8{;m3=G24>STh->MM#2j`3kOk!8V@`@F~2xzcsaqjICw`iQ!#Gt)dQK<eQ&^GJ=H&{tbb%uub*d!&OLA)d600e6N6elEF9q%`<xT1PSLoYBx3fHtAWhXZeCcE0+4D{nz#q-8I$ew-bV#vzMctWx1(mz-a%7v%{LzSAretm&+qd78hlb*PL<3vN{DtGbgIPZ>>Skrv`j<~oo6$rl;8~th`OmFjmRx;_jsp0ZkDkM>k)p3<sT?CpB#cOc6O}aS^rLOwRx&9E0PmQUhhNo$hhc@a==W^>4Z;ay?!|HqsyP{PqCW>_yPE=}BaRB4@pXq02AIFiR#d58e%_J2XKvFZ&@2%62dLCW%C{{!&3a^2Is}p|O+5e-s)Eyb3KLhoTm{~6S5SzhOEeI%eI_=*D61%qIN<xS-;;@wxWeDhA`|_J^JjqVR6&8OtG=HuPSgH<&fp%}2?7DOwg8OWuTTSkTm)Vm5IdywXYb%dbiT>{H*L@9(N=Qyu`r8&uwSs6Gk}xeGXAVMYuXk60_&s=C6LaP+N()DO6w+T5sly?{J0ZVQ?`dd#O!Kn)_$S0)Z+)h`%nXYT)yb)58wS@VV;4N55`5V*mhQr43t0tF_1k6H9A>;#Dp;jH(ugBQQM21w&x7jNFz;B&uAe4z1CXdJp?`9E2A_O$I-#vtfkb3A;e$r9neC;gAA&HDl?=mFMTi{CK{cr8zlBLZ0K4&j?cjq53Zs+N7j3+%oaG9cR0&(KmAKBrtr8tFr*EI?fazvjJl}9u1rlJ0EG#4fhJ!Tphdsc_OR?NQHqk2dU0b)UFMPN~b@nBLE&aMyHvtZ8g)i}`;pEX$Zg571w>pSU(wq8@VOs*uo(H4%z9><0mjx1&sHU#Fs)6Vp#NkWtGu@*}ZbNI-Q%lXT&uFF}*TKJ+%7a+S`W=|ZL%9pW*xj_(Ypd181PpS<&5#0?#1%|o+RoWTN&r1$ddY{vQZusz!&^DO_AI5rA7n^6Av$FX5(*k@Hz2X)d*Z*LMREPTgU?6oz4}LYeUYZ`UNP40$m4KyH(uk=IQ)l{Mu&7!O;%PS8?m_kU>N$9tRTUbVg)=j0n~SD6(VbDujY?Bd8*Sh!n&_S;5NycU-w>J)-J{q*P|<)MSg2|C|<)G=c1^_WBK=hN0ZQI?Nu8aYXdV=>N=C~n;*HibJFhPMcRSxwLhrXYF|96H3KGAROUI4R@R&}3vgP4N2MAFIf9RU(q~!mCgiWDNLYhWQE<ND26+23`K8girJ8E%MC(Oj+0bl)VJt=!+EC?<u)scwFeW&ptYdZe8ZVtNJ*|GD*0?&&NQ2BNV$aG-2|Gye(Zw^(b3y{-=ZVl{X-tp^Z**nqm}$`i)}b7~pqfKh!v^zvmOFk$b|HFxwJFdCqbE>`uX8Z$JT`N|=h~VRx|BSNoNyIao4Z2EgWD)aUkA{F<FiIHJdm{}_T6_ypeB_0)N?xZ6_N?Dk5$3PAFDTEo7Rihx|3NCzd2m-Pds&eGOJOg36>+`?$iV9ZRvx5&Ja(1{da464m}q{(smA*huw{0nVu*09OQtYvsnbgLC|>qX>Qi09mBE+4#D|yarbWqwSfz>C>m~-VqGmNx<NlSjvkr_j_At>{t5sV_MpvXw0=m=G1p*&bQ2Tp0ATuqPgpdumdHXrGK(AeG+J*u@0I3#*j^ac9}rv7M2Wmnbk_r}XHu)lgukwu%<2o3eTxSb`T}fbX6=KY<Drz_=)L}q*(T=4ia`JNX5HB7$Nw6)Sf8vqrTFTMfE<Z^fvwSZapi%Nnx@EUSE88g(GHsQ_iJl9^vyc&+-P#t!qIp#)CFnk9yyMG6`QZ(55^UTwO2`ee6iqMEI}qIhr`*r&WyjI$WvE|9Zt~%Y+!K7fKdx6QV$L0w<D=IVrpm>SVV5q$&c0xBQbx4`sH)u<-P06j?1HN!t5CJNDI|)ycJpq%`8RJRm4TmLpgbNWb9VWo@DigS=>W#^Mfk7Wh@R=3K*9R2zf=4AR-rP2J+fDDbj#v9>Lf~WZxT!6G)&TtRRWB$mm!#exB``%M1XUIdUdl?Cyyen-3ZFt<;qs>MziZ*tHhxX<3C?N)UG|dxK9O`nCrXftEN(jwuY1aBe`0+%L*P@W5e+Tv^0cRPbK${=8?ZmNsiG@Ika~%wU2dg;XSBCJFER0G4n<Y;WTO<c`DL3+$V=0wZP97<93^z611z0P0?}eNYZkAi<Q<={27xYilP&Wn7}`ka>k<ZQJQv61P{EYIowC`vG*%6!lE^E|O09>d2%X7?m;KZN>5xsM)bf4qQBgvb@2ykf4!Rk!3>;Geo91THXj#2HN+dfic7m7#Eued7md^r{mHoJ2)8{7B)2NIq^H3&Qv4E=6x)F89#Y#sVdfr=|_aQt>)_S5_!%4H|wL^6(yIUN0%n`3#zw`u?>I@AHFw=C=pxq)N#8CFvI1d2TGTro2kh&$_*r*SbSvVCi|8`7y!SITUP_q6IXqGEQc|g<v1omZnv*<VVhK38V+;|GQb76eR%dvCXY`N`wpv2X7!Enk`%|lORL6}A2f?3Qb`twhYXO(o8~D(VE8P@d92*+phS7p-o1&uqy)@9>(>3Gkp*ADMY2Blwd`c*!bz`qhW-E6Qb->_!0yzIJ2l3U(NA+sg|9XnZ+?X#>KNEGGCW>0*jgs8fzswYqhA)QUCjdv*M%kQa^7=Oi$^74Ee%z2srGj^Qp6l*Ba`rm*2ov%p6c}%lj`M&yEwG;AmrG%F@Ow+V&z}Dto;F0ly+EbsbJD0KnuQL%>gwSOMEBf25T?c=1Lf(1c-2mGx;@IzFGz8j|SP20!fZ9d4BPD-zjybpn|caNjg_ZbSTe7ToMA=^r@>5qv{r+JMTn}#9`ka`Q4gZ#iM@*0FmFxp)aXW?JO|51zeb@B1<4vAIeCjbsQ>8r(15(luvhRdOA4t1?_y}++jGdv%>7wbY5Mwe{n%Wk}dAmv4*g*edl_Ft5OqXP^`z+qsOX&`2wLqcw1pbkAyL)TJlYHW5jK8Dp3Lqfoeawjd?I%jrQ7bqnhAPHZ8j#n@3>!WzJfh)?I~<#?o_|AnbA)YcfPP2g$dJ@@~1a38gX{h?mCM;YF_jTWZQ$1c<V3{`hHB^`Ex#hgSn{10!{A%YNze%^c%+p*rIiqpd=fPJN>gvP-{>%01g-kfuggj<OuR$T(1v4ude<V*W9A^>Y1svvFF+tXg^n@KTaK-Ydi>@rsS>-|r?5+0t>`LFx{H0G91dINvbiZ9$m*JM$Xy@wmenxazCb>tDC}iz(1B2XA#42Jz~SpXTApM4UjW5F^HASq82KvHN$7k_Kn}1RbCEbkO<*dB@1E5}I8W_-6X+%TgnO%q`z->uM^pA{J?;!ag=#OiNVM@GUgLu%%ELe;@{<0SE+u7{tuh8o;S!Gr7xXA2eUiByug>N^1|Dnz?JwJq-;C;3V}p9D1LD?&Es3x+KSaMAud9_0X>4m$OjRNOVMaQyJr;atxkdPwT%WdE<vZSX|L}@ZNX&%2vht{PCT|z`rN|nA`abSHa#`$QHxy0r6vJS#tKYTB{Pq@W$0C?-Teae2J0Qi#08x74^^0P`Y&#k3o*<eh-ks0d;A${tR$2jmOy_6$~@*NcTWe{(x~Shgd>&8Jq<?`%89~#wY<Kk8kZnXswM_5O>s{tlX<(`fFd4RyiSB?Qz0H1m=t%4W`u06>Gs!?6>p4*o<}^dLI}t$K06Jf<ZHMa!V7aup&v-dD*7Yx=zU?a|C#<FRGWgm(<hU#<#&WtFZ_IVKy>2nYp-pWOK)2FI5IGyOFf$mHi7ZT_J)%Oo^_Hi0$QeZtDE)%ax6lZ&05ShpG^<Z{np^&!SH<@u<#OKyP^w(j(v`jDE|n3e|i5<m8G7dXcgJR9AbWYrfUGZ2BXo&~#?jU6c}$2Kd!0C|vOT-Vr(B1Pmb3CjF_+Z2`>ip_~3j!a`AhGXqKxSy_+ub-e!8L3DRej7g%NZfY=Ac2P<i@E9m6`Arv}0JUNa4VxWFOvhj`;(2}HVJ;IPw;H+a*J~-o^d8`|eHNdEw6^6D+^8EI#Z*y|!~D3UkX$*1)`rV^+FXI>ZPE%BZv4Dt$Lt}D`f074@<oC$-qex{%jw{ha#z3$N*IW4-`8PZu2Dm(1rc3RW|(HgjGL?ZIZ6{}tvcKkXGr}2nn${1KKBuS)B{>p_4#pG9Ow5C=TW9ua?tm`07AS_o?qU-r%sS)jcMH9OA}p3yL7%>e>au?cZDChb8wZ!4RBf#7nj)-gF4HFZlM2@I0>@FVf$d%`K9?v6OS^_l;*%Yrx|kqvP7{bkZH~S-kZ^u?7s*>6E~YL02eePPo(l6pVX2ga{M|}eszBZ=l?!1&_8U;GZ}qNUjCIMR<)d<MOgXFbo5^Mo=>dmn7)^?Y_I0vb&AY%-l*>{`&jFg|H41!KbhL|yZykqmPo1$X=gz+1(VWpEz1FfR-URJCIBPnxl?~c`pF9sT6p$T@$^<jN~V(@qpGj8o*UMnkCU!$9i^QdWk{rQfvV3Wkc6_tq*F5G1Lrz3i0I=*#1ppWIiGfDb(oVtz!*dhqb>wi;nnmpc>0}#_HRLleYY?Q=?WFMy9yi2iZRlat8Zj2N)Ru)ifEo7i>Cmfe=TU;@Rq7Bvtkexs9(x9LiI2$x_Kg<VE)vB3Cs+-&QP^GySe@Ta?fqAgy&zRgkK5#uN?91^RoimG_RhAwfO6w!9K>B5Sj@DEom@Z`VBGdVjf0v<os67sQgv#J!t^4@`Sj8G_QoZFF8!iJFPIs8E|$$+L&a_=KaGrtZB=+0Z(GvBdp?TwESg5Y@FqmuuE@fm(|Cg5V;+r0g<qUwQbSa3sQTNUBXc(S@FrhSUX|7x!Sbb0mg*<^$aUF9;~HM<F#*-;M&qf`EwFD=X*Whg-oN2*anAylLP^`%`OA7zC11pA;il?55Mx6w<0zum-7o5tOr*eG|DxJis@0EOLOfU&bOgMcR(tQaWZo8Uq2Y*NZz@c+}1)MlC7zs9OuPs7n~EL#Zpq%69FW@volrB+jYqMcklf)tH3Yqy?#L6LZ2}37gWA9g9t4_JKNCpt{@>;&>Dh_<MOd=+hJ;{Ds0dm3*f~?J`P-7Jp`%8?VsLfhwje)=AZ)w&W7}b*IvtVDC-ymnd}*}UkZ{-epcT_5k2-r=|l=pS}K=+&8x$4FO`kQM1;=&KB(!lcw<9I?PSN6uKd!Yur-$gGGG*W5gJQ!%RUM&0uL(Xly1@^Wm6MHD+0@oi$=_(I=(F3u6hpQvhNLCl(nRlf!nneB)g3DVlBNKA+MX|?js_^XSFnqAj^vY_g9p6!M>f4%|*$X&~nMNLOfv1@RMy6l^dJ>d)Z<suPr{I3G35Zj2I}u;?r}LEB%8cBx$=D1^}a}x_@g}dvf}L>W|;=>l9EdqbN5FOxHjyAyi_+fjf{UM*Et<LafMyKuG5!dPS0jMRwHTzy1Hsx^>=Yu|GB%Xt~@ts7hB6z5Sf%wvej)ZccL$scrx41g%#l{Y1c(0&Q>y;aZe1kr>wfv3;VQ)-9)v2Y_qZ%KzZc60t!lFPc%ap8N2xyF`7pA@$;1DsG?qQ-A#tEikmM67U#DPUW#0g5C4L;~*cq)Dk!kZw!VkO{&zcxvF4WtE_aytS!s&4fCJ_O)o<#j(M+?UpSAjANZTIfjHRMlNSLOYXIOFGgBU;UW<7u07JrkV^I5L>)99d3T}~h6f7k9z3)zg4*T2%5kJ9;syZL*pc5tbk}F$B#m@vLG+>gaccL8X{lH032(w<<GS<Ir?t;)er0LFOoQ~4S&6D;KTuzw8K0>6B8Q4nd8W8qx?R)nUmVCm!NAG>eZ2uGX>?#;-K~?KCzNF^NY{C#KAVfF7(MVUan(lYyZZCtE(cbpb2`aFL-(k0of}z-|CX7$Hwjpcm0%fVB<HO!cp^&NNiS?1CPiJN$)YOFncfXFMN~CLP4^VFA^_tMPLrEjdn1tnH#JymP-*VJb`$XTJoleqWIa%4<hcGTWLlvl|Sdf;u>J(n@xtvF9JjKYsV><k+>ja!d6d@(XLRjuFw#XwJ(^VMq!^Q3t?FgMN#?LFv)yeE9%>D-kl8(9~K$OB)_JzOF(qs17K$|RwXoy?PjTaJs0c1tQ<6Qo*xKQvd5@Gcu5HSGbEePuHNs(&#&vW+;Z8N}2WU7Ajv@16l58;kO)WlpGQyIK%cVG!fKITA(EWMpyfK+v9EPv{>DlJSUB`ilv@m)|{j=#waVU`f!#Cb3>W)AiZ0o9OYNfbj9f<#CP&&u%Wj-wX~YB>*FMFHsIuH982`uIIJv7r*I91j-4K5YFL)M=z_LOel+Gj{e)6J{bJck1H(JDA%?gE(&{co8Nnb)EsZ-3?Wi2C`UzVBWedlN0_HY)|%-LB2_)L>5NcYB{$~0Oo=a4h*&FP4Apht5g00CT2$m1b!CrvNQ69-c4#+DP^KGR2uQJW`?Et?4~u`AHfP=%k<W<=g&{zMny)$99?$(^L}cUkYO=E4w1kt+PyR4HMcYUL@+JvfC4I@)ojM&S`f;{bV50(>5YK<WB@B4VG5SC`+HgsUUIbe9-HY|Xa9Yv=hfS<l}_A0*bya=_0wNz>}ZuKn8|}ZF+;1^KZYq*>59J4g||b=ncJ69&>wreOPR?B_XpC?N3lK7=p1gKJKy9j=)g*&D?Bmjix-bI{gKLC+mZqE03_B849-2R=9B*kZrPurqeOkob7R5~<dpX&pQLUK`Ec_hpZ42wjQH+{s-dGN&RLFI43Cnl{9ir#1Y1B1KN9K7<YQ+wd7I9QyeM-Cz$jXLsiK|du9ah^MCRG;7sh`zY@<lVJ(~U2MM0%<|36H9?pNT$&;o+xLNDQ>`VUPwyI6R%L0CyYS>KMA^d<SPBj3vbS;+Y9-Z~B0dfxa(2Is-&Zo(k+#0^qxsTvQOHu=SV<gbU*m(x2kL5hUQD9u|WMke=&TDS&LGUfK5pkiuJ#TfEVpyOYh+bG_I!zO%gbrN<7J5g0*;v8*LGuIMpJ<Sp?v|(SZg$_>l6~Hn434`e!I-Ws<A>%*GRRIpcI3CSyE$F}`r&>>kO;oFQ5yuzTNg}O44co)N|5t~dy7&!1xJ&rl#>b0;)$AK-?Rjp>N0R=Dm`c+OpGAzpQ+c%npi0=t7@)w9ZMEzFp(@uOZT_@{SRCePypXsKi}70}gouSYTD=hW>1f@8h$%&t-0-kNxHB++5R~B4i~+>cc3O|<;ihe++ygPT)-u<JxA1yc2%p=lzrF#K?SU#MT#faA4QM(l^6$jZuGt`6R-6<$Kilz@iA()E?l_p@=dM*)fSB1dy#uTwjtw();b3QdN<GQkDYtZz|8W5$Mi}Xq*ptZabi(_H{xt+hbmSs-LhM75#%B(w8|C=eRnT79&QDm;mEhi)^<fkzK59Td3KO#%2Lc>>vc}UxD5v)xDPv~Ji>>Qpt+%0o^c}REMJIbSswe|Fhsyy6GFVk?KB8|rhWyiX>31has1m=|KqUF!^wVpoS4#jK<XoH6hE_3tzb0B`Zfr|7WXg$RF)s5WFaKWuA};{xt}Meg*e^UA*x%ewOsNKeTWUNyJL_yWqI4IevGd5@hzCM+0VWm3x&k}|0S7(!QlVBs=16u~KlWk<Z|#mbh3iwqk(Io^S24s@tNe|zz~&r@NR+*Ibmm2RP6b3DLb?KOd{hV0{r9Xb`H{95nI=Ww_CYyF-l5k08VeRlZEn<yB|NZ~7`VlH9xwQ*;QX7ADX_4H2RnKSG3PzqLSbqA&L0UX?s<0;B^g4@ac#u&lr>pHPr;e5jGaY|<Tj8nfg;j^n5}uA3rwzEODrLglc6~aaiI;@G@$mW%yF?do+u`!(EpCm1K)Zm_hjbxH2@1T7t#=Ey$}e8D?h&A+D=@Zw!Pi4hgT?cq@4@YDjs=MPlc}m{sw!C0sfPIh(wLNm^!6(?p!An{HE*VW+?<%og{k&laRqAorXqyqY7bxP`S9X({c5k#lp1t0$$E3+o!l#$N|%Gh8-eZ0RvJe{H4LrPl>sdA6C?Hz-uR|^(`v+&HX!9RlGmxh#m{UkA5GB%Q%(><i-_l6qI1Wc)bT2xKlCI!>Pb6##Pg|TRPA~HqvX%qIFUn+Y!{z1?@HLt~EtmxrrN-u2$>DvfS5RdKfFrP)g}6J%b#D4~%`=@1j45haV=n!QTyFWeNqD>v5&GDTZSF?KN>o{1s<+Zu04fXMXzeV5;tV6i(*4<ZDv@CuQ?lT0N#{wCK8&e8m}0zHEO_-07%?%F_RW%BjiAv#)B3!pC3Y4AIx_W{|7e@XDL>l2c%mAe~RRG_fw*zMM1Va;$b%9(M4{fvD7q&Y=BVJnH@jB*eyFcsfY4>4)7%jG{#C$CYc1IP$8&?pOBmzSW(m*;|1I@=UH(xL_UwZJ!?~3J^pnk5k7cdX|pG)oZ8{n<|FHuHISbYug-4c%-V#qH!$BEP*a=G*-CHh#{@Hx<^#F?n2yoQptsFoi#o_c&<xpGVM677*R;|kq`P)%4udW?7tOIb2Vbksr!w})NiTnBES;MGoTngu+N2yW+{Z<OBwbV{roe{0lV`a*%gaTdslnsdL|DnHw&I1aBj^uuJl_2?T1wMK;*WH^>{rb03lUIC`&iy6v3>Y#W9#b_j$sfn(na%c8Jdaq<1CZfQs|g;UC*}!0-UT-RPeXGU9k2#iMvanK$k;E!sFE6!K2}_m6?GqhEp!+(T(&uq!@8{8T)XrqEvVko_ZGN6MEhgOc>Fy4^TkqIzzB_IHbdBC3RXzu5dPr*m4W(Py$jI^zC}R!we7w-Mf3l1PITyYi4O9(le};#Pc`&~`FDsDQWbnTa|{nJF7;bHVUA;CUyjlG~}QyWH^nq~YPrklz5P(4|ofL9QYB`CS}bCIahZc3UW5$BeB4$u`mqoI)7fbOESs1`xV_$G0FeV`4l%F0=7zUmI8wWswv`e}{ykvtP!x(cdDjq2qrDIPeb)s<9mXYVLH<&Gp{bBkE4fCvn|fIDIC<_QIbBr>=u2^JY-CKhFWa<MTFp?h<N8G0j{f4!b_HyNbqgUWqoLl7cJ@L!*M)`EjQf48a%jUJrj6Jd^nC%U|7>d7^tSBAoP4D!~f>o(WipcyTQ#&<Z#-t9zqp#Xp(Crw^;fVMdskl{hrbSFbM?q$h$Q=y==Zc+R85kBqqn$X6RpTR66^2Tpd=76Q8n3lUo{;MXGW)SGE!J^rgpRK>@uJ2*@=lyZMsGAHEWJU<xez^1CNU2f4UrTSpaf#HpOCQ1E#PGFZeVLLDdRc8EUYKgPCeTq{!SW4xqoqQ+Xfyp#ON=>p?Q$-%soF~k>5^6)kB9L?Aul!+N`vZjs=s3)aDN}M+<0y;z#hLIaL~mXpQ;|?Fh~&`S6{*HVvv7E5V2GT-Re?~9)j2;q``Ix~7WR%E_hPS;Mhv=A+htvA{8GTo7^e!U2pW-eb4#FU`?^3Td&zzNnZpt$j}N7UDzY1e<IoYKKN!jf^LuK_+>eI$y`q_kMhgMNu1j&X75dYE+N_;0m9Nf4>mHBB^nSe#b%*r}G2^e~$^a32+}z&nzGGhsuN4u$-V=KfMz>Q?Bx?VSBvvua$K20MQFF2xzzFySFL^$9rEhO95t=9<Vk5@v<3kS^NZmn_3j7xPHQeF_@_Y)2m7E<zGz`a7a;`XcwfI-#EO;g{&X&2MwSX%sC%cTh{TiC@(ECt}BMc(oQySSCXqp(N1I1O5=gcfkFdhF3Ns$q%V5dy`k^%g~JHC)iq)?7ttDaMP{oxpq%QB)<xc;2lLRgRj+j#kh4$+Fa>|qO;i&|*KsDL{vthRreNCV!&6e`jvNfJg+Hr@9k=7>Ta7&2&J`^R~_o+S8}C1>8hT1L;&%!}K&KluHEUMeQ-!r$LiLDpydsh%{oUM6BW|Lrb2&@%HN(598Qlv-ENipKE)-b?AN%Q`MzSgN)PAbg90OuZ$lF2Ul4D+UpyM`3z9Q5~=ld{7GBt26(J3)is_I=t(BZ@)^#(qq7td_1pu@uCpeAT?HRV&7_>@K-MY(R&)%)^Lr+a8+rD4YVV>x;PC-f4UtldHH<r#~Xl2mq<!J8GrGuSZU4V&1}0yEkO{mLFq~K6%EmO<&>Eo>4}=g|5nd}+R0Sc1mVt;?O<qJrd(c*63C^-vFY`%yCmbnD3Aj!-ubU;NrE~CVrZr#_s-}JMuAT2_$Bfx7JrUOn1*gupLa%;ZUu!eJ)Z2T%~M+CbsixDd(eG)4^dZ;3l~kp<;Zn+UhNAc-hQG(xAYW_OXqne$ypI=4k;LMm>D)I3Ih@MB1{0A8i@$0Ne`+_`dxbKZJ8oiSh{eA-bVIcz|HcIX6|th7Kdf_soXU|of8r2T@Lg;FmMu@@<52|0l8*r%VcqTP(75HcQkxeK_kd4J#Ukd-iI*@>xVBlBWty5U`FjQGtiOl2!-Xh+OdK?w=G6M?D))u;u;P5<(Qp`{3*_SEXCwfBn4KpY>G(tMqL!f+UomL0L~YEvZpm>((0@VodpjI{LnE~{C*gJ)*$D|%XRw((7b93G@?KNvgj(B+Il4iT<Icj1Ags$TVo~6kY6qoL=|fZGgThThOir{{Yu~`JH}v~cxe*=)bfk6xP|byG|PQOEcm>{L0aF=0aK+B%!r)hXyA;ooXx{fP1wvTJQ32)(}b7SNf""",'pye':"""5dOD?BL@T4AtZ_NPY(qVXsRWO?*c*=I1V8SiP5rtWN5U25%_1JigqCo;l}seoOn?%53HecHx`QIYefa9H$1<mer>krhQCd@Q@y{y$=xyyef*GyFp`XJD1MF5{(7dT-z72Uto*&ncpK;Nsf<v>IRE6t?di*m{tw;(D^Dbb6sfOB#&@+>dTlLCwx17+lAPSPkSlLC1t@(?*~wl%*@Uz4PtaUP`(ay~7nsnabAXU|yGk{{7Z|IQE?hey?GCwd4lSHZlV9(1KS}&G{5=mn7L9P`~vLGWHO127-H-)~y6O7(UWM^8^+i{2D=9q@OFSUCgtz&i&BluG@G$r{#bk5l+?S#C(O@$)zacGIm-H8#onG^2af=4*PiS{kjrL_b9&57GWWslE7jU1S1ug+z_K$wXcxl_~e^?=Vcl9;|So{aAbiJHAPj-3<I`vB+O33<#`>J*@yn4ekZf*x#G@v;<)P+<hpI(^<L-rs6n->_@t$InQ`_8m6llOdtRJ~`bVP~%r{Gcl-$-d?LN_+CQ8bbtBk+N2uYs3MBQWvc%{$!_GVsb7dUytzu1h?(4ui*>l2uYZf|U>uQcsN<PcFVMHTGAzp`jD*2|j|8i|vxtw7;{k#bmRVL#!|VF#<&8#1u5;fcv7%lsp%I%Z}^e72XYlj*F@uOYre!?_GKAY&cW)64rY<N`iX35s;Qy5nV)RWULqIb$Rue7Tp0WbNNZuJ+)F;Cmg;$KLK<IO=?e*l&T)huiT~7QI+J5N25Sy2L}@#W>1#^8`L%4*KPnG>z#Cm!exW=dmMbocy7=Zm!I(D*DA~SIQWtIISMh(*M_<Fj-}CE;DiAP+En+n-NJL0j%J(DtyoZMDtpRg^g<F8;YMtv{XUpSiwSdV5l5sMBFXU_}#8tfD)VP_$vHf<uji{BjslAf#bU+C24Zwj0q$=r#7qNG~X#-DwME|7?8T9lF!pc?07&t(;O@@K%G3saP<JIz4tLhgJZvfiGPVqT?r(Vsg2=P#7Ibu%))W7I;=S3j8JuB$b|_ETqP%uDf?5|p3swbheV>Is6}NX(M&-9oZeh1n*0PB|E^*?AsgwU**H;~EGM?2CYLOV^D=j?ja}hD*U?Lsg5PUhzj?HBx3Rqt)FlDFo&}{)cAt3EEHG&P7f(hAj)hqOJT$8)K%gF3&eXl+QCS$GNncX?W?C9<-Chkz8E}Z*ci%`=j_-kNpUlsh5=7IJ7KS%P!qSWz+^GPxloofC2E&nNpc&%E+OVaDTCd5X!%Z%Ut6pbXi1;9QOO^Prp-DVOaDPr7uT9KFpizjhgq^lOGZ>r0PiDCV!~EG5;JyYHA4#zJnR>~R3M6#nBU6a|vck+W1vK%vxlz)2UoS*qel-F*^6H~0;9NX*+OW>p8RT_P{Z)3R&md0D2N9e8U69}M=vuBQ14RtrXg};FK$^kP=&K!wRAUdeulr^sqYnzxZvI+e+x7P26Us7`Zp=?o4y=ANx34XGcfIO|Cw<E_&5;)Bvw76+kl$hL3XytgO&(fGS41CYsR))HLRnxsYC9qo^F5g=6gDv+<LfYIk&^kO=4<ZfM_0rhXPv6pN22NgPB-<ys&CcjmtV~OA{S>~FG2Z9%P-|fG)NE`_<F#%LtDi^LQc95uGRVYT`j<%D0hsE^2&$4NBsX9&5|ac(FWZpCIR5|^4C=?+u_s7eAOU2UYA{Myc$751i2NHzM7GdGO22@80>o(Kfj)i<UBbI-P{BP)|8kiEm<;9?859J`2i0>B~ByFd@>*6GsvUsmfdtBvZ!`r%Q;_L$2!b2!=&9A{V5X{_m7b-;2|c!sq8-hSBf5H>Kf+#VZsODq!YxMxDq|t*YU*5w^sjLcH#BGW^)y8KGw<Sf|*y5q<!atz4`10b=0FZ-Hl+l9>(x>2=`<`%+V4Ip0z^KDd)H;Kq|)k_tTJQ?*ALwCDdcrkdk3o$FlAsCV52nb;2Hm_r&Z}J1cY9adG4o#P>~I1%Bja8%=ARSnq%D+YW`i_RWM3Z!uxVc2PUdwd$98AY<V5m@>#P^lFBJ(H+FJZ7qU{DC;ix7=jejb=NGL?xZ~E8d^yFq`LIkXqj|e^xo0bZ`6K;0u5-tm|glOiIh&fL~hi1o|AGKu_Qs$;s~4AysF5fl>;3O@@CWt>F#RU3T3XAnc(;aeDxW#r0ipWP8BlQrq15u`;}36M?MQ4qN*IQeR}KP87T1WKI-s8n>l2kzAr!V)A1-m_bj;pCO6I#5+Fe=VtKM!axO@)>K5BHWc%Zygp?hi)A^y<<LfQx%QF+^qR>fz-QFl%-?a4O6t_7ao-h{4km0NKIbC)$EMuqS!uAuBg^xlxQ9DM4!f954$|K5{R5Sn-3lO6{Qc0`!BVBbk)7w!F5wBx{7-(cyGo$Z;vu_w#tyXA!w0sigsHn_r%F_L&st(f(wf?vuchiQA=jvdP<do}Ru2P^?VB}E^{VH$30viQ2R?>z7IV*9IRY+iwG08ip^%7(R&}|a{n$boPAwu!9iB$w_^vOvv{!9gVIPb@WrIwklWR5zsPi*<zTg=QQ6>7yk`5-d!MG|APF-UW!j&gkYo4TUGxR}l)lX0kA(Y`sM#b*J{SGED}&IV7O%CaAY*GsDVA=B%m`)xPe*ASb^m77fj$BK-eCwP`qZ~NMK*AJl+9RDQkY=bWP<985P<68H@kn~O3#^;{sm2~~TP$m4|E@P-y5iZy%Ch3LJC@Y{f$UYeK-ssss&{xwK0TrA))gLZiI^zZrrmUY$`wQZ2o-5rC&cbKubG6kO@?`+2@+jVDRO{ux(rwMSM%zh@gMm;qS_(KierB6W{VCRq`4A_gNmK(=y!XpoD^FO2`M{f;rL+S$hef25X2D;J0r!$YrC35f|B8pU{Sc_w7lzS?QoPE5gRS~Cg4<b{t@y0NP10?Ekw97%3~U<~-(}1aak4L5+XWzEgCYy)R7~N`Bbt4_xP!m5zX)5f3U}|Kp=>$9;`WOLtgUs=Zt*PsoiqW!<v2iWA<h<!&=jFhTk9e){iyGjC)29_g3o^_j2ak85c}|t*_;R2HjobIh8KL)KjTf3i!%&BNtYCFo9I0nNLOBh&qZNMW8eFPn}>;@?XM~U0FQn%^XqIn?oq~<xp<j+F|3Zzb5s(#1h(b{&@FeQ9jiv}4=H3S*N7t1vVrJtEp6)Qy$|Qo+B}2S34YVDg8rj#^~A!c{9ge|4aA~6-#QHeUFp7}&8hF1snVw8_Hg?sc3PnPI%G#fcezcxS*uEb%JK2uQ$3sWcJ~{qLv!J_56kmjziO@$9490u4pSw5dk%ydddC+zepP~Xu&v;^Dce&J+@YvNM?gP|%hwi1Q`zdvcZRmmMA_`X{<KRdIDNAx0VLs#tf)B-<E?_CGEF1))e9LX!%ah!U%lzx493lMK>$SLniG2C(M(%2oLijczl~Q}0}?)Fm{GtKbIu^TJfCl89~TXb4z;?h2_D?5i)yWYU{XU;Z@_qj;&EN?Y=L8H7ncTu88@s1(a%8XYtP_+ZDTu$mRj8^tgvCh6O?@rp#jC!ezzsV2_u_V4ZsfO`)5vt{jT3M*euGWL#VIPNS5k4%sJ?>kZk_DGa9L6Fy-9_qv8c@ZK2B_nhNHQ0s@LX;jXLchE6+wJZm-A3glQX@>JpPlEbq@|Fvf`z;G?0G{Dns-w<!0PLp2?)&*$Fsh8FkyA;h4Saz>7;4k8;yMwi{-uR=UW6BSKp5tD=+%P*rkky*u7msDUvqEoyXW0<x)?_==3`5l=@(Y$+{mx90izlrf`D)h<JJvVf;FDqRb|{Vx0Rq$KQO+vl+q^nY_rRxW`ZY&4Oc1X?B6><0DS@E}me6{Kn46W{;;mu@Xjs%{QdW4OT5houLkZlkcE;4neQfcG0<E*G)Mq!Dz|9Q!+ZU&qk9dc63WcdrJzQ*n)O1?L^hx%|efLg3D`EDU8p>LHmd2F=Ubq9ByFdM^`k_|}dhofUsd@gWG9#$4JmY8<Zh|mq*xa)!;4L3$8K@S;0#Nea_@56wktY11+YZBGUW;1WYd;wB^9S!9Ty8`inKbx?zJ0(T$`8{}bQFUTvmWDPoZf!D@ibudwNyD9^NFm$Wrj2egA!*5C7XJ=o)kQCJC3*DCdV?grCY-DzSN%glk<1ba3%;vUC(GD*<__u<Ih=kH3ajqE;m6|O8KQStMCe0mr&$eW@t@jtyYtWR9Fq-uM2F|(cu5aJ~vjL*83SI$veQ9*jKFol(5~&hA()U;m8u2jWR0#(BAhFypyh!`1CqlUUFnQoc2FEIz9W<e{8>hrIdiP%H`?KmxyP{j)ZONZIuq<WgCbIAz#OB={9w`wKf(wE3czXZNi2(((4vZMtK~G$PK*3iy8_44&4v5CKqqOFEb8Pi44douxUqx>`A>cdYCAO<O>vigT`yuYZB+Ij+#pvpAN*3Z;u#cxp*=<*P2ZlTka8m-0VzBpW4x^n69k;=_nYYVGqp)m=o0kC>`lOSSGjs!JstI7FsCHM{AdIF<|2IIUysQ6dEKtq4;$U5uiw0JAYLRnAjb?qAXrI16V($q=ej3=F_r^Q}?r9qOIkdxp%z^6~5u|6y^7}aHDIJ>p266Z~E1Zlk<Bt7#8tGF28PoKn?B=V?h<i(4&%}9+z1i1yIxh1^j<JmYf=l=})|=z<;DMU`JW$qAgz<aS5XXrLnT5G0$hod9hTD`%Xi2g$0K2^LFwz-6S9<O|T<vI2-oQ9n5AJR3TbGX{S6b;C%!8IMG(<+P@54=B6b!%Y9Kn*D}<+YqQ<K{G=1Rhkd_ThDu0lj#}zj9IW<J;P}$ncu$4x{|oFkvIi?HiFDxQr>Y5S)M}}l<)VD{1Uob*svjjE;NSHHE6ooquuCE@T24=M%2NSHx)VLNba@wc7WXH}OU4pn9}q{C$`9NCxYcNHey?-SMVVLqP)gE128paY3&-|>x5y{T3l6tWcK%li7CWw@*ZT-d{HGDRaa|vTq!cZ2miW()Xgzns4bcF0d;<WR?|M{88?=)r9xsvtzz&fDUYmny_yun?M*Jmh$D>a{zdXGcMctYNsZR8~8}D5R(}@;#ErU%{SYmWe8T~<5|K)4<73>HB!c!-Gdr6BED#M%kr=a?w!ZD(vLIfp3twkjfUQ??o-@jcMrvnLMSvZ1v#O)m>c#O`k^wc@N-{%eu{tchQps`AI?}T5cV!ixRr@2fT-B(T9hi*Buu4(1zZ*rGaRt83K?Ach`w_#boTQLFRa>`X{o0ELtqk3vW>P=$ut;_B_e9kQ}5}>q@MYndvb-79>l;QP^tf3ey>QIilO-<BPhN-B^WqlnoYF?0#Pnl5$759p$;;r^C6OzmJE|ZmmYOclU+YdD*nG@7(eBRQ8iWyHu&TW!CPvwA+u<{`drnBMm(Gei+hqbf~F7NR0g7B~)C|SeExVOTz&>o2lI1Z7;Y<a7qc=u2KK2(q+s;_vD|6jB_DTE_#GTDQ(ygmw~-_V?5kOEOn4-Puq4iO*!2{hnOZFD9N6TLTZK_ut&3q~_wA+Fk<BpGpck6!}6l;B1eXYfBBTXN3OqepnJh!(l5^Qsm4KlU~gCc<PFmb)Y_0eeFz%q>FJ`%S71U9qM{Nx}wyYjNPgVkJ2wC~1sXeh|tao{<~-n`f_5?Sm@+R!_*Eb^eS~iyn&u^W)Z`G+-LluC&v0!{n{62^e_LZ|GU)`NoZu93p^n(71F;T}&1^$oU6Sh#NnpjHehO+&2q>a&@n9HY;>K)IBl)o7o{`>!ZTL?TmYw?>s~vmc*zn2T~lD2nL*E%87t5iLk^CPDF|}FYDp|uK!O4__pEo3=gI3)kJVF4XCWYj2%4CTE(9HE|Y6LEBLV##qva}h6Gsoq5aZcj9@{`e0|yBqJ8*zL7_7%BBb*Nxjjf(nI-e@4_O4{`_l`L)@w{SsWRy$=3(gkzh-ZZ9jN$_p_KV48llg}q+2x?pu%{e3X<qM<$*NHjLcu)0Dpi(qmKdyAwZY8Ypsb}ch_A{X+f^PPuST{!&CD6oi`vJTL{HMA}hdY?twVB7Ck#Uy*htd(ji?&)7U287x?9S7OEz*lmjvVLnUg2p}QrZwd9Gm$HkXByYm*%#IP&O_FLfNCgk?eNALO)&d7&^AzcFxqfvW^;f4ji8Bn*_bZ0FX&Yt9o3wFug^OTeA0o5zsxu;RTN-w4yY_t$R%WsJXbTbyU^RgGgmLYTCf}RE#X@6zXl0r!LHT5PXR^`rc<4Y76BsHx6kVBE;nFs$BATJ>-8&}3}_!!OE=)93_%W!-MM4~4Q#o#`>E9-0I-yd(koQ5%WRWFLcfbmH{d^69{DQu<8ks3*N4J{x`|9adJb2pw%0Afy!9^1<yx@k3pEY7WhNs@cjp8<tgEVTbxoXQcH$!cVvQJ=ca1oXUxl|Q3(N~PUKLVOvfMHD>-H5U)|5W<$5Z?Q*<!_=dDzI<SMdJpTu_En&NpWg-O9DlVzQY*tr2&KM08pfV>M~JE`@&P&P{Nx4h(DCd!B(@bGjhzy*bzi9^!Wh#jALa=Qf_rTPj7U(2F4Bg4ZSY!q^Ax%XnUiT1M7uR|bC0%EDrUUEVuK@i?`_g-xD>cdwGLRgGLqUbl*p)rgb2Bsx`1t^eFY9n&;`5y%u3k2Knlq^*;5xc)-Bdj2VDbNBaQFZX}9d*5rI8n28|F3n!4%)83<BV<kF`dP-moySIKe&8cruFVpyco2?P23r+fD)_B)}taVqkC!559DcnJ`wI#aMoftD}Z5d(^%R~KYwr$>ATiX_NTQV8rlAz{6!Z=%d;sPq-!#I=vFywj$V%)I;X4&31sS^kWSKSpGAq<6SBoHnDf;4a9Z{)TVA@d3HI+n<)YZbQp?aV+|c=6Fy{e6<B%mvG864U9!-%SdV*?zEaFlY!b-X0j5SExzb~a=CuHHRLT#NfNX~hjWiV!fdPeB#T!AMV>a>IviM^vH$~8!7vr3-y$G%YTe0dKQ||A0{^I01KEX#3~XcrY05~0{WHku!<3Z%`+eaFpOC$~1eZoik|;{ir<M~CzjLj=?AiW)16ns`R_Z%-Q4W)&@nk0l9|&38bti*9EQKdj2rJVjTGy_VG1j?w3<QW<x)GL*UT9r;EY-zcVte`IGrtTHhaBXc3-T;HfJXZ?m_#8YfWi<`_^<DPjp{XD)Mmlpsr+=aqB8YBR@SRuy-p&-AOK)p-pLoPtMVwIX)Ct)xw!U-nAY@te`Qw1fF(1VRWa6u9h%#c(H2HFF<Dky9yM9Gpme_6oxUL|ozv8im*WsVAW<|o5Gb5J+_qmr`?h=*3_{35$u!!n6cXQvT!qu^1RH;w`2Rr;s;S}yJf&L=Gglqa#k)_m<b!*RH^I^@J^@2x1KzdPjJv)-vxU7a&Y)b;CbN?AY(*z1cIx4@6OkEl6nRdYn|+3+>JuNjzep(|k;wwhsE;0R<Z%W)IhTj5o?i}wNuzrY;wKRxq|ZQv2GFlDJ?-B@Ak%PhDE|O%_v{(7lK%sb9%K!yn@JB930j8X8;SV&QQ#ac@0nMt(|&!Xr$r)3yb}Ug`?HtHTy-Js&jE~)8qSzmmFu~7!dUdFU$c$MY<w<eRh*1fx1jlMERyVH95wRU-Q*kK^^!L=<pbHDR|9Y$8xI!(5+(-Kr9#dU-|)m?Qa~y>(WWy9Q4pPo)Elup;S-8&S)j9y5&4r~J5PS#FXv2vx6Zu-WlgUC96}v~%NI?FT+L8<-)UeD`2LdMs*)~Z*X%$*3nU`I32_?sFE1Gf$0XC^lX-w(Dui|PevD#~_SH(16Qi9WfpBNl$NO&hdmulq%va`&Qn~V;&k?il#v!}Q&p~QCs0V}Wd8!NXe0L7g413Oi-rt3`RRB`hQchOBHTj=oh9#So;+AnT7n;|{nH>(7+^?r4wP7MU?gs~b7V00IwQHEJ@zi#jMdGez-a(XnZb%99dW5DvgW2*fQ0eV4k6ETL_XJ|&f*$D8@9)Xf{=L4JlEd!hps<{mwkYagrrGt^J1liH)K)<Sz?uHda)fGLs-%<KSG-q;F&OCStT#@U;z5S8B7|T64R!%yMQ6&<XlG<Dz9fX)RdNsW*i-%nx^_2OE(%Z~6lI}^Cq1@%!Nr4`&pS|~%SwQX>Nu*r@1L(6K&8dP#bl3<geY`M`e@v_yV2rn4?Tu<vhSlh4#i<%Ryn4xz8FN#HuqoZF=&m_37Ou>a%y(Rm}My1_#yd-H_|RR#c<P;S}HJVb4HePjws%0YCo@`7A;KKDa@)NtplsRi3E_Vst*(KzGlQxLi-bIs&BJI*kmrMkg<{yt_D+kY;Eu~BqTl~JaO5nFJE%IeCB$A&*f|t#S>Eh$MFk9VIysH{aGG3Aa!0WS^N9{NHDGU>d1)0i-Rvdc;0AaBWAt{A^lWfrM!zB#<ulNrFlh2DiKnf5X7<y)HG$%95JUfB?_Nbc@;5-eEQi}FlRI;N*AtgBW0}vFYqjl@QwnO%EpdZah+3-cC4^3Tblt9r0mU0yX>*nsXOVU?Q}$G?bDz|zV6A{x~ly9<ki2^UddJEts83f(-*5y!Z1QGAXaok)B(*QOml*(#Iv1Tf3~gX<6VWIJL%C<7>9r`gp%%Y=>4mZ{qcpHx*#9g7?@Jgm>)r%KQwq+j4SG~?#S%;*9Hp*RyK>O$V%VeSbl;xf^1+l09_l*xZ}hvJf_ft=<d^=Y$0SK?V97n3SdpWA%O+2lZI&#-zX6yyK7W-v!0RK|4HcVw{K+r`CHnggeJ%Hwnea&f54LDug#y?O%thi!g^`a99+Cjfm6p&*ep!n{XPRVN&T{dGA;hbl#`lk4b1S7X|n0E2wmYqVU1J~JhG(!?81&rU`T;0=ittTKHRFy$Wr_)Hi?Tx01|#SoGGVi36m*qu8b$l58eSVEHTy17#g{GGOOa_{~}=jN!gkFIrC)b;83vn>XBYw^g*MV4tWWF&Bj7(BG48~45j9jAJg92U8LZMgM5$ieTk=QPGb-ip9-X5_MxBD@prGjJTBTFcgcqQgSZ+Hy}|w2tSKt))Z4X(jL9IGGmjf2d|Ur^h$vN2iyk_yI{DoZYZzYf{4PMtC7?~)?`(m^u^}Bv=<{D{r^prX<WhSCh6$Z8F1Msuuo;P3=Z2VOGt-uWCQAMtva9rDTC&2;&0=H-!S@s}*D&$UI{jv;0IxJaED0x8?12@g(a{c1a{ZL+YJr5ibiA93VLfV4NDML~iAWyJ;30V#LhPT*k2CT*>a;hd8{$o}85gDF8$q_gMygMt8-wmd*OLufIYHM>d4TlPGZz;-eE6(S>$HP%Y{B94|KMAIX6}AWzJz_0AN}7^0khPcnUV2>hhtzRY|adU``M1Cskw!TgLx`P--NPkdhk9iAwr|4fH7FOq#ZUi4~2C?X|w!JVGek8_@lo5^ylm%7UNZpDnw4lAN@=3^5{zUrioMl^I6*l6`{!yKKjr1abS0`+1b*pSKA2r3z~iI;1};T;Wsa!^5{v(g}RAXz<BgK03U~uA<k$_6i~{kmA+1nQyJnKn}%yP3U!T!?<c+MmLNI_*?UJ`Osi<>YtH%=n}oV~_wp`CGX9Pm4nY6v<;Pj~NJK2F=ds9ZH>-Yb-VM_35Ke?+hda|IE}=8Al$vm6PDJ{oI+#L<*bO5To|`_$v$D`Wuw~EG(`H19RaCg60$j${(EI6%_iM*l!!W`yu41H5`=!Nx${$)4{Msz;brsR35oMPJy)K<|-_bolWyN3p1UoaqxlpH-H0W2lm1qyp>5oXDd3cCE88&Cv6-DFrMRfPOnfzBif9Hk*3#KPqU^!~>%PXg4Uz9QvtAkhJ=?*}y+QPs5G(c+#1tMjJM9Evwtt_)08^x<j=>Y=hGUuj}*^*xMET9Fq9N7}dscNsl)$Ic{y`|KHLRCnEzywQ`&(w}ry-9Keh`j#ggCYd9x*W%UmpQBoN)%GjjHCG>7P<}8XHSp?igI2SbLlo*e#PGx2q|{(!jLLd5I~roHUL`$rNEhLxKC`)8kmaOF5Oh?aqE-7<Nd6VgE!fGnoS%*+ZRB<ZYz(bkyp)8^AR+#_K}BL^Dx)zo1~3$>&r_mpKV^t<4Lm^WRC1*ak8e(W#oePHkaIVPi%B8ZT)lJk?ovx^Ys~CVuO_38WOI9LelU8hbF)igLl0@wiskeh6bNe!=cx-W9wUQ5nw!;gx73eXS&cxoe5NyR`>dwV`#a3t-*jzrdOlhZm#f->n&ehMUjUvo}%V&IXrAvq-9X&ZG2prVAkJ)`;kGb31@!66{`5>pAVsEQ)@G<i4kg&uxjP|JJy*uqe<a^v&L2$Aup>#u$OhgZ|>FSHi2?bkZ<U?4D+sq14&7|#f301?CF%in{lv$N}cQv2=VG`?NH+=ji^gQt1^XJ?7jwh(54-zbPgs<q{wua3cV@i3vP<zE!xW?R}EuKWt;D&`Pd*yBi1308~cr(<zHeczOm@bszQSlhrv}v2yS5)5$SC4#n$Tqj=8fsVcGHb<2q1DFMKovo^Nz}FB@@xl_uVtPkzaT{Oc7RgP`|!DK-f!l_lGjgp?d=O)fVH53>k@wgI>T>a-U%3R;)Tk)%F*EW!ynVyq6XX<mbSjf=3;lCqf8)~z@dPWUn@Mh(XvPXDAfYd}1kmfD$xYegmVNVHfFLM48Xz05S0$CHTf$dK5kuoy#AVErR&bTPFgbLd3eGuR;HWQH+vH7*j){I)n{=tm^xSFP>-eBo#OE9Y2=&yrA~?OsLmUM~OOdywA{%5fo&YpXF{d6m>lkK|^!BP3G+aka&-pU9&hCa?$Uwf%rkv~8C~o>DQLMwGz8#w<C^L~2t&xP|F?kUkFqnsV(%Ml1$g2xiq(5#$;d^QJOJ>K-h)u{me|6RgCt-oi+p07M3L28tp8q@AKkK|$tXrICMN*j}2p#(UZy3S@%L888Xmq1L3gDxZcTjf^pyqwlpu)!m`2FoMwd@3wTh?Ahv~b@O{%7lmI#W34DSCFQ4LwbXBFF?%SI#qHxR?e0r{VoUwiN_>dpxg5Bz%G8xwjW<RK7&gaIl||hf`r}EbojNUmZg@%p6hhAU1bvVlRe5VM<=<!t8B4&Ci!R!VX$1HHEc3}&mN}<Y2EYlGFPR#Tk+V7b!EH*R#xh6aem^%S@Sd6n&<XI;-B-rHv9Xq3ka1*Z0G{M9sJJ*MdlJw7dP{`(da4=yk<B{AYH)jGuYxub@)~K9h}uxlf_h|946J@A`S1HA<L97Iv0-~-^8~cZixK|+x`7s^;R$+n(|5aK%*ycj6J8#v0J*|?$8?EPC?i^j`wCwoHBD*_ljyD>-|*uoZf=z=e-_p|2_i(jPb1*~D`-QW)@Zfm0C(?nsp=|PS0hfJ&owzmnePAS1RISlDb3Cl0^5k2?);puA)ZJtMDs~~USb}ODdvW*L~_mG7Z5>?pl<oBrC|(AvLtgasodEHVZyw{OBkfZ5F3BHX`{bX$7@Qx`H!~I2us-S6Z6OKb7!4(Nk<^xeJgK<NIft@*Z)-O8zWqPf;9`7XCXVbHDMfqkaI`I{Us{^19Ak-f!j<D8q;*AdnmrZxP`)1BIbfD$#ebo;zWmll~fS4%j;^nhasko7aXm*LdSR+r;6W(Tf}6gf*wzgQpuynz@TD4D;-Gk%1X!oMA4xEozS)@KW6)7j+gn1Mzn?mnbSNJy+dcuk?7^L`E;beOHYOB@y_6&l7eGV2lkm5>(O?M&*g4hweap0fI(*;&g^54Z`3KVc4iq>vgXZ@8*~WPU+hH1+^}u+pnd_B>~^q^zEw^~i8jJ@hn%M)t7tgc1K|hAI`kEDhi(r@S^2AAq#zax?;sr4-#6|d*-veRxC-t>`ZVf|+qMmS*{+9t{;p9!$k)5l1i_YYMifE8Cr-H-Lf*_0X!xM{F?hq<^!=#iXx|_b1xk@HRj1)K>Ucn=<B{1LOjf}9Kw?LL?AyfzAo|4`IU%=$mZ?ioe-l|Z`k$`X?lKGK%;Y@to~xtOePXmZ3H*5L+NX)l`Ekjn9L*iafpfuOuk<QGYg~W#6MG4U$Hf6I&OR3!5yg8h87ESq<u2*EtY~fNRdJJ#>rVtu=iF)gd$FC{M2kuz&5<y_YhUWi%76?`#gwStxC8Jq&_kbYOB$UE3evQ?lVEY4;IK7@HT&&HwQn&yAV(i^x=r2?UdO%00Z#qvpfpRbW*6oGVp&KVR#D-zvg)$7g4JQnsj!3L<5T$)K5}K$=>#c^VSecYY{#&C>4q3OxaO#N!<g}sEbA_rTc7)YVJgiYL=G?yx9<WQ!;v!uv-yk1N%m$OYCCO7$R3z0rUm?+1$Y?lsaa>2TcjR3PtuG<@Ql1N5iVG2d^qo1(Dnvp%aTHEkLfnodbOgPmDAuOSGGR_v0oHqPUrQ&I=ILT54g%?3R)U+WPa|nAHKJSy&)$tQv^Af9g>?)O(d~>*J8`63h`1`?BZ+2mPWR~rH3xfE#$c^Pwu8~ZMHO>hl;te>!>Ryyc?3TYYP#`;Ms&3#DNZL{RMy3VSo${DPs5Wrk#%(2uLT^T)+RbWi?r%S7o+&dbzeqkZSzC{X|0$GF8P^B*G4lInbl*!!r_PIGEP~`}$cxE^T<hSSp5xq<s=93}2?D*A~vj0sa1gfdRct)p34++si{6FFf+<{VPT6?tUVVh?3H4{k2<S))Wo&DzZn7^j7*(dqCE`D(d?QI2TMW?GP_V#3j?M2aFVDJkve7G2vlZ8Y|g)|K6@Lj_jZfpvSIor6c&S8N`RwM&+fW?>W*;ZiLbq8m>Vfu+F#$Z$hi-f!vBBB?0He@zlE;eWOJG@L)xWfBIM7F$sI+SbwijiPO}dpMkvMla9f_x|%)|<$|$w(q>tC-7;k|jC_i5a6G`y%7PPOeP8T37N}FdR_ToJ>;>Xt1aRg?=i}At-jU?k($~H`r3<0JplZ>8WH)Jj*abYL2-u%kx4a0zy|I#qDhrX-ee|Yqc|r=lSE6G>B_Aa<9oS9jls9@bF_McdD~e_qbRYf<-%vMa_73DR&ZJUK@SE>ioJem8%G(xB=Waw^^5_Q^VzX_Jf&@2W5$QMADiPjbH54hk7nqQ!Cs;F|JcO|&VMe|oJHE4s#9lEV@Bfiv4Nd4;+oMyAq|yP=Ib``&Fb(I1hD%iD80Ce6^?rT1eT9b(CRm&;jKHXTe3zR@SNkKSDM8Z}SPMSk7JZpBY-Rw1t@Rveo!h3rbr}n}y}S3@c#^KmGHe-`xMJbBCWUPQc_Ek)xAFltu{RJ4rfSq3&%T^qTkXi*2pXwQ$k>!=sor#&w5+V8#?3pOy;st>&E@QGa(QE=9@aqD<6aT&BM<R!^1A<#Y{KMWpDT)U0{sVi^NFkml&(112n#o0+Wz#GN-P_o8NULVkj`*8PKjC<q#g8tD?Zy&>Ift_W)}^pu$|t*Gk}HX>9gnjRkJB?tRvb-1Ec3Q!C9#S^yO{t7pt(PgSh+TIrA}=3C-MwCEbU)J|8d{b_J~!*Jg;l4~a9{R$S6>%pcuwgbzi+6UgU){@VR#Sd+PbPT*;yUNu*DMNCe6VQ)~=T_;YOF|1NXJ}l_KX>@Z3xwg&HQIF%K0erJ-{Yv82)E=ov^_ZfJgBGkuaZ>QoD{jp@()yD6gjrzQx9h@`S~<sqZC#Ynwf2pa92Yo?NB>7aXTY6Jl?FYDp1&T-glm%yI_fv-KrVK=L`XA@o~2i69CZ0(oI0i}?t_P?WHR)<{VhyOoG740?mA?x1!+25ysBb5B<x{~XnpY>o&Vd|qbGCTWWjE~Y34tTK?%1MqSLr_7R$ndzUa5eW6fo?+Slp~!~6`<>v4#>TG;CcxPBRqzl|$O?VIPF)R$c%TL7xulR}eI3ow^sJA-vB;334wpIIHE|Dya!TXQ%R>1AFdHBhGYE^nhG!)hm1*8psF+l905(b1U<D?+r|8_;yi`@)QXqoERom!gUMV+<h*sU6AR4x+zJ>$KO6=iTM_gEi)^r@=8guWddvsMi0^d}hI=w$)=J|Gf}*%&-=y)z-p_(+rW>ZNs1w@&hM`Q03^}7E)+@HJ!}$=y>51NT{dS+$1*HP>!@Am_d`-rVZo`t8jIdQ7#{wvx3<cuv;?7cBtoT^JHr(W2-DbW+?*`ZNk!m@ZYPwW}$4BCkqsftcjMKYIN5Z_o~^c_O{-f1Wu4q%t@XmJ>YnRvn^|UH!N>Iy}yn6bJ6>I_yW2_E<SHrKQgRQW*Cp5vYlw2MAO(J)m`sSjv~0U_SHxaBR2|ow2#m0=Ca4tK}M?m5{fl14<JSLs}GhZ?Qr%ihQz&xHD+Mtu`#-!wTEMu{V)K8YP+T-QSiy#rP<ALu|)F%Y_)wtn~U5)DbtW~d6hOSpU~68FKE06BqNw|w|l~O#OigaBSB(Hbp<+l^qNQS<^trx=}0nYKfvcjcPXc3Pu}!h;SZ%JVkKk8ETfWABU44b3%hF@yvgwXbgR61m?}{KRD+@e?fTCG-1uNpPUppk@6{-$U%B)YBz(-$69!rxh4u2`(Sr-@73vmZUq@ES%ErLcx8wjQ!~OWZPizb;?x~~0^uDr|p+(`lMbH<y!4at~w1DJ5mPN~a<@Bda$5)}mGNU!K+SG+{*r|Jd)}$hm2j|$@GPD8w1t7B()!>*P<^}NyIU`#AI8GuIk$KKV*5*@Go21U*v$tL$+kZwPmq*cphQbIjRCfZK<C=ib*puMX+tW5A{$+l%eYzmv-ZB-My<AbSeksf{)G6!FZA3ofkat-T_04pNm42}sX^WFE1+px$q9>ophc*8~Nrlg6HH{>5ygr^6-hqK|=bRm{wMGC!h{->aI7aK2Rt&DXLSDAbwgdZlYLU{vK#a0l>r$%D%XlKb4|NdHR&E~<S$kGG&`IDiWUVdIE#cHqIG4COYs@5C+yLH$Fk;!L(>Cdx$O&85*)ZxX-$50k+R){qr*~z3GHB>bl;I4G!j<Il_-3L*F0tgrNjgXKqzC^H=Y2-)9{`lyf-H>7IcKM1V+TEEbt^s}bu~<DMGVlnh)DtG_%<RCUXN97G8cf*lc-KXy&JGW#0jmVi(qU9Xjxu;cbCL=?SXGOf;TQp=^!eGP@N_A*?Y~-$-|CQie70p2v{?wSo*YI=X%T6XlG&0=zpN>&aF*inHeJ$J{Kt_@NXRdX;(r!5-Jp4*tO#xga?2WgZ$B|TE6RzrL;N4`;9<7Gn`N}+!P_sNDBB&%2idQ)YgrDCgvzD*~itVB)@0$lTnq@7Eak9z>4k3Gu7{~Lx?Vz=I|x|d}HOnA@0jiR8{b9bI~}!>}lSzRdX$t();vFGP{*XW~uf&k+};Kq3y1qhO%u@dLKLYbCC4j)h@-Lc!|(sn_A!AzxlmYBSfABbLU!LmHn`r%y>P7?SKLnt>FcZb>uW*7sP@AWxj5dN5?YltN707<3xM;W@i8ZHl_XtsnoAGg=_^2wH|+AeTLGmI*4UqHL+_VXo;>QLkqj7vlS+Zw70t<ZrBSWX}hL67NFT>pO)eJHU}>3)R=tb81R?P^^&U{zbnb%%DP40#DM~0y+mCafg(Ty?yEADxaBW(@CVoJpi^K*im^}gHDFD`WJ=$f^3M+d_4P@FtT@vU&KN{ZDNr62Q6(36qqCWGz}EJSCr?hbuHY!=3e&?y;>Mnts}+`73j>NYwYX$3QPu{L8&kg}niIbVE&!kZgY<bM@E;0J*$-RjXr$ai>FI0|pXCKRoRt$kQn5ZLBqW=Ld#jbG@+<p+^xNbhrZi9()43C>To26K$~j#n*&;2D6!M_BMBn;KKe6Y|ylFa3JKgH!_NYc~K0Pb$CD9$~h9Yn|q<t7MR6QW*jUP{akS|bZow=l&D*2X5Y%hzj(te0l6%D6I{&!|omvsiziD~US@}AJABt>75p%+<vn;fW~m^^uu4HaINfdE<q^@+=%fWKi^`cm-99=+Y827LD@ikPE^ahoL45D;!X_W4ju$>0SFz3Q5_C|GM4ZfMNywqryakb2ZS??;%h&$Ycf7I%b9_YBR%aQXpp)qodmkB!;hz$Kw3XLM3Og!mAu^8@#w<{x1EDKA*FjTB}bK(e=b{X#1FqWDGF<GFx^(3#$TSgSg<)z*Y<;0|g0<fY1@C&vFm$*hJh1sdiMG#+3I|7+xR5NJOUxVkxase~ew4*Wdd^|x0y+-~z@t${Lqu|yRc$VznT1g~pl)as)7Di<DqW0v5>S-iv@l%wSHu?aS$b!u?-S;*@k2(1wS=b1(oc8>2Dyko(~!sg49O{^5geEH5yD=SyRsjxE}zy63Ez#jm19;u%F!K7hZge~HTAJ=cqa=YSoZy5^gyNE@*raHSPAx1<T+;tqbm>dA*WK?7HUSB)`_yqbWqobIBs%GBd0*V0@wr1iwG=Wh$-b=EI=RIJ%S-13*6`Fw)8spST4)uKSyboLBI5UYx+R_UILRJOXY{tng+!xGk;gT0KbJHzhiovp|Z;=(-i4&otPBlJ&Q3wgr2K(V$gg;pKS}ef_TjwJ}lB!2y-sUCBJHVINyngpc%tgVy08IgYuY}A;K~?bSis=|@+=4f6>x>E}Tg;PH@Nwe#aQ{&4iYm(OXN!HVV0_{B0wQ03vr&QH6}^ik-I=69j$^Bk(T5syDa_73<b~!Z+l#Mr1rwde&b~=d`Xf6$R4zG;hi9tAaaWt-ifiL5*D5sZ`hXM&@g-Nsj8{y0;GR*tI0Cn}cCSxuF}8`)!ENYShb<uv`(O%ec^<!L>9^THw*gSD$eGIaB+=bN3#26X+&rkEQ+<bWU}S}1j>J<hnC(vM_T>3XCe2=0+UUsrlMS;E58fA6W(qwXjGdhPt$GS`-?I+^OGri3&y)bmg^0CW@S8XGE8u5czrixJ%_h{Bh=Vup>L<*-B0#7h<l0qKnX$laDV(ZUQhnhIK~PJB3M9n7O_>=;MY%z<+5`q&Vs`?6m<)4mC>%9-035;UHFOJ8QP{`QmY(aTEwT4H{XgRh+(}NXf*In2MV|_3ybe<@bYHm5sz=xM3tTJ$CA220Ev8sjl4KpUevZ0IVPjU9lVw0luZMhaIkmKo>J=bJ1b3o2M}7M;vQ)yborlpp;eCqWO(xD862I?EG`=fF-m(6vq8C-(j{cI}kH8syg|OTdKupOF$$P3!gMp_>fK1q3EHVis?O4BUtrX6da9=-<Ol95twoxSfBLPu0n3ecGxgtt}U)6CA{w&?zvqdgiy<9njU4J{d15``m+LlZHLxxwhzDTlVL6Q;p6P2;wB+D=;_JXPUxs{N?9$6WNq#}vG=Kl&(tM1Uu)ICjmh`-_MATS~UbRkp1EuK;pwn=mRJ<H;IfeyYCtP2m~9MJoNt<YHSI7JJwRl`-EP?6Dc!C%Cm1N!LE<+v>lHbktgEB0njM<FUKkDLA?L|yrFfG=ZwOFnNl+A|)!#W$#rZd+cJsPx}lJe5E&B5JPdlQJ2|A9BW21~W2}v{=N=?8`uM`@9R<-;o%#-)~^(mSo-Y7H&<_qwegOjNxU|8?Pngz9Z8c&h1N*32zOtTyXJR(Ywvy^ij0MxRQ{O&`LK^a1?85MkYouGkWbSac)m%{yZX?g*xk@uASWd$qdv<TW^2lP|>|V?&Hd4gfba(LxkO++<;DQ;w^1ES#W{M`;HRhom&0CjN1`y*5ga7J7+RO;ce$Fad0eaqH{AJN@bNqhsk9grGPhfEP^GsB1;Hoiw6spLJ3imIkeE7RdxS$7B&<)>Qm_7+!@e(O9J2IJ^8K@vws9gelYFG(X_QIGstrTXR(|B8ngsHqg#6X{<(GZ44aO#v~ZYy0$A1kqcGge&J5-^4Z@!Tb&yh^Dfc1rYBEN^@_to<?By{GBugI8*e<9SdM9kHt<{z_$i@#BiPfeE>Ny3N{}~)+6X+QLf;Vh|h)9M^$quQXLQC~qbX6V1gtFc<-*^n%{DL$;v!%^qKxQ;nK_-}yg{&a2!)xmaWg)PLGduZ{#DJaXjM6;Al+fp1zj$EsL_Z(GT(*z=IoFuBU^RGu<qQu-1w=rj3Wv?VcBvUFWD{~ft3vK;Y$1!8p)RMut~YvJ7aF7y8={kXu%rh~{V7r+Qp3>yFO05akF87QB>wB9_-$XSf!2__$p~$9B1{dC&ruXPo@$cZ-s3r&5#x|H?GLj);RLi;PIgK(S6}D+NQ8gxdL|Fn7W=YRf1Hy#hPOA8tkHvfUqT5`sY)Rq8F5qA7ZXg$=|qmpih;RLww@?EF9l&pX(vC!ED3a?3_dR$138MwPv%y+SKJb|YGqu&hRNy8OvKgG)0G0up0v>}DMbv;_(}?_D&{%@VKZo#fG$zRkAf9Cqc^Z0%m3Bjo%tlx);N1@v1M3TX^nK9$86WkrZ{U99B6I{2rq151ZuTceWYiOd5Xf8-o0Y|Hweonh{`c(%zq=z9>?Ojq2l>@wU%0}i9*hj`<XU5vDAcIwZ-&iA_NwZy)sbN_I__NkEoyS=&t--_xEFaX3d+B<+Ipy<8e^NOTI)t`HZUDzdI-KW|*W^`q^QxmA$)63aCq6T)cihU(LRc)~A$IOPDm;lP{2(Ew9Y>AHU~@hsTlW^+gX)y_mojDHh8m^CumR9AB49*jG&$)oS%5O|nB9cS3d}M|vAD;mB6~eStm>*?%0tl97KYAxC6ms!mP&%cYidR({lb=Qg*Z+mVjBLAGZur9*)5Wf8|<y+012&!*3j7t4!C9EB~p`yCLvZ0FXT;#1buuC1Y*^V*t}q&^9c5-X-{6D{XN-+||U<@Kob2A}$!<ya^@fx-O@?KsYpqzW37R(c9=<Sj<C;5QK314fpW_7vfkBWV<zsI&UW6$c)wsPs#@fBhsyGyQ?Sox32Rqz`^v|JB!72Ut%$x%+DDz^?cg1LTxdnV}qkB>!lQcIi;V4s?^DfIS$|)T!DF4Xhm*L0u69PTh%QQd(IdppEZp^M-(ES^gEy_^m=I5>`WAISfW(steg=0|(vh4jgienXmwFcVn`As19r)wrD(%y&$zRM2YulreOwkn3JsgkG$#(95j`=k(Lz@kcPyTOwKkvJ#e{E(Uy$<UT$8h=DA~G#I<T?bmHb}qz}w<-|$RlwS942@1Y}*fIO?9cw$@~^n5rcmP|;~wD{V`LDv9fum+Hm1hY*bzCF4BkQ4qq-h(1p$!vHK#m8o}ZL-#TmA{odaJMi@4sQ<xcv5Ci2;Uk3XF_^>L_qaqBqs`$tup2ItNN>Mbg@JuLx9#@7S0smHhga&nCwj|%G@w7$EM6OXtk%fcy&mIoKrFLCs~wSjI-8Yl{LeXlT@D3+t0@LT*#c*7^f2b*C>_(GM9rDM#e*%$o5%gYJO4!i&aW>NM1=IoLaDvOazavuiX&zH4Z8Y4|j1*@W?7l7Y?d|<X`za)rF?Pri-b%@n6;5UQYmQOI?Wkt05-ek@+%hq^ZKqLMSCIGJ!zDM10;DAYW$q<4Z<cm;7cV47v~^Nfx4DA<w}g{ErQBM{}yz`CuH{Dhfi8n&|4p9A#xWr!r=J6NhsJnLCijsXe#<Ex@tI75m!`v_3fNgdOuTW6=d1<pN3C2abQj(#h|lye!BU5AjEspK|E@oYJ0bZ^5~hz+C4))~}i5@a9CoQP&89ScvCzSZO9V*KKke|852?qq><^RUH&`>uQY?h)QH6bgJng0B`M`dJ0+v;v&%F+vWfmwlbhu#jVrTyhO(Hw+hK7n#2_2;L-psnudTpUfx|asLCv#0IeDtAMqZ^OdB&EKBkGu3LbAy7kfA*LCkRy{Q4{An4zF0{=<AavjB*@+e%Df6n1QAcp5!fn%5l}&_vZc=Y~`OVIG*nWBtZGW0<3@4JdHbKHq@NKhOMB;fLNy_KS;D>;~lIE9&VfP|?Vh?m8(3EmhXyz#YF~W-g9;!16YX8jX(YaADByXg;Hdf@&7NQx5%O(Lv8fPy%_Ib%kvBSX_W?404DtJ8@|^Bqd1~o|q!e4!SZA8w3FDnfp!QsWquMQjgI~OO{^A#ir<Fh_jON_cM;L{eyO~{=$@rlmkr4(<YXFs4ib|<iJ|p2lmkcgfLB*^`7zq)zD@@kxOM~oukb_h$pqel{gGo;Z^n*{0*|ItK_-J9}nBgOz1@<`fM2hgmYGI8<YJN!}J@gxh$oS!Vq_e_1HR+8bPA#t>Ph`xZ^9)+tlmuM$CEat{cc_&zm^JO^3}0KHa}>m!B5cWOQ>^GKDLPzGu_7&8MQ&73eF}Sd(>TBgb>gVUKC-iB)mP!^Tsna0HIlmQVKz9~-<2!G?@+Lh>;b*lvTY^>x@nldhj_1Vk6*Y4z*floS@1_1dREbq2E<AZj`+6F~-wR#%;te*kyOz(w=!Usv&7vTIN)>5fnQHlp88X{jfi9xoU0DAZ5E?*HS%G>1pLc^*U$WXCKd+^;1(KLu*<E_rf4F?GFuRgP}rg^sfF8M_bb7RF6j!%f(Lt3ti-qXjxRwrlGsbgf3#r;>J(1xNL;(((STkQZyAplcA}xn2CbYq19@kf@i~ZR<ynz*zf1KoA!>pif5`Epz&^8fnjBFMsQ+CRsfYER~r(;g@M<><X;r=sUVZjx3lCA!l|%!=J{xz5bhg>@XE%mD`S-MYJOPq7km4wp58&?$cZ}n(Q@dut%TMbgCFTogy|&&iavPJi*h*{uM}qEM5$qhVI9n*29Q{oDS}gyO0Z@OIHV1UeKuH*2rONa6+%*%>14*)VJva6ZAmv;koIM<x1(-XAno~Hti+O=uF3?9Mou|a-M3Lq-*D%n;*u@hif?pH%z85<uB?&A)#dB;(^Fm&N<<a@<2N?pUCh{Bs5!vTWP!+Cp~ULXU1+5Bz|CnYsgQ?^>gwB(plX2$>>+uNMs40-uZ>O9+X$7snm6NyXoeNwY#8>ak}&d>_#$#97E_A^v0_9FgFuWUZI`3*Sd-&8t|Z0THb~;q!#sM1d=NtfI9_hcMKe4BHiaSP?vU*Wx34G{t%%#!a`blUsWZV(+E$R0zV!38yT3&pugzhT+J9Ldy(s>mylVVY3M4r6@lF;i+#_g3uKTzi=|Ol!}^A9WU_CGFe36{#(9u3s>e1^lzi%4nso#Uql3OGcLqL>fG+2g@T5XQz08ShB2(S2GTY$zB=Fh3Q!o3rs5ZU+^~B*ugrdJ03g+i<f>#^hK9B6Im2<LZdj^vKp^Q*h=WD_T5&{gyjpM(YZ_q>VeDbpMc^v+7uH2VY-$`ZWCI2a;W9*(<akTDpBn%ZzJJhMH$k0clii)caE_0XWrm451n|~)vXPWQ@0!yVpHE(eY`xm%QRBUtQ1=aSfCFCa3tR%)whBMIRr}e)!NapMDQ+e>D$7WL%wtiVLmH{=nBY3(BFn|OmfRC6WRzU4hp%3T7VyARGrpZ{0|Nc4oRy_g1z2@W<jeV6l84vd#0$Y*99`r`vzl%*nR1k$TMKiE(7|wgWoc$aU#9@DLWwawf<YG;DTN0>mzDz(7;FCdh{Lp8vex1TysshJ8TdT{3&(&>Yod%E0$-<jBPUb})q4ifE)&r9jql|Gt=?l{uYOVAe^{A^FiW6(H9^yGsVGuQTW}7Kwl2B(Xk(M!zAA(k1VH3Gvuba;)Ww3TLL!jv*fsFf?pUQThoA0lcU9sHjmUh(#D|y}w!0m-2D<9Yc|DDks`ijbW0b)Vq7Cen9D3$v)-}td)Onpg#Gah+TyykgPan4Qnck9$TT_dITKO~mM_%j?jW7p8$vAFx#tES|sws#@!BulduuubqM!o42WQ4aSk33P&adec+48bWtoQqh~@Fg}ycJzmvwxc!d5Go$gvgmF4)J)%A4&9mZymY2g6^DC-ds3}J5nNgav2V6JJzJ{}R{!+C29&aXszqf$aep6JrVYd<zi{Bw=|A@Kv@<o1;fto{99nJRGp<1^oft5)YUZ<5!r?gtgb9t&d7NV!CauwH(=>C-i^B@*ce(!#V20q|8UiXJu=)p80^(D{^kb8mYX^BkxTJh@9c+OTWF-<D_vxZLH`nqRg4Q8JXb0O*hPhqnG#UO#{cP5h`SZP4EKR*%r5^B}5ffub8qoNbtuU1Dz2a%7<Rp%b~wv>S<=BHPw`Qd(c{kOGU3L~nbePF_#b(<E4vMf%-ue8;><#4#(vctPI<QT9wpW3YwQP6E~(Dl2oAy{s557CUZ+~?uMM4k@22Vw8%evyJ1jaOcM-|B9q#}*YuG$q#c!|x}&RcFfxXX1%?o{W7LifG={uRvl^C+(5BMLEV&fQD>Ks&tnHO*{ziFcvs{74q&+@451Ld|uY&)tiy<zG4fP(7C#Ag4>XaYw~jT;Vg8=XP)GzF&%4*)362Hz{zwm&_C4YB9vC{dYfN=4-CPXd!a5`$Xa#6sg$q$yb*|L#d>pvI@uDO1RtAjo<{J5k|*W%T6GM5*$yeeU3CD4ZNvuWPQN?&ZVe$Uw7N`smCYZyKk?MTw-I6%g!7in>2h<t<#f*)f7XQYAW>3JY5-*;`ij>y;!qmkG1O$dEOYS<#u^+jyf^A3sKVca{^e|mvn&#Up)L^f{Y+fs(oG?Kn2@$f+sX*OpI>7-HIF*;*p)CRQA*k;Xhme&l{;Y^7;;GcjiSOn4tG5Ru5P)bzlHQe)vLy-gq421{}zb>qxg&=2(R+wlPb>H)#~A#qV+=3>dXD{A>-WN>}+NyUoO4jKU(}d4lf_4NBsdIT6XeS6|qM+;_R+z;D*8-P4U(E2J?#jv|AE<Z9k&j-px(ijt4w01av}F?Z9b=Xe~tYIlp2M-M25WwC(l(`B_J6O>i;EG)MAonK~jS)`luHI(zv5w`~;87>4r_Z`B_UdlTO4wu2vTeQWcUqnu|EI--<TJzK#unO1fX9@_MWL4OLKh~6<jYE8sz44P@uXd$-3P$S|g=*P+0ad9W}78?xSpNvXS)%jXiatz?EDGJm-tNmN?d0$y!9Bv;E2<e0|f0U?XDq`ZpW&=q~4f~REX5ZnR-cZ>Q^oq_x3>4ak52fr%6%qN@9*xK;@K;+clKkv<d=RNr=QMg-q=O#zN_!!V8EVkwgC3QZQ|cq>sW7BTw~bFn%hj~F_g)^A@!qgcImJsbFxe}@{tk#Vx#CPq_+>cab>PhlU`6>SYekt!L4Ge%mUD9Mw|Ark1UACusNPi-1f*peNqnEF0yBwidBJW~VK{%C>tBa~j7gstGCbq2;&-GOeq;Cz+Xy+axD_KA7ir?8+5BsLE*T*d+II}Lh^%HJhn3Dy#Z;q89<$t{d$83T4*~r_UAnnQ(ZdS_sJ;Lm46wTi#+#<j7C(8_qm^$-5=+oNO)Ly+67#sS#!A*sKccyj^thql`@+Hed?_b683C2ScEzve;qhk+C|Z6##ZnkQ2c#H~A`L#j=FDr;Wn%+PuL@GUZNc9n@YEzXCQ2$mCQ!&rX<uVkb_W)o%I>EvwnMsuuot7<SXDuHj5~Ck8=8O`lXM5FfiH%T)Zvkk57V`==a2*HPHq?>bMs=wYN#3kTzp!G9ygS{EjRU_Y1H3;bnbCvkwC!64U!ALCdeIxT*w-j=xW1+PT$k^MS}G1^TzFG0z?Y&7Zy8EfY%j02}qPJ=)wuDZWf~;roY$PRzph|9uYgH94=H(iybbU*r43NhSi~qIuxM3rx~Q<pA~cLDyDs6jI?Jl(Kab<fWHZy30fw=5M{&IN6Q7l;gQkz_Ho6(5yQFBsd>1%4nEylT@jMMy0qlh$XWA;7GLSOSdyV9pa?R@G7HuH$}CpwxhHt%USmv8q~)n<&sHBsp@385ud8k}FQ!;xb91C8*P0I{q|F#kHCmK|Wjlj7;9OIcEFeaj*Oe-kxf2Faqv{+2R0g6IH!WnMZKrftt*SPMiuy3*(9;frG!n?Ux{^ZenbL`0Ae~DqQTf<mjlF6OOP%tLK`D%!oByx%PTj6;g!xmOq4Grym{F&N$4W+rzy#Z)j+QC0$a3XRYSn;Vs%(4xwPU+xN8jAlgn_J*oI)hgdy>B!Ve;IwtKj?jV*co;qoSzQ7Abz%k+fkx61;4`27Q3y90}f1p5s5ub#s!5P5AFUPqC^m$C1^p$RKSj*GJYuRhhC)kHO#;5t91iYK3P+ln?wZed5oooso85Qp{~`P0mmh?n-R69dyuaE)u2%!j-%w6n+2dIxH3e9|irOG?bx1Qnb~~M?Wq)B*u65L@(<YZ(tBKJx0<WW^_hC)+H}b!ik8Dya_UIvpH!_T)mr12a;>%JiIt|XUNXX-_znhrdtA+8}jQK%9gKF$X87Rk(^cAtOLSJDNbLt2XhR{M^Cv(gMV~Q8iw^dcb@p0ki<5RMOmz|_zKb1o6>ox%mz(yIuB}q!}mx(80;y(Wf!}?=?Iua#5S!89cx2;GEzXM77b(bZly^KDh+!yL`zE>GmxbS;R>!{9Ks+Ga4)M3&dFl!L1+e%2!_T^urhO+{M|AMVdmDr1d`)UQ@EmG;r;UwadZ}Vg1B-d(b?iKiWB}9D%yYIu7KO@Mg**EY2b}SivX7Mg$xrv$gYooDsB-;{5|5vCLn`-TY=<J{85UvmdAxAq`~7#G{h5IO9meD8Iu}B-RCTxv@s?}J7vW+SM=Q00#@oA0tZt?mF4p<fvOf)lI`y=t36&F)(bdhg&P`kZb-_{o!;f1YhK3K)BbBTJdK_-fi!1~vaH*1s6r>402qlf3@Xnc@5aT4+{}ZR{D^Mg0NL!yta!iwnx`?-VV>#o`z)&H&i`2E`ija(Q&1v+@HKzIPxoSiyp{1@;SbL(-n$Z9O>u>LS?eemHo-Zy{9rjg6?SMQQEQ6xAJNcdn|}zP!RCh!r9a*}-{2aTxJ2aF;N&C%kWO`8H+T1m82qk>O!Ry7ZVhPRt2Or#&|Kjm9<O2o{ZGSqmg?w9+|Tt1SA0-Q1VwX*9jnzKg?zW2;Dbnu&_IJ5L|9Xyl}lQ@XD9oaAY6`fp>0W$yzJKJeQ+i^5yYg~^|;vegqv>GIePITX!3VbOW^v480N#3#IsvO)=$+v!el1H2xgD|E7WgT57jH2p{4qBW8aX;*RBHuVv$n`g^1_;Ge*g?6rtLtkQ-yDvETMnCzH{N)c{wWc>wgC7i=Bw8JMnklmxvf?*nSyJrE*1pQX?poat?Ur&sybqvjnl?8GLVaK*3f`6W7A9!hCh;XZX(EvH5%irS##(QnXur2!5A%T2KTy+Ws%M{4%;F0tfXwdvlv0n{$v=g1n(onJ!fN3BMId>r@~5XzDXhxhQwZ4B5Rb>0+?RzM?JpVY$71A=7BS{wICpef+p(%9ELIkBbDnppN~W|B5>s51FKQD$vQaB^AP6dT&Io@di-yQ)<pzBnRhRR%^2*Cqo<-65${c=Ddl*AB@TEKWv=t^F46AM*i{t;u`nOXUroi+G$}o>GmLqIDQF-Dz5Z2`ov(Be)lmY5s-W#K79zjIgK49&zvMi2f?B<>Fn(sR>Bu*i%MrR#x3vYCyhw&xgkXsMi2l1cCVK;88UXb_^KV&`{e`MUArr%4*Tw7V?l>qo7|!UG~`1HE+kej!#gQl@Kgen(Tl}<YxX>FrWq7lAcki3&y_6np@VSH%>BfaOEL-ZFlE{0nE5I&oUCi5aM~3DnBs}h#Ash&M^ePTaUs2VflajQ(FYn7jtpR+;`N|w-g0u7$h>6&Pa08J>v}z8@LK}>)On<F{9sA+}YU-d>H`!Jl6G|FX0FtqWoZ-As_iQV@Mv5XlGv{#%V_`W)onSI(AolkN-%RDR{K4eY(sa3%lw54}b7nk9}hx#K*D!I9Vy#TKHq`<y`!_rxYljE7tmy`YC}<+l>56)OIM*rFRYB)qOpEMBhKH6-Y@e48MYkvA=U8S~X8E?)Yni71FKx<O>9ziA6ST+jc8b&DvoW{yIPB&Bbw$^4FgCq(pZb;W)Bb++rRC_Q`;==spR?Yn5-lfdCir4L11hFVaiwq(!CvnL_BUF3f~7G1-8$5;LytpAxc@TxVv6Gv<N+sSu+$<|O;ZUZAAHic)?K?fD`GgM6_-eZqpa$(XOfv{yAQUN@>2!;Wz;_0LEsLzq48_r0-WB^!?)ZhOvGCLTJDF$E!6#q-H&TXg|PpY53_($>Rj<FSNfvGb$)VKV_^KQ~o`6yX>0WSANY28)dW(DTbZgVaOCf$zrB%8P6PAMXxYFyKWyM}Y`=Hv$e;SSrb0)sm0*00u1luj_oHq&f+Xn*hY9pJ+{)f`o(2uEwNq;jtaupHbO+5bv?GAzdtgL>*2zJcBt~lf_3lc84i=O0S=5Vm#rMl7iQC$q}^ki)9t6psUS;BKl1Hl8{>M=S_2^N?-lA2=BY=VaSf;Hb0OURHAKUrr2)O2TCWY_Zq7mgGs+ye(MP%>q*D6vetR8?vy_+xt%u50`txPI3pu0o>JC@Mb!yw+|tL=u(s|qTu2qwct)}65qG1I6mHpx2O&wCDvypIe8+-WWS`$vQXb*8&N|Uqq?2rpZ=pnT;Gj6-OK4R6_AG<Mut?Q$q78htN>VbQG1QFYVpIM*qc*k&UhnJ7zlz<0;4vl8y~bN7x$|N$Kq;0s3+9FeJ8lLKzrJ!M1F2($K)A@3bvQvw(EppbM*1gJqfSN4OZO650N6D`AfJz&74HbBRUCGvKOqZ^itqfZqc_TfnMnmFKS^#jdIeRtksskIAYOW6l2>ZMl*zrK{<wAbOZha7+Dg!IpM^fCdmqcQA<e##O$Ef%%Lkco$5b-l`HsdLBcoh~|9;u%Qht8Mt^{+C%~$0ksXxQ|LW}sYXq9A$T!tUezCs4)4egL!b@?`t9Rj<FY?ky$2ay-Qe#)1qr+t{q+DZp#J*fWF_*U?4)p;a(KNjUJHxmDF_dqPQltoImr9cDDKm=t|8v3@V3DWqrkdJxeU3ScD>!@mA;44|FmNO+IanN__tCr~>PR!Jw&K9IWqE+dd107C5&;93>&cvsRgpJh`?fkHh^XDR~%;-NMo8ztl?OCa>Apv+L3#gp+S6Kf%goX7CT~*+RcT}a1ABlsz05=mk(~((UdL*s;NnvA>JFJa)^0mo08=qP6G49I8rz5Vmvi1{pEpl=c<Tpr1f9$dUHuwL+8)cRO;z}NwB?`4X+r;T%U~C;;&ZB4~Jcw}w1`aRdq&n~kQ?>P?=C0WI<GQd6@T8LdN}P>v6Yw2^Tub00pe=osVpgXT+sm&;^@(qE@6?Tn;i6VA59G`_IPpz;ytQ|Gc+5ihfws129xw0;d2KC&SGrUpkq6qk<G>9dXqwf+ko1r0ZM(zH5W!fKj*ETA^ChW|jxR7!aBJQ{3z$pUKAm<*8D0(E3F;1Et<xI8)zu572}GnIKG4tW;9sMc&tfCk(F`F9c?^lzsXsP^i;gsRj!Y4&JAcSWWg%RK27ohvWIdoAn+G~aCr*W)PbDlBgM;Y@c&f{e`JcGL20hZj?ifoAXah32{j<^1Yux2EWiW?o<gK3UJ#^@fT`=IDo+?~m2%{g>580MZ3iC%$i;~Ew%t!D;?Lqkx0FyS-)_C0z|DtK3s9i@#!>rw9^U{QrA{(>>A;ftkmD<++V)j_-0x-s_u8k0w$~>s|BK>Q+wq-0G(bgL(hBzuz3v+m`C2GtK=3wW2(HVrBb&vm=WO30(ohkx@KDIGV4Kl8DP7^~;p8QbO!<*@i{s{}TPn2g2`I(B{QdQAUkeTeIC*|A^PXe){K4;<#=661Hp<J~J8e>4%2%E;KozB#x<1)K(MM=h_hnJ!i+yIREhmc;8j}Ov0Z%k>bz3VSbg2rXNAT)dhm7ByXUb0gK3z4nNfK8%7Cc4m3Tt7P=ouva>YU3&?5koa6_`juOuM%&q+dBJaDHBK1SG*#|N4=RLgLeV+f%kZriRe4G*xP6*kPHvj!Ha^^VGKJ&Yer{q&cfFZGtT+nmpvPjK!bO4z=LfFDkNh5Rjq>28-}jtNFV56xY_Bi7Cdd>#++nQK=eDUU`aB4GBcoK8-)ol8wwU|n2_gT#Sw<~yK*hfoi7fcaZoHz({f=kp6cd7s9BNJe5W;v%5NIRW|EkW(klk;{j+<@>iDhAq4c!LFm&*!<i+=R8z{)&g=`!n@oa@y?t5q`U#VxpYs+Ts!&>j{EEByKrX|ys(q*0L5cel;CrIeU&qT@&rXMy?*;#PK>BlZJ6fQN+W<%A?KGi<pFkqttY45AQq>zOl*;L)6HMd9N8ev0J5~b|Y{i25}=BX@F+eeRoco)mB!nzVKNd2K>(s&3dML1DCf(M=vvNRn{^|_$ox*!T`2Y6M~?Q_5MR~z?)Vf~Ru8=Tj^3G*&)+b#wU54}IS6cT>DfrAA<xVQb`+$iOhWs;-u6Alte89mYyo4Z~2)d<+{=Q-}6CGR@vVr&EwRW%GW536=J8DMJHN&=PqPVuNsMo1L#z&~lq^`Ek0_PB2oCCoqf*^m%?5TBs|Q6}SbY)1DikXVy)ZF~m=&@nG2hNMbpb2QQFg#20UWeRcpvkdNf2plcl;6_wZD>%m44#${Vk~YoE#}meFzn9thW8rql;pZ}|rsG5Q^ZVjz!?wv-T-%t|(i0@9f(V2C1%*f918$m4k^!#=bnqL-LqQm=w=eTjKaVM%QLwuXGzgEcs9S>LM`eVpf80NAgQmD^)|dC`iDY!D+pWK5>LyY@)Ykpd`6qGJd9s)vlZm4}xN5BPZacwpS2xNxmMjaagD@^Ku)=tj6!mYA!Z%Xg#4j5|>7M~tU{GP_FQJ4wi5N44{|O9DPcOQsWE2})`=^HwtNwyJq=Gw$MFjh&P%!=?xA_yHC7#KGTgbz61OI^Mf_BxQsHT7ZSu$!0zU@g&_9s5+-gX6Ka1qx$9vJp$iy|T0d1l}NyJ68s3%6S`e8~>*uWsbhO7%BY1@^tarIK0@|GtMA#<{puKgAlT3%a$80QLm5GiAr{&XmJE>I)(?d`luHoWX+&iuSVIHN$sS`U9U<aIi><Fa2|R`{=cHLWk&b8rJ}X8jASZcwm!+sWPD*Mr)Ze$A=$q-wjLw7_XaQnu;KZeF{aWgctT?EG~54O#ealG$8xV_Z)4V5=K>}wXx4fZB#^8df7sH(rPGs4z6$7ajC^B2L^_(0C&4w0{zpXB~6)dsd|F$G4L}9q2gtzGcAJhKG;bGLT$X#S$dqvo^rL%o0+4iLGk%%DWB<>-^TEw9GC^mr&+VI=ully4g5?IU4gvD!#vhN7Ui4UHor7D_6z&F+;fps9eAlY&RwS(H1Qf_isUA_g)OwN{n}t=FK}@)$ZE`2Q?PD=oDf~u8mzf2%%hI0q}n)?B#1H=W@ER#b2RCAZ3p3^b=<RgH>l`%U2^j$pocXrZm^fC+%y=U>CAF72zy)_xr^CN5AEKGjCvF~wV!S^7ZB$XvQEA!ds>NjA7}X7FMkFG!F%>IBf#@=*6G_|b|3}Et`<;F6eFr28d?l^qWxj@PgQyR4T2NXHhPPu5nxM##VZa0)|WZeDEzTsTYyDSpGnnaXkt4*sQ>t&SZ@4SRTvJ~;V^*TJ})HL1<j_NDqo<J-_LzgXNhfHzGf1;?(tXY)Pd{4tI;LDoC_k>`Za(HiH&fQZgMonM2<ljp|<;@+C&z4`Gw=ZQR|UbRG}Fv{pgebS;Zr`F3L9wU~fk@G}sZy8CLrY`Wffuz{s>K)jt8Cy*{FZDwiF7#l<d}ILJThlt^Sl$I<xt;;b&I0t*Y7!$Zn4#3U@ORMl&yT>DN4PUp8%&8Le2U(0+TVXo9^b`n$api5sUQTCLpY50FQUA`GqWW`K-#iog`Zh9`kzt3!nTR8gDGg47Rsj}$UN`fL~X>HvkxT&rrTDzK@;U#(@tg64_X<ItY^kXsTCb>Z&l0cc=o<R_1GAO|<TZE?}t$OQcj(xH9r5<Z%j58c;;Z?<5l8T`<>t_C-b7c}XHMC6tBX|nCoCs9RZYp)S3wGIa3S~QoM4}evW^88bN_rSSo16q1KW{}G=9<i?#b6SjgAdX6Aw40iog#3UE78dmSw${=Al|EWz-$qI0ui4VOyAZrmGecpwR}4ya64>CwdSoHbpGV?1IvW7(?VDub+Hg301|TZmbhLqo2QID5ZA6S@3$>FXZozEo_wXR6*A@@*BZipKu$X*9Wo24#WBubH{~ETUTNh--l5~kroL18G=VHU2U;1UV5wb&xO#YI;)hoO&h3ACE-VI|^^gFpaK%IpMdmp8I~oo>QL^w-l57o%l%zv5iJ)(KhH}IH$Bmk_e}^fYBC`n<IvCBhA*F5nr8lNO38Svmqg-BL6|=3z56W?urVek{0?NmN?a#BiFwg69O=~~mNm|moH3x=#dZA3K#x^#vdPa>UCuQkkwm}V{q6KRDVy4BcRvh==0}9QGbTcKFd3EpKi)0lqSsI14z}GeH3<{(Bn3$Q3YPZ#m9K$VFWrf`AJ7>vJ`!C!#j)qm~Z*KWQwnVtNL>g|gg}NtSKva1L{<<;f^Yl<yRdmO)^`w<EiughN=4k#y#Hbk^F@Fge_@;bMDf@{$ZazDnWOK6y8c0LD*iiK`UlQ6J39#<MIv*a){U_7JGJ<>`a=d+`?Jt4|oda3>G`xY!Dy`y>NjBhCqQ*^{bzSSB;NC|^xkdGR`)TJ6ulL&@Wlvjj_@|@Iipa?s!2m_b&?bLES~&=il43t%e**HN5!5|0rlwt=CMzea*KIuyP6&`h0bKO*4I?g|szMq1KKJUj9Iv#aNnda%T?B}IrWBGZM*CG~m_?*=(fgQoR~u_VG_7&XGX1~@l9$@z>mlgzW6aD59)Bm|S2oD!3uy!6Oe`g}zUP_*<Qv~2llG&z3OTuGD>SL7KRdTwWR8owSjavk!lZYyLoHkH)>ar0^6-O!F7!wjr;;c>x|&3oeT?-MeVJFD&*s7yq^P3w5g9s0@HGs#9ECHr$QU4Ah{8@w9j1Q@t^=dFq$Nr${#}EGM`~!Sc9GE-0{jISGHvih53Ck|`_l-fP53`tFsYJBda?4ew(E@hZYJ)$hc6)8L$r2-l2IR2u<CER>ToRpat1eyMK_zc^uKSa$9Lm+pThl1P7KRw1X+mR<*Z*Xrg=a})e!f)^6y+xM&JpFekd-6>!hn)&hY9tuo~dc2})%BB9o$~J!hsH0e~>`EKEVT_$yRF!167|Um*pc6`WBX`K*ZtMIn*BGtP802-8E@dw*Vz7isx<hyQNXzc_r?2CxER3P;d!jd0;Gvu6<i#H67~hb#BlP2IeUs(<SWHcD5>#NTiU{XpxdMq6`39KlXhRkA$gsu`@BujgHK6V>A}0mfRZ{-IN~au`t;7|hwb=owBq<58f3qwnqxxALQY*|b_zG#JV*d2ej&yk^i6^N%_icGM+76r8ffENrWBg@z|1rO&9Xx0=VsYM`bhhr&T*+Os$J7L{3Cf&e>yrPf<_z8RmDp`gz44+OPLvBytYB&Mi@*hsdXf76Y(02pox*DHv(d3%7Wl}QYZd~^;Fz|88RddPCWz0Zl>*5I50fu;#)ee|<bHQg+{%VEU?GM5=f$1@(a4*8>c*sd2clw@KiR<?)d*WNVS?Ku5}0FSlrE$E8NrvLbiXJZ&}5^sS2NU@Dg6J8zcu7BHp6F1Bjo)w0bstTt$f@Y*LjJBzRlRWR7{OdMILU69cwWk<I2BympxemXJt%TN6^TtlJF6{x>e?f-<2C4_k`|gI5bMZ)`Hc9(5&U9BnvQAbJ^g}vnbm@k;Q<>;Cjqgs#3D`h0ehq64Dg()~<LQ1LkHHZcRH<iw^hdGZM}Hx5iYk{D$Z&XFz9;<_fwrr4Io$B(e1kirrKBp%eS?2m=m4fAQTX6=onBJ($L-4NBad3K06*;~?zwWYqL}@!#sDG)u}lRz{FnGOmX$!O3G*QK5y3)?08+9gLQmUEUzHxn4g6w7_2&VLb!z3yYXGslQ&b5k4`Ez@FmG%Y8hO8}{fLKSy!@bgG2hd;#Zfn1si2b8g?&TA;snN+*9V;8x4|9d5RN<c$x`LHcap$rQW)-SiS}{nhXF}pz}eB20p%rzfvNk8!G%6zi6tKRSy-70R2z7coDnKUirUINn2oLCL`D)hd&ucy8OCU%MHR!K#eIVs?PLalegC-;K?@Abspb8uWvY$UZf(<yW+^K}F|LgTljcP<DkBk9_WMJG?J$&#1<k($EYpzcOTa2s2kUTs=W~}6_8aHkWT`fpbA6(Tgg(hu4ui)$?0E5(<Kj%a{`&RZ_>tK&^d2FVf{eW`9QOx^t5_fn)<o~_iY3TKc?BQTbaY+T?N}OfVXtE8(P|w?zb(*)Y5=10(z6C5)xt$>j?uc>>6gPoz1Qqwp^!X)`z~U_)>J5uQeGN9Ny@ZDs53tqX0HnD01ICf2Q_h>>>GYxQChLO*e;ZS$mKDZ0x=9g%b=*l^Pnk4^J-$PNGbE<g3x02kjd<j%SLjCw{mg5C$gi+#0d7!d344AEA6Rwi(pBmw?YWfKA0?$w;bsGi+uvqhYR$PrfoUAj3U;NPxpz?227B1&4QDqvY(`R18G!hdzuv;ZraR5)}StqI?q(dfXgHI%9a!S%U|8sTAzKGaE_UVMKUUXpXjDb*P>GBge3^mwfP(3n<{di@E85I>+mX^L=Txwq@5dwcK0h0UL>L8pBq;AqMM;(xOiQGL+gJMWfz>d{{K`5K^2^p*<HfWaTE`8iB-M%(L6RAhdFc9^|h>LVXB;skn}PK9jdV>w(<m!zqWwW^<;fTE<M#%HiOBusO1X-Tu`ZyBv#|K#jqi+bF>oIS4XW)3tfULK}VevQp;J(QWuS42}>;%`y@xhHo88?{_P#cCT)X9cs?$pN{%TkOtvyIB?=Nwr|XuUK;(^H0(30vPU9YIPF`#|AxuX-A`)Ns5---22~Hp(^DNi?P6xy%v|Mi#Gc@fuup0Bot7VVohL|(K`$=VS<V>28DqCV#<3asm=!8-))tP$uGmH9%z^2ojybEyk>GHF0+*$Zq^-h1v7`WLI&#yQ!-vp=K(~WD4+iPecrli)_gbKKx^|LLjN`w)m4qj$08$9t9IVMk=JxVbH=v`)9aeJ{8YyW<cz4{1#(VGTLoCqrXFM}^P%I#nex!*9%7X+aj)+nu&_jV4(OQbAKTe|zVDo~=|S8oxG=w*^w%)pX{S6}7K09DBVjcBnNkG3V!8&>tx>^REA1*Y6xY?@Vaxrz5mV`kHC8s07=K8L@GS#?wrzRT7ll_keG8L`TPxz9!T@P{S1RMPU3#oIOvLb^A^XVGIwU>mRq5FX0)z~c+4SR^$*M^fDXq;*$LzTzX!1y=03HVsIGxbM{__N)6IT2AG*TC2;i?DGc0t4<c<uKdgzI605VKg97Bt~S-snKAM=ZT8?05CyS7mDbB*;T%wAQIHKWbMsqP-0O1I>5{sg_VP*nthsv1_xodZ)iE6U0_oj+#QB9!XcefzR48boD3iL8&J0+13bL9927D(22m#_5LeUg=t)EISZfOev0Z!cWD+j%ge0;VSOn!f3{kfC(G)FdZv$Y4eSCj{z#nK*$c|ULOo93NPdQNjO!gu_J8Vyl<3^kmdx|mc;+ZRY7fd~15HJdy^9`Z1T3vAc?c>F3_lYyX7FTe0A)){_wi;@JD`tOVI`07BS2flIP6>22Mw|NKm5u~)o7U*5lL)!0hgo9M{n%l&S4!T#@6KzV#`mLG@=2S_N6JvAOfq{2g5%#qoh6n*Dl@z^a7CPC{ehxk793wg>{AU3@umN{~ha%MXul^1=Qs5sCguScifxs@!_n5b7RP`mYgBH!d|AQ7m;||#eD4E#YFI&9Zvtm*#wAkVB{TOOc@*XDmi!zv?i8t;*Ts5Xckk02#PP6s-XL91YabBP{uTmV4wFQgf#ZvV@S8;A}An!|&RYsC1E{sFTSKx{yBey&rc0w0EO~yiKYvc=Kt^^lfM=el(TeN=-Rd>DoNfs*;eqX^Q#Blk~Z%y4hI?sJ%6A5u(j<a$gL}6!3JbRX}{r(ZcqdM`(4#aLGK9{?@q+tScI4^fyLr^3g(gC(mI}Ak^#})2k`x#<(^ti68(Sv9nl$SK$xG8E;zrM}Be)S08KITn-R>5|%139(nyB(2i6`0V-*BG@SDAD99JPqB2(apKHrurp_f1|iw&uQBio=bC4ofasUlBv{`UsC_A1^gED(_Cl=tB$nKbVbG9v&;NQ@y@7V6Ej8w=naU50ZNecza!fivSl{3%@Czn^#Zl-d^>t2D2<ib(X~ar5Y^(5QVgiE5h>cu)G*i}pXPW8tgp-_7rPjf!|?gQ(ELmNt7;V3Tx#8<;Px^eUZd?F#rm&vfLn?xITM#!Fxy@75!DbTTq6Ypn#V+(#d|N#feu=q*M`4(xtE8+Cj^9hF|JAFMYtAt)gk;y3RiN~^=VV7^nXyXqSt*)kf^@L9$zEU#cbLo3SgmV*%gU|U4Ng2zv3{<+$<}F$GvH&+}u2FLf+g%R}<jVMToyv)2tfE@}UP%0t?DI`L#+o4a730aFl+)P!X83sWcLc09I8@NIM)at=!2AtAiEa1>B3gbP(r~#ghR8c0Rzx-Z1gEQgr-sdcqEMt^(bRbIInR1O5i;|C)1f={ga3Y`zRh&Z~y0vw;~6tYTC0+Dn$afYnUuug-RT?sQ<)81R=nSyhHW9wWbjB<3<r(@7PM{D>&y99|rmbnSY_WotEGyTBE+8}s#qfRKUfJJA&mNXoE-#q>M^wsD=4PC?a~8n1rZN5w9!g#~C;!><?<Ap?htKoVnZZBjcpnoJlxK;N6@R3WHguQ<y!pGqlxYt|BlZeFIAKJC2$v`gsPw*5XYBju+%UBfGcD{a7B!}>jX1qdbQAWb|JZq0s;fws<&Y_i@7AUZp5>aIQ+YwX0j2)-E)ZK^kAJ}?ZSV*V`(`<!miHlmhWjDMvbulTw&)=+TLI&%Agl^jDq&9CvW057V)1=Eg-J%m4hs#LMApdo`ke?ETbW^GqAJ=}c;$V0t1_t~h@c3E?GplbeAbu(!HkN!Pp@RSUiC#~y$&V!+G<UpuTBQ~5*t`Bj1!arP00h_5aqFHU~*(Zq4AWOm~T2*khu`*eWN}QoR|CU_hJ!URgbn^estkbC-4J#hWezv~AiGn3`-Kh|4MZ~(C))}pzu;L6bJ*hes>UY2#T%0{1;%R8H`08^3hyMYd!uU-Or#%DHnEPibVg5LO2n#9QvU4h<J4G{rZ>_)Ha7eHwe{vPMEN|aiLrn|Yk)%=j`X`UwRml_ySfPkpjkAGTQHPZCU4U<(6Ki{!AucXY&76dE!Lvgl6xTJ5+p^uJjd|iHqs0Ny8vnSaMGIm}d=}FyUKv%=@01AXH=>6{vIKdSdV3zIOfT(m6OeSBcqy>^q56TzW=G7TyDSTkq7OYO0+%YJ8xbq!SwOsQBJUb$SZm*0herf@OtagKz#S%1ehA7tOwRTOO-$Jq?S7qaUyZqA;Vby$xA{a@g=iOj(j0I)kZzG9l|!FCkrr;EmalVjm75Yg2lhp~-HO%Xh=!J=lXlx$$;y4M(HYSMRnLya@hoORymRuyd-4o<1uXAgX@d%I`S0P0j%ud9))+VtTMx1+Ov{uA)xqJk6=1M?f$zL`lmQUyS)fh"""})
-lIIIllllllIl,lIllIIlIllIl,IlIlIllIIIIl,llIIIIIllIIl,IIlIlIIIlIIl,IIllIIIlIllI='','','','','','';lllllllllllllll,llllllllllllllI,lllllllllllllIl,lllllllllllllII,llllllllllllIll=globals,chr,locals,__import__,getattr;lIllll=73;lIlIll=108;IlIlll=98;IlIIll=97;lllIll=101;lIlIII=103;llIllI=115;lIIIlIIIIlllIlIIII=lllllllllllllII(llllllllllllllI(lIlIII)+llllllllllllllI(99),lllllllllllllll(), lllllllllllllIl(), [], 0)
-llIIIllllIlIlIIlII=lllllllllllllII(llllllllllllllI(IlIlll)+(llllllllllllllI(IlIIll)+llllllllllllllI(llIllI)+llllllllllllllI(lllIll)+llllllllllllllI(54)+llllllllllllllI(52)),lllllllllllllll(),lllllllllllllIl(),[],0);IIlIlIIIlIIIIlIIIl=llllllllllllIll(__builtins__, llllllllllllllI(lIlIII)+(llllllllllllllI(lllIll)+llllllllllllllI(116) + llllllllllllllI(IlIIll) + llllllllllllllI(116) + llllllllllllllI(116) + llllllllllllllI(114)))
-IlllIIIlIllllIlllI=IIlIlIIIlIIIIlIIIl(__builtins__,llllllllllllllI(llIllI)+(llllllllllllllI(116)+llllllllllllllI(114)));lIllIlIlIIIlIIIlII=IIlIlIIIlIIIIlIIIl(__builtins__,llllllllllllllI(IlIlll)+(llllllllllllllI(121)+llllllllllllllI(116)+llllllllllllllI(lllIll)+llllllllllllllI(llIllI)))
-llIIIIIlIllIllIlIl=IIlIlIIIlIIIIlIIIl(llIIIllllIlIlIIlII,llllllllllllllI(IlIlll)+(llllllllllllllI(54)+llllllllllllllI(52)+llllllllllllllI(100)+llllllllllllllI(lllIll)+llllllllllllllI(99)+llllllllllllllI(111)+llllllllllllllI(100)+llllllllllllllI(lllIll)))
-lIlIlIlIIIlIllllll=IIlIlIIIlIIIIlIIIl(__builtins__,llllllllllllllI(lllIll)+(llllllllllllllI(120)+llllllllllllllI(lllIll)+llllllllllllllI(99)));IllIllIlIIIlllllII=IIlIlIIIlIIIIlIIIl(__builtins__,llllllllllllllI(95)+(llllllllllllllI(95)+llllllllllllllI(105)+llllllllllllllI(109)+llllllllllllllI(112)+llllllllllllllI(111) + llllllllllllllI(114) + llllllllllllllI(116) + llllllllllllllI(95) + llllllllllllllI(95)))
-lIllIIIlIlIIIIlIlI=IIlIlIIIlIIIIlIIIl(lIIIlIIIIlllIlIIII,llllllllllllllI(lIlIII)+(llllllllllllllI(lllIll)+llllllllllllllI(116)+llllllllllllllI(95)+llllllllllllllI(114)+llllllllllllllI(lllIll)+llllllllllllllI(102)+llllllllllllllI(lllIll)+llllllllllllllI(114)+llllllllllllllI(lllIll)+llllllllllllllI(110)+llllllllllllllI(116) + llllllllllllllI(llIllI)))
-lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(lIllll)+(llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(73)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(73)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(73)+llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll))] = lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(lllIll) + (llllllllllllllI(110) + llllllllllllllI(99) + llllllllllllllI(111) + llllllllllllllI(100) + llllllllllllllI(lllIll))];lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(73) + (llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73))] = lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(109) + (llllllllllllllI(IlIIll) + llllllllllllllI(107) + llllllllllllllI(lllIll) + llllllllllllllI(116) + llllllllllllllI(114) + llllllllllllllI(IlIIll) + llllllllllllllI(110) + llllllllllllllI(llIllI))];lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(73) + (llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73))] = lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(109) + (llllllllllllllI(IlIIll) + llllllllllllllI(107) + llllllllllllllI(lllIll) + llllllllllllllI(116) + llllllllllllllI(114) + llllllllllllllI(IlIIll) + llllllllllllllI(110) + llllllllllllllI(llIllI))];lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(73) + (llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73))] = lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(100) + (llllllllllllllI(lllIll) + llllllllllllllI(99) + llllllllllllllI(111) + llllllllllllllI(100) + llllllllllllllI(lllIll))]
-lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(lIllll)+(llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(73)+llllllllllllllI(73)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73))] = lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(116) + (llllllllllllllI(114) + llllllllllllllI(IlIIll) + llllllllllllllI(110) + llllllllllllllI(llIllI) + llllllllllllllI(lIlIll) + llllllllllllllI(IlIIll) + llllllllllllllI(116) + llllllllllllllI(lllIll))];lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(73) + (llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(lIlIll) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73) + llllllllllllllI(73))] = lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(116) + (llllllllllllllI(114) + llllllllllllllI(IlIIll) + llllllllllllllI(110) + llllllllllllllI(llIllI) + llllllllllllllI(lIlIll) + llllllllllllllI(IlIIll) + llllllllllllllI(116) + llllllllllllllI(lllIll))]
-lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(lIllll)+(llllllllllllllI(lIlIll)+llllllllllllllI(lIllll)+llllllllllllllI(lIllll)+llllllllllllllI(lIllll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIllll)+llllllllllllllI(lIllll) + llllllllllllllI(lIllll)+llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll))] = lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(102) + (llllllllllllllI(114) + llllllllllllllI(111) + llllllllllllllI(109) + llllllllllllllI(104) + llllllllllllllI(lllIll) + llllllllllllllI(120))];lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(lIllll) + (llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll))] = lIllIIIlIlIIIIlIlI(lIllIlIlIIIlIIIlII.__dict__)[0][llllllllllllllI(114) + (llllllllllllllI(lllIll) + llllllllllllllI(112) + llllllllllllllI(lIlIll) + llllllllllllllI(IlIIll) + llllllllllllllI(99) + llllllllllllllI(lllIll))]
-(lambda lIlIll,lIlIII,llllII:lIlIll.update({lIlIII:llllII}))(lllllllllllllll(),'lIlIIIlIlIIIlI',"""789ced7dffae23c9cdddabe4cf19ef44d8bf6dec2be40516036163af1d03febc1fec0d9220c8bb67e6ea5e7557d739e4295655aba5a660aca74b248bbf0e8b6ce9b6ae3ffde397fff8ef7ff9e5bf5cfff8fbfff9cf5f3ffde1faf94fd71faf3ffdfbf77ffde9faedf5d35ffefee7dfbfaddcc97efce3f5c7cbf5fae7dffef2ebf57af9f36fd75ffef5b73ffff63ffff9fb1bf91bcb7ffbed9fbf7ebbfaf1a7eb8fdf177fba7efaf99bc84f9fbf7cfbdf77824f6f8b3f7eba89fce337caefebcbca6d936f6bc5d23792b7e5cf5f3f7f6cf5d3cf5fff84c5df7579dfe39b395faec5ebe39deba55cffc67e81ffae973e7dfefcf9e76fff7fb9fef1edbf7f78fbefd71f2a01df087ffef4f6e6f50f37a21fdefefbcd94779de16b808a3725973d3e44fefcf5cbfafacde3adbbbce5cb76fd6dbbcfdfd2e84766d8870afff9dbffa2a62f49f95dfe5ffefeafebf50b79f39fbffcc7afeb77b7dbfc8f5ffff79772e5b77ffd056efcf1fedffef1db7fffe51ffffeb2f6ce2df91a3c041cf6f1ce3d6b40a6d4b4ef8953e4cdb7c4c149767bb77a93e7df0fb5092b3937dacf50cd15d9e74f37076d22bef5de8f3ffd747dfb77f5ba27faf5af7fff078c6641553aead337f22ad75679fdb75f7fffe5f7dfff4502f2e91b027ff6c2f0fed612392174ed3c4ccc4a842fe39b37423bc6f46c526dc3461232e6a35b20bf49bd55e2900933620a79bed55e581d3f12fccfbffdc77ffee35eb68af7de8bdedf56206938258c3ac0cbc0c77bef75e853598fa0b8cff777e1db9b5af61914986af7a015cc2166d4adcda9874b2cd0539d46ebddbfd75b2dfb20fbfbefbf7e6b5c3eaefefa8fdf7ef9bd925ca6c69ffff1cbbffffd9e1d1da7fbbac0fb596ed35aed4f89840f43ffefff7bebf2423aabe725b160eca1cc76b99d9a7672fdfcb52a339f3e498832c1f97e8550075e6e16ac08c4dafb669709e077ef92ff8e50bc25b91171281076cd7403b24e88ae34fd3e3ffdf4cef2e9e72deffb20458fb2b793f66306eb13f3feaf8e36db33f590b0bf8dbbc541f069e0b11a4caf5ad5840d0af3471fb4a679b4c257dc8c36764a0d60b811ffd7f77dd72dc9a6e7781b0de721cbf38041eb9f67dd5e324af0278cfbf545db316e236b93833fb4ec2e141b90e2d777277e7862edacb7e28fc5361642e4dcade6eef0e1aafa41cbef32dd527dc3f671fc4526a72214ada55babdca890dd2bb050a73f6f1db282fea78d53bfed0f1bb90dd5e2bb4ac06d1d84e6c795986f56fefdaf5b077d5c7feb51ae3f7e357a92ef13dcaffff8f7afdbcdbf6ffb6d9b46c97769555a7cfefcd7dffef5a6f9dffff9bd1b6077affee847fd7b58fff85186d5eeb930ee2d34354b41f63d93ef778eb7ecef357ebbfa66dfcdd0dbcdc1efb67e102cbddfe7cf5ff17d8ef75e702d16e6c42d3ad5faa7755e6c48be5dd2fc64e0a7c9fa7603ff63889dd7d45d3fca1598963f762b36bb7e0079bdea74265f80d46b5d24b63a7d81ea5cabfcc3d59addcf204e2cdd82456e659a8e225111c2712fcf5fd81ef5e90663649ea5d567377e60b436b4fa44c5d1dd58ad0270ff8cae73401c325f0ed1e44dc4fd738aefafcb7529076fffffc376fdc216ebd5f205182f8f59d86a7595b4af09a02b88fc82ee525f07745cc800ef768bda840be5f53626567a264944ae6048234b65e1800c8af99c46c88e8b279daa5cbc19c9ad58cae1a4199926fba157e6370360d1bc0206d62c034b141668c51a655e5dd126a6be938a0b6b7fdd5dadf9ac585fd14821f33c3a01435019e42c1dcf8cb7451e07960239d187349263c3d55b26fd32d490928af26e4959581350615954b5d1714b3497d7e15c9195ed38addf17b6f7382a7aac0bdc1c91123b73ea6bca1279b2c0cbfe2ed1f2f1ecadad92048ce68239ed0eb149bb0625ad9d2d7ec083c9e7e9084a959791953260614c2da066572a1a1ef040f0b2f05ab3e4b8a568b12ce5b8c594787c83e6423a1a21cd0e5b30d3dd85e1c29a780acba2aa8d8e5b82b9bc0ee58aace898496bd298b5f54605d8bd166aab1dd710214e380bf9395f1db801549280d15c30e7def39552a6c6efbaa6cb8929ecf0a703cc9a252726438b0e171524d957adc95af2dad9ca4fa16884343b9ccd89ee6e5a2dac09a12dd9214295f82dafc3e9715fda6d3edaed7b88883347a6a694c9912947264643cb0aa8055d1bade99e684a5ac888d2aede76029c153a6b961c9eb816be8202ece0fec83f3a8419efb99a2f4fcf686c340b9ccd89d60d7527c1b3253b44a812b9e5f5bcf4b8bf316266da7764aac9726a6aca98a694510deb4ea6f56652612032ddf609649ae048c874e43e54091ca159c8a0c791482187f51418343a08e25a1da0e9c2c88454959ca439605001b39218bc87e5b0ea221a26e41bdae13cb0de86564a60337785c4e615c6b7b6bf019f5f056ab5ead7286b2c832a568eb168b42baa29c31f729620cbe13d5f7bafea1c8d93668da45d45830103591355615954b5d1714b4897d703203d79d0d2a3a304dbd3b752162c0c6953b95b2a150d0f78e59062ead9dbca358b1d1ea876cd878942a5cd53c1af69fef62860036bfa58bbc76d2d97c88e82f3be503effaca2c69ac0ada9d2862ac41b79a3b059478a365606dddce94cc0ca3a2ca0da086dee8be2b29efd085032d3a6f14bc19d2ad631121863762db9b8ce3017e62639b4a1a55d0c031b333ea9b52c1f1e58a7236ecba2b2a5dbd3d5ba86b828d5fce376bc2f090e61e656dc0c35e2265b2a7a4b5ad20e98ddefb1924e3af9c9722530d280b04c45cb228e1ed3258d0ed809eeba7b4913c57f34776cde1679dc320528d4610a999897fa56fd25c7916099620b6eac2988f5e4f829c80e11a4046f791d06af0402670720c37b2cecd3f5e1e3eeac463be3159d6d47ec66a82086784c5760a5c49042666cd483899a4cdad78552bf6171e741aae1b0a73b0dea6eb934a02ad3af8174a3e23eb3975fc9f8bb6a1f612b69ef7499e854aa48db9157e9d81515cfe9f6bbad4d6763696a69413caf8934c006981382c2fbc471211b13c48f7f1eaf8a90c0d79c995dd7e6ec122c50e1fdb9f869eefedf04daebef4a1ef4f723affa39b1519874ab10d1dcefcba354f13d29a457935b9b20afb8b33d48885f69c10aa65829c665d21923f2ef1a6a1532959902f77f8647852dd5a0eae3f26c284287871f2fa7e80a19df62b0e80764c8882344c32f35a862e555a233d853c66fe4220587366f8b3c5e72946224788e93b55432ba95a76534329afecee696ce899e4a80723a0a74fb442ba15b5e473344f599b3878b29b28f9c544a996870fcbcee5cd2967b5d36132812330ad3858cdceb6f259a37f6ab8f517c223b4536db5268fb0edaf04e35b90ebc2fccfec5334fe5bcc165225bd2d10415e604dbfb25f66a3bd24fb98f3746d44b984b021192edef2f4b55752d88479ed7bcc208b91a0c2113f49023da4d3029d77bf02818658449238391e2e1f34186d133d427773ac51a4f631466e7a4cebfe735136d4e8d5bb304dd1f2a5acf7987e05a2cf5810d2a839ca50397f1b6c8e3d9a8e4a9e8431ac9a1e1eac8ea826458562afabb4a2fac89a9b02caadae8b825a0cbebfe5cd1d5ee99856e0b137f06cf553747efa6a4911b43bcecef3268a4aa33c1f79492f12d6e53752d882341b860cec7fcc443fb84b5bcd15cc08d2d07d4aff51eeaf489848e4b6bc413281b40734f4764d476614cd1a366b7248817d897ad236b96a0fbb32b0e810d2a839ca50397f19eb731557c178d956691aaa134b720d644565816556d74dc12d6e5f5b85ce9ebd87c98dd1626ff4806312667cda684b1e624824851c39e045a6fa68d045866fe3046491cc888850c7a3c3217dcd7fad2a8d05a71430c12d4019a2e8c4c4855c949f31d00b65454dd263352dc563a87ddb5ec47d58e354bd0fdd99287c0069541ced281cb78cfdb15fb79158d94668fa89f363221d6c4555816556d74dc12d4e57573aec84af64c25b7852f133f47256ecc99b62933e40e102ffbbb0c6ac9eb0cf03da5247a8bdb545d0be248102e9873efcf4fd77498c0e2a793cf7e3a8232e56564a50c58c8496b919d9396a3816959c5da85909cb49eb729c31be5a43548fb27c0952c8baa363a6e09eaf23a3669897a0e19b6ae396f119a2b11e284b590bfebbc75670ae9ece70c2602a26b25fcfd1574b63890a26bf4e4653857ae38524dd67c6f2a14b38445d82d40619878a5ab3ba831c751953109e8580cc606fc517bb96ced08f57510cce774a322bbd9e3e4935ad84bb604e4224196c37ba256ae7e3ba7b3d7c752417688682590cbebbe0cb9bfb1cf84b67a0076ffd3af777bfc35a4c9b1af29050dc010f686e4ed99389c4a4f0ca0554d4e2746560b001e9688d0aebe66b254961dcdd38b4f238758c8c6e819d699e3811330bc2b666469e496f5a1d3d160a34abe40576045a7050d2df496626d6ef351afa49fe4a8f552d4a10a594b2459fea27a1197e8a184aafdfd3f7b9cb1adf46ebc03a5423786f0f9fb1da91a113ac972d12131049138b5a06ab3c99ce314ac4d3e3e4600584b41d968a2af6864adabc6e71ca3c372c7e66d91c72d5380421da6908979e96ed55f691c099605b6e0c65282589f193625c55e6d12536874b412bce5753043b446ae6d3e41146f77c726ded72226e6cdaca604616d1d579f562ca761c479938fbb76a4aaba16c481c82f64306ed26c0a2df5897441d33b6bc9cc50aef7e0b1a01bd58ed842e79437ec17530ef2fe76614c71a666572a1a1ef052f9654bcf9a25e8fe13f5e7d762a90f6c5019e42c1db88cf774cdf29a604294345b9ccd89feaed20b6b622a2c8baa363a6e09e8f23a962b12281cf1be8cdbc2cc3f985e6de5353f39ffb6e968309248083a4b79078880e85a097f7f05a02d0e6411800c4a3a04c221171da92c6bbe37158a59c222ec16a0304cbcd2d51dd436c7c9e889b9dd4c9306585237a8959969e8eb2098cfe946057cb3074aefec355bfc559064bbb7260be624257121168d92668bb339d1bfa13625a6c2b2a86aa3e396802eafe3b9b2154694f0fa273fb2131fe44c2ccce1ad293fe469012ffbbb440b078a765357a661b2c56daaae0571240817cc79bc075ef9bbfb9dfa3c15f166a69c4a19b030a61450b32b150d0f7818785974ad5972d452b4589672d4624a1ca0332bae72dc1aa4fd13e04a9645551b1db7047579dd9e2b02021d1a1f52b785893fd1baf54405d6bd166aab1dd710216a542af1c19c68e8fd68620b3afba9828980689804476e079574088443ae32521dd67c6f2a14b38445d8ad3b619878152bee84a86bcc50364087e61f97ad9d78be0e96022edda0a06cf7c8c16ab59483155322072b31a9b10d0df52971159645551b1db7047579dd972b5a4a3bfbf808bb2ddc1f59d5fdc0aa9cd6ead7534d6b78d9df255a81ce3ca3118ceffd81985a8cc6edb8a653ce112fbf2a65c0c2186453b32b150d0f7829fdb26059b3e418c6b5f01514f005f747fed1b1ca78cfd5a4896c396a3d2f760ab243842a815b5ef74d57621a3b1bf9a8ba2d4cfecd96c2a21c94fa72a65d47ee78264e50ad8eb3ef0805862d5ea1756df41c14c199142fab1034e6874c6f294678841cd74b1aee579c69082971717754b45ac862164abc6da9ba6252e8f172b89c8cfbe4ec4aec6664934fe821e8d9ecd1dce1d5b97ead5c4ef9651cbe48a9da6cede76af5c2ee78b691e163a1af3d8012c2f960f29eaa6def6d2d65544f9ee010eb0b2067f9777f772dc9a23a8d0e5862b7bc0e25c9560ed9bfed444514f31eaa529b9033755352889e5f314de9cd1811100d9340295efeeeb2541601ab271e1d0eb9cc488558f3bda950cc121661b7ec846132a23f976d410a81d6c2606c808e36a2146cda91e7eb6029e0d20d0aca768f530f4d25550e50400735695924c7862b67a933014a9645551b1db74473791dcf15d56bce2e3ebe6e0b139f7842d5cc29ab294facb9a02587c0f652a7963fd8e04855752d8803915fc860dc0243c5b2595fb529b48e8f409528b1faf80926e57a0f1e15b3244f2322db1d6dd39f1e6e44e77d8579608a6c7902a51ac7d894833269bb30e6a0a166572a1a1ef060a93afca21021d98f2aa36b96a0fb73f808810d2ad356b5d09ed9ff2f6fcf3c844c336cc14c7517850b6bc2292c8baa363a6e89e5f2ba3957e4703ad27d5cdd1666ffee22f5680ef24d490269187a55c3ba7368bd99365f6099e243375b1d09998edc992a812334b470f08a26e4b09e02d1d387548c810ed074616442aa4a4e9aef00b0a5a2ea369991e2b6d239d5ae653faa76ac5982ee3f451bee2b28e00bee8ffca36395f19ea8f9d55488864733c2d99c28e8c26e614dfc6cc90e11aa046f791d480f09048e6c5fc66de1fe74a2f5eba84f2a5ae4788d520ec1211d2d7e292b9d82c7656b0057b3fa05db5225bf06e7a0e76d84c558062e64ede7d0f67d6df2a95e3418686da085dc28a12a4898d405ed34a05a3802ef613928340d8609ee26c13f4965e1a11501a0655ca89af9a6f70f072d2e8c95845aadfa35ca1acba08a9503ee91a30edc1ff94790e5f09e6adab8fd7b426c340b6cc14c6b8c0bc89ae0d9921d225489dcf2ba3d3db642c8e65eff2e9efa8526035359dc31bee99a44dbb97b4bcdcec3041d6e3ced8f1288e3f2164e5329081cc69eed92fa5a818595856c40f341dfce32047803e7a45086fc522f4b65b960d593194346151609042466d54b40855f8fd87efd4859915947819099f78b7610f544a0416b3b0da86e91c030fc07a2b59069cda8bf4bcc208dce4b77b7400c39af88cfeeff1c3135a9c2643f415cbc724d7e6c46c7d00864db673a7a9b7e9b6a988ec37315f2ee1a98a1be00ac0edca91334832ad6ae804312f3cd92a4b575461ed201c2785be4f142c7dfa99408876f588ceeff9e33df08a6389b13f53144206be2a8263b44b012c4e57530415497395b3044898a3534bcd2b6701338d2
-8c9a1f8026b1a05405a6ae40838b8132924cb0a310b083416eae3c0e255b8a997f7bb62d1d55a4f65aa8cd767c438438e953c81f514445cfb3657f974153060cbd72c4fbfbcb52555d0be2481048993aca8f0382ae710e1a4085f132aa52062c8cc13235bb52d1f08097c42f0b8f354bd0fde798782aaa29f32972960e5cc67bbaf9e3ea223a1a20cd0c5b3053dd45e1c29a700acba2aa8d8e5b62b9bceec1f28e1352ce4838c84f3423dd99423afbd9828980689804476e0795740884432e375241d67c6f2a14b38445d82d3d619878452bee84a86bcc50364087e61f97ad1d7dbe0e96022edda0a06cf7c8c16ab594831553e2d1cd98e2b2688834439ccd89f20d852901159645551b1db7447379dd952b5a463bdbf800bb2dccfb8938a2724d96535753de58730201a6a8614f36ad3793ca0391998f422c890319b190418f07868f65b3be342ab48e8f4a9528d5019a2e8c4c4855c9499a03f2a10de781351da5037dc4e84f6def17fd7df87ce4d76ad5af51d6580655ac1c5787992aa032c859822c87f7748d7d3ea8e14c48926551d546c72d615c5ec7734554c4d9c485971e1c25d65b0fb8ca8285c96d46a5a2e101af1a52483d7bf7b866b1c303d5aef93051a8b2cd7d04c9c75264cbde5d0d51339e45e281f5da5d5cde176edfaed8e7eedf83eef1bdf04d3fc28897fd5da25dcab397542509180d29697b7f1dfd0ae23b3867470c021e47af0fee74d9118593eee9e0bb6609ba7f446e934a40b4f059b1be22420636458ecf15a4350097f1b6c8e3d9a8e4a9e8431ac941e1525c160d916688b33951dec5e1c29a800acba2aa8d8e5ba2b9bceecf151122ce66be8cdbc2f647423a7f1f64eea4b8f5775512f65a58bff46c1fda6e0f6a8c09235ef6778996a467ef319524603417ccb9e78828df25c3a912aa7946bc3053fee934dc69c5221f9b1e9a5e16a76b96294821b29fad75f51514f005f747fed1b1ca78cfd4308a4cad81d1d4b7055b2a9f64e81b829c82ec10a14ad896d7d1f4d8d0295a779c63ef0bdf27bcfc03e9fa952399513d9ebdd5539280d15c30e7411e220560dfb5cd9a2e87a1705c9f0e216b961c863c2dfa2106252017e97065bca76cac967fe7783448fbc362a9203b44b412c8e575244304e439343e946e0b8ff89be61c95fab22550503cdb25f5350c82cca31b90fc8f9610c19fb5217ef494dc6e0925cb051239440d1484346d719740c06a16a20b1de5ca7e61a4347ed152b544f58a4b26c919f209e042a6b503fe2ebdb65b745e0c5cfc0d390e88cfeeff1cd1baaac2643f9daee43d36a3c3a569f947a84409e932a0ac5332a49912c8ae8dc3be1e8e39c87bbc042be87649b3a12112947caa1b0153fed63d8c4493b745de25f04ea5c44307f0e5bd39f3986086b33951dd557a613d35720ab2438428615b5e47617b5f52f40d1d81830707695bb8096af4c3dc8226b1a8b4fc25ba0f2ab52218db4c34c30d5faffa1d0e5a53ccc1c69662c7bf9a074c7957b909b56220d8b2bfcba059a7ce04df535ef6200d2da9aaae0571240804ee8ff9028e948dc403cd7d8db1a512cd387caccd2ba1e3d21af104ca06d0dcd31119e51c46f935a507d491354bd0fda1e6f3a9e6c2f2ed29e33bf2928e58c6db228fa7a192a09ef34cb296ecf6b6ea48e58264582a2ababb4a2fac09244c768880258acbeb1149d2d793f9c8ba2dccfc2df07a43aff3c9a1b24d47c2e8f426b2de707e7ab95650490142b3904157453aeefb5a1ffe0bad153774e4e039ce6f372a421ec1fd9160bd2c31de931d9ee1f42d488ed04b21d604cf96ec10a14ae496d71d6d6fabd6833adf7c0cb1a33811e204bb90bf6beb7b679ad779012220ba56c2df5fc9fe1607b2088c6e83af86736388be18db4cef67c5e4f19285d9403469ca15350baca0c61c4755c624a07531181bf047ede5b2b583d5d741309fd3bd6e642b0f13e9cfdeccfa0a5ab15991643fb9265313dfdc4a646a0d8ca6be2dd852f92463e010e41464870855c2b6bc8ea6c7369f890a5ec7e5c7f5fdf9c49d8f257e7bedf4f7de802d27c8a6846b18596840049dfd14c44430c0021192ecef2e4b6511686e497d1aaa865cc2a422aff9de542866098bb05bcf72ce2869cc7c68c0dfc92748394b914228e9b3852db85b670ce41f4196c37ba62e725e6c340b9ccd4dad133c05b7d2e60874fb842a915b5e47d3234ae735507ea0273ecbd83529e7b8a6c40994ee7c5ed79aa5a997d40a484b28592e340f1f3e4d3eafaba6317745b1e60c21e4f4b85dec09c2786ad02d0a52cd189782a7a101d781b9b490698d95bf4b04072a9d0746b77ce5e3ce4c2224fb594f8cc766740c8d5727214d4e4fd771a566abe45063bb929e9ab75b84a7055eab1bd4099a41152bd6573432308454325aa704e425a594d8bc2df2389a0c9c6d950887704a9c3caa68b0047584846635cae3bb32a21363aa203b44c012d0e5757b92c85adae88d1dad54212251da166e821ade30b7a0490cb0ee03ada6d481394f179bfd6cb190516eceec0e922dc597fcb5bdad638810276d0af923eaa6e879b6ecef3268d080a1574e757f7f59aaaa6b411c0902294f07f9b53d08fbae8dd674e266a69c4a19b03006d0d4ec4a45c3035e26bf2c46d62c41f79f68dae9871894805ca4c395f19e69da607b4d0896a08e90cdd80c57e985350105c80e11ad447379dd93215b71448d11e3513ec6cad19c0871225cc8df795c6aeb5099de703278b94650490142b390e1212a96343e729b04696ee8c8c1b39cda34da484676c26d211c12a7701217244768a5106b4208931d226089dff23a8adfdd9ade5dda5e16b1ec7c9b12c5eadb303b2d5ee6354b20cb917eca7dbce16c8d589005d970035e5ebd845c0d8690099ade704b668672bd43a9f69354c155c8e32addc86a54d029dd8157005040b70b63ea3d35bb52d1f080878e97ad666b9609d0a1b29fb0fbdf504d99d590b374e032de93f5e19acba221d20c713627cabb385c581350615954b5d1714b3497d7ddb92200d2a1f111765bd8eb6737f309d17de922f78378d9df65d0cc542781ef2905a22d6e53752d882341b860ce3dbf8427e4e1a88a43e5805a13b6674b276ed6661b58185337a8d9958a8607bc50bc2c14d72c41f79fa3a5ec705141928ddc9aac25afadad44bed6d86816d88299d66e422dac099e2dd9214295c82daf23e921ebd97178bd2fbc3fa279fdea7d5cf3b4190eda94e35b53aa359d12240f059dfdf4c3444074ad84bfbf02a01607b2084006251d02e18815858bb18d66cfe0c46211766b5918265e151c0223333a0d68a029c5656b67a3af83a5804bb7979f2b7b897a4fdf1d56543967011dd4a465911c1aaea991d2ec7136273634d4a7c4555816556d74dc12d4e5757fae34e8dd3f92cdfec15462720e524d092377ee78d9df255a49ce3c3e5d30e7de0fa358d361028b9f7ed6b49f8ea054791959290316c6d4026a76a5a2e1010f042f0baf354b0e605c0b5f41015f707fe41f1dab8cf754ed99c89533d6f342a7203b44a812b7e575ff58252ae46ce623ebb630edc17e4699ca91aa21591a5a3d9af182ce7ebe602220ba56c2df5f816a8b035904860f578673e5f2231568cdf7a642314b5884dde213868957b6ba831a731c551993808ec5606cc01fb597cbd6ce535f07c17c4e372ab29b3d4e3b8cf9f1120a1bdc1f09166439bce76beafc148a4648b3c3d99ce8de508a12425bb243842af15b5e77e277bf596cf2df7a115b73226bca94a652bf5b0aad37930a0291e9364f20bb04474226a5a8fa254096ca92208c7d42b390418f8b4316b0d427d205cd9c25a903345d189990aa9293e63b006ca9a8ba4d66a4b8ad747e9cb896fda8dab16609baff14edb7afa0802fb83ff28f8e55c67bb60ed8ae47d1d86816d88299d62ee616d604cf96ec10a14ae496d7d1f4d852cd9e3f6e0b931f5802d5c8f1b529591a9a3d9af182ce52d6012220ba56c2df5f816a8b035904acd23c3a1c72f9910ab4e67b53a198252cc26ef909c3c42b5c43606446a7010d34a5b86ced74f375b01470e9f6f273652f51efd9fbbb9a2a2725a0839ab42c9283c2a5b82c1a22cd106773a27c43614a40856551d546c72dd15c5ef7e68af669c8a0b9699f9f10bbae177394ba76640e0306c3a56215229afd41479d33be27953c6b71abaa6b413c364888bfb1948abda9d29b57b60fc2911538f01e9673c1b2256bb75971ffa7bb83904f99ca4c81fb3f432508510daa3e2e0f151d3a46fcc8f537ba2da68b1e41869ca86d0f7bc996805ca420d2e63d73bfec504403a599a3a977fa19b81f4c05d921a295482eaf7b33a4af0188d60139a7942ad1e0f71dbbf6060b44d5f66c4cbd5f1b1b9975642f9a5b0dbedfda38b89e7a1bfbc5cfda34ba5d7cc7d67de31bda25d65206c81e3e1f78aac7ca08a60bcd0e2f9af1254de6beabaae2c6b7a75c1ff6b9d62463f20eb559107c1db1699ec181268aa90031ec1a2797445b2944b367fb0414ac694805c180b8ba49e587cf2f7f069d1707d7c343d0477c76ffa7e481ba048d45f09993fa0a5cb77346fb526de3fcccf555b7b41b96a30647d807c3b10079770dfc505f00562754d4099a41152bd6573452afa6156b4bd7bcf069cdc2f6c5795be45d02ef544a8423d71f9ef2fd0921d20cb105dbb9950092935e924555191da7446f79dd83de924a53bde9b4c75c136f9910d609374b4035a8cbc50e16ac241d3e13b614d31f38b2b5cb8ee05e0b8a6adbd7316fe614247860ebeaa6516079305d3b2b8b7c115280047fd686f8d173b25addba94a7aa21da4d68dae22e81402b61122afcfac4f6eb418ab92b8a35670821a7c7ed9402e49fd33513557b9458d140322f2594d46234ad3301228865d542a669e0ef1241844a27c4c0a6cfdbb4261192fdac67c763337a281ac9a66d3563b5f1a0e216b3f13a21d723368d0dec505f00d6de13c336a862c5fa8a46fa60c47cada301f28c52356cde1679044de63b9512e1b00d890d249b102c411d2189b119182290f5e4382ac80e11a4047179dd03e2ad38a2863757448e52a45863a2c506871ef74b9ac46232e7be2ee29b735357fb16f30e86b8b9f130506c29e6feba6b6d46de786e0268d3718a43a5e8dc50cb3c2b60122887bbbfbb2c9545c0c0aaad40201c8a4d35f7c5d866fa4c27268f972ccc06a24953ae885920db821482a79e936b1d07f9d6a4824d6b097d1d2c055cba4141d9ee8152f0f5c7a1f2ed29532bf29220cbe13ddf74e2275234429a1dcee644f786829440c264870858a2b8bc0e2689ea32670b1f55b785a98f13834ae444d59422b1ae63440e133ebf97439585719e64f25ac8a0fb02ddffb2595fa128b48ecf2a95a83377cbd70e2fd912908bf46ac678cf75c87a7a4663a359e06c4eb496909ef861661c235a09def23adc21efd51a4ffcc63bb12f9be3a6ecb0da34cc4ecb95d30ae3a469fc935af0aa0cadb7462cc882ecaf012faf2342ae0643c8044defaf253343b9de83c7826e542f620b9d53deb05f4c39c8fbdb8531c5999a5da96878c04be5972d3d6b96a0fb4fd19cfb0a0af882fb23ffe85865bc676a8ee7c546b3c0d9dcd43ac153702ba552a0db275489dcf23a9a1e254d5fd7e9cbb82d4cfe154eac470eb94db912a8d6f9c7dc6b96676a4445bb094dfe31b725fb6212a1b0738d4320ea89406342deff39f2e8b759c794b7854cd3dcdf2592702a9d97f5ae4ff26fa54d2224fb594bf363333a86464f1ba1a0180a09e305cecd16773a6aa8619546a1cd56cac1f1d80265e5eb60f843de5d737da82f00ab5341fbb052b3627d452321cc664c23c8350ae46cde167997c03b9512636a5c2c389bb727044933c5d99ca8cf4b61c57a76001564878852a2b7bc8e6586a2647b2f21aad3302b48dbc24d301a06753640936828ecd96b20f69ff30fc6754bdcecd81b0d5b8ab7dfacd9bc3a7fc266f203500179de296f82bb91a9841d7382ed21509c7e05e8d89cfb3e5e9803a1ca2d5e853c904696aaea5a108f3ce44855ba4ab91a0c2113347d6895cc0ce57a0f1e15b3244f2322db1d5e620606179a51f63d03f18ec270b7b3cd718c4d3928939cce21bfda66067c4e195db304dd1faa8b4f34bc13aa2935aead6aa13dfd2a65cbe3d9a8e4a9e8431ac9e1e1eac8ec826458662a36b84a2fac89abb02caadae8b825a8cbebae5c9115eee91f6f0b739f26c75673aa6f4a1448632298d6b0f649e76a3bd24fb48f379a7a6beec0a76f4795cc23340b198c5ba4ebbfaff5d59b426bc50de1d4c78c6e8249b9de8347c52a234e1a190c158f9f8f320c1fad55433ef78cc3961966457d859526958cd6839622b0be6e3f547036ba7dbfad5dde7f58cb7e54c15fb304dd1faae0cf3927f5430c4a402ed2e1ca784f39a02cff9e1027cd1a677362810bc18535b104c80e11ad047279dd9d217d8dbf8fa9dbc2dcbfb3835ae45d86a62489f51d23b298f0f91d3daa2d8cf3993a46256d08cd42268f5342a2f9286f12a4b9616ade02bee73ce3afc55276ce4c89871eb89e9ed1d86816389b13ad25cc27923a6551d546c72d615c5e77e78a1c5e67371f67b785a90f2aafb7cc66fada91396a57d6874168ab9f4f576e6bb6ce9af29c995b110909dc8cd83e3c358100094323883abc31a8aa585a82f7b09c0b962d59bbc5c8fd9fee0e02ba12d84c81fb3f430519510daac52ecff6fdd059ea07acbfdb6fb13856d56ab5ead7286b2c832a565e260e33bb406590b31448dabc671b1f0425a201d2cc7036270a4aa52ee1d4298baa363a6e89e5f2ba335704383a342ebeb837d5cd2be6ad1f443646173acabd23da4ffc2e288bdb8fd0a0c1f681bbca763f0508de17bedf07cbdb60aeea50c8b06a21268c51e3097b4bd1910e49b019287d5b676103683d1252c9b6ac16003c2c11a15d7dcd64a92c3b208392aa9c460eb1908dd1b6ab33c72565c3fb604696386ee90d5706e9acef33aae40bb4ae16fa5af2bf815e0e0fd273c84061961c81acc5db2cc7!
-50bac7257a994cd5fefe9f3d4ebe567a37de0138ebc6103e7fbf23550c4227592e3a24862012a7680db375f52da1c1006b934bfc08006b29281b4df4158d94aa755f76434da2b964f3b6c8e3f05080233a90867148acfa2b8f23c1b2c016dc585a10ebcbc1481335a48162aa8d8e5bc2b8bceece1539bcce6e3ece6e0b5ff6bb270539f3be5453eec867005ef677891615d479378d1f5a0ab5b84dd5b5208e04e18239bde7c83568272949ea0ba8045ddbace994f3c04baa4a19b03000ce0b1951dad5db0eff5981b366c9a18a6be12b28c00eee8ffca34398f19eb507b3cb5534469a25b660a67d43fd49106dc90e11aa447079dd3d455db10f3055ff10f5f1c4facea7d44f1cc588d772fa6acab99cbe72fab269ac9d2d7e3a4aeda72328765e4656ca808531b5809a5da96878c003c1cbc26bcd92339aa2c5b294031b53e208ed9e5da1a201d2ccb00533d55d142eac09a7b02caadae8b82596cbeb60aec84175f6f0d1755bf832f9532f626ace5b4d8962b956d2ce4b07a11a10c99bb74795225f1497f5ec5daa9299368d8ffe3b55ac62135c63762db9b8ce3017e62639b4c1a9a663808d199fcdda8796e28867b26e6ce9f674b5ae21ae3b95be5d7bdc97041730032b6ebca556da0055fccf9d886bfa3d56d249c73959ae0446ba0a969b685944ce635a9fd1013beb3dac09f5209a4b366f8b3c0e0f0538a2036918c7c6aabf0439122c536cc18d3506b1269ea835c7085a82b9bc0e278a040a670726235c23c044c24c007b34a8e3598fd296581536b620b1670bfe6eb4c1ac5f7ca76dda31a5234ea58a344e75416844b01109497bfdab5e3e9a9b81a8d2001b604e080aef13c7856c4c103ffe79bc2a42025f7366765d9bb34bb04085f7ccc74ad7deca4f6e7aaa87ad411c0c7eae602256791a53d92d15d7368034215049874038149b6aee8bb1cde4a60f33b2081fbb99926d410ab59d640dd069e8613f1694265ad1c152c0a51b1494ed1e28054375eae96f8568a21cc829354391e5f0b6c8e3c03121552a118ee4d070b9108b4649b3c5d99ce8df509b1253615954b5d1714b4097d7cdb922e1c191eccbb82decf3400816ae1cb39ab2c41a0c303b2d60e6354b1fcb91c1a4adb7462cc802a8725343a895839658a9ba16c481c82f64306e81a962d9acafee145ac767a04a945886fc049372bd43a901e30d25430192ea57cfc63db5a9a053ccf1ca010aef76614cf5a766572a1a1ef0b0f2b2b56dcd32014854f673ce03fd108312c2e5c2e43d51235ebf3d254e9a35cee6c40217820b6b6209901d225a09e4f2ba2f436e2b7d6dae0fabdbc297dbc5becf5cacc972ce6eca1d48c340ad1ad69d51ebcda41241648a0f986f7524643a728faa048ed02c64d0e39151e0bed6974685d68a1b6290a00ed074616442aa4a4ed21c903fc07b1e58d3cfa803bdc4e83b0af78bfe0e7c3ef26bb5ead7286b2c832a568eabde6eb12d595a6713e42c4196c37ba6e61ea71b606b0d8d6680b37954e9853581149645551b1db7447179dd912b12329c3d469484f77525d45b07b8ca8285c94d46a5a2e101af1852443d7befb866b1c303d5aef93051a8b0edf123c42860032bfa58bb3bb7f653b1bbc8bc2fdc6e02ee720f10aa9477ffa4e2c37534184940049dfdecc144403482eda1ebac920e81702836d5dc17639be993b4983c5eb2301b88264db9e26641de47138072268c2e64308d67164c5dd090c3815aeaeb05b3ede35f7817e8b6e9471c717cde9ce40655acbc5875f7eb7d5d1794805ca494039bb7451e0081fb4ea544387ee382e4691b8d906687b339d11d0304b2268a00d921a295102eaf6319226bea75e6cd0d0ff5ada952037469d3c7656bd1f7751043cb8132765ad96e37ba9ad41bf6552ca2a73274cd368cd3ca9b69df4e6ac7db96e2e347bcde5fddbfe5b5d377fc1e742fef856fee21b2f6bce4d1ec29c7159de982429c74e6f8654155afc754c00bdc09ed57c2e92b254b6599c8ce52682e1228940718ed5a7d6c61bc298550186813d6cddfe290f600be400b6e41ae255b5be82dc5626ef32c71373ed59d9c82acf72483da84d3d1e46d91c7eb9052a15a9d38a25b18dc05451123e430d6182304b2be008c46c1479645751a1db0c46e791d4a92ad1cb27fdb818e287679a64a0e827de921777378d9df6550835a2781ef2905922d6e53752d882341b860ce3d7fdc59c843a998f5c80185266ccf964edcaccd36b030a66e50b32b150d0f78a1785928ae5982eecfde111135b6f8c84b3a6219eff9dab719b1d12cb00533ad5de42dac09214c768880257ecbeb4892c87a761c64ef0b137fed995897b357536ec8c51d2ffbbb448bc6b3377c4a12309a0be6dc73f6dad2493949fc30280506290e4a97a763a50c58c8216b919d4396a3816959c58af51511c23b951cafa8128f1dafcab773d47a71201564870855a2b8bcee40b1843f87c607d46de1fb9728678d5b2c5c396e356509f32ac3a06215229afbb4369421be2715e4b6b855d5b5201e1b24c4df5836e5c759a00848b60f4f4d2040c2d008a20779c367e4da6d735a360ad34d36f21c7d5b4595d310d0414d4c29edbbc385530f88c861e8454025cba2aa8d8e5b22babceecf1595ccd9cdc7d96d61c70740adadcba9e9da914156471f1e9cba136abd99366d6199f910f89278e4b0c28b8b90c37a0a448fa6074d6b029d9caa92933407e4c3abce03eb7c087cc514437ead56fd1a658d6550c5ca717598f9022a839c25c872784fd7e26f2561c6d6e06826d88299da18259035a1149645551b1db7c47179dd912bb2ba1de3941e1a25d276f501ca8285c95d46a5a2e101af1652403d7bf3b866b1c303d5aef93051a8aeedf314f8c896bdbb1aa2663e027e7689795fd8e98720d15b79df4faa3a5c47621a849a64a90606c9743fffd87e40789d3dbe060a865a22a1ea5a100f3e25577c83a3db989332bda518e139cef2c6606687622ba493ba34b25c090ce98f516a954c545c9a0a4ebc30a874a37277bb51ff61bb79b6e3b5fff18e93ceed3ae9f2b0969285ebd8547afc5df264e50ad8a5a7a9dcc54a8cad242d6ea08c746db4a6133733e554ca80853180a666572a1a1ef032f96531b26619395878b29fedc6afafa0802fb83ff28f8e55c6db228f27a0929aa6db3cb296bc36b7b2eb5134369a05b660a6b58bb98535c1b3253b44a812b9e575577aec3355ed710b93989a535153a2341512d5b0ee2c5a6f26d5032233bfba581207326221831e8f74f9f7b5be342ab456dc1083047580a60b2313525572d27c07802d1555b7c98c14b795ced1752dfb51b563cd1274ff29baef6569c284845ca4c395f19eaf07aee926044b5047c8666c86abf4c29a800264878856a2b9bc0e64c8560ad9bd6708b92d4c7b42646d418eae4d1921377a78d9df6550e70d437fe48e4f49024673c19c47f9400f9c813910156ecb81485303041811209a530d44d762294723a6c46146233fafa291d2ec11f53bfb5c742d967242da6e94a02e48f61a96bebff2633f4a7325429c1073cb83b962f5fd048ca2863d49b4de4c2a0944667eec571207326221831e8f0c04f7b5be342ab456dc1083047580a60b2313525572d27c07802d1555b7c98c14b795ce29772dfb51b563cd12747f76e321b0416590b374e032ded335c48acba221d20c713627cabb385c581350615954b5d1714b3497d75db9b2e7703b73b46501cbd1b6294fac4908b3d312e634b63871fc3fd56d4ed77a6bc4822c78fa3654c93c42b390c1b8bdfe084b19dd0493723daa14cf2713a59ea9542e7e9423d9840bd1397a0a5541a7f40d5e6d40b1de2e8c390aa8d9958a4e109bdb2cc0d41c15c80369e614ba354bd0fd391e84c0069541ced281cb784fd7a1fbe9140d906686b33951dd45e1c29a700acba2aa8d8e5b62b9bc0ee78a004487c647d66de1ed83e4f9bf82f1a0d1fa85676dc28897fd5d06cd507512f89e5290d9e23655d7823812840be6dcf32bb8421ee24a207e720f141da3f8964e394bbc34ad94010b630a0435bb52d1f08017bb97c5dc9a25e8fe6c19436083ca2067e9c065bc27ecda248da351d26c713627fabb505c581353615954b5d1714b4097d7c15c1160e8d0f8b8ba2dd4cf46bdbd7a9f90fa2663a75f38cc09af2f0119be18bc15ab10d1ecef41d6a9e27b52290a2d6e55752d88c70609f1375664f9972d500424db87a72610206168045187370655154b4bf01e9673c1b2256bb718b9ffd3dd414057029b2970ff67a82023aa41b5d8e5f1b7e34ef4e3d43f2bb418da61c829261f5f410130707fe41f057c36efe9e60d4436235c8242516812a840d6c4d396ec10a14a3097d77130cbdadaf89d703c9bfa6f7d20b231bad0d12dfebcdd40e4cefd41bda61dfbb692773b7c6ebf2fccfe6b005ba1bc8bd554099bea100988a0b39f3b980888968b94aff8964696ca2260a17b7438628846a5665160f2d826268f972ccc06a24953aeb85990b79e04a09c09a30b194ce39905531734e470a096fa7ac16cfbf817de05ba6dfa11471c9f77c2b841152b2f5603fb63cced9c1acab127d5029bb7451e4080fb4ea5443878a322b47e7f469c346b9ccd89051823903581b4253b44a812c5e5750f8a4bb2be0684214b54b1a9696e8131050797ad2583af83e87e8e9bb1c3cb76bba19565d82d2cdd0ea6ca68430a51fd67e61c986d29bee44f70e39a109ad02844a7ce2878d9df257a4ca302d754935866d91a5a52555d0be2481008388ff2c47e84fbae8dd674e266a69c4a19b03006d0d4ec4a45c3035e26bf2c46d62c41f7e7f454703b6ece01664dd692d7c656820ad1f06846389b13055dd82dac899f2dd9214295e02daffbe7a1ddc6a1ebbc6f2ab088e560d49428ccab0c868a558828ffca66c3a0b8b33d4888bfb172e65fd934113dc81b3e23d76e9bd3b251986eb291a768dd6aaa9c83800e6a624a69df172e1b44d1006966d88299ea18299035e1149645551b1db7c472791dcc1509158e7c5fc66d61a767cbd1b0e56cd4942d56df8ed9692173fa2f9c40f93c7747aaaa6b413c72f4e07545c8d51195a7d0fa01d3869b6052ae772835f224460191ea154f034d9939f5123bda9483c2b95d1853eda9d9958a86073c6cbc6c2d5bb3cc04ceb3cf01be8202bee0fee15a61f29eabfb16d95a43a319600b664abb905b58133b5bb243842a815b5e47d3a349df9e39e6b6f0659fdff606adc143166a0760bd4bbad018323453cc54a1fc6833480fa4f004da4a6d55b9207cb91652319fd1c0f88cf4e7f429e37d859c0ea2114d55ed1572861a87089c4d87250fa1a9c998de20fb5c5534b7e5dfb20ba9f87428507295d02c64b8a2c64e7017906d8206f688e69b25495bf1c626e75f9173832a565e263a268292aa777a84ca20672990b4795be4f1eaa3d425d1873492a3c3d585d18264586a2a0a4a452f81d5298baa363a6e89eaf2ba3f5754326737e0c8897f1d5c53e97b47bd265be8969c29968d72e8bc7c80fb143fe171f8dfed20bec9bb7f4d05c91a9708ec440d7bf271bd9974ee1099e22f04b63a12322925c487bb2c95258115d093cfbf3148500768ba303221552527cd7700d8523b906d39953260614cd5a566572a1a1ef072518dc3d3d58e354bd0fd39f285c0069541ced281cb78cf387589ccad01d2ccb00533d55d142eac09a7b02caadae8b82596cbeb21b9327b36b92decf57721c5a66e3f94b36eb38e0cd3aa61ddf9b4de4c1b01b0cc9c754be240462c64d0e339eb3aba303221552527690ec8af709c07d6f429b48156c28f152f2dbe99fdfdf87cf8d76ad5af51d6580655ac1c5cf18eb129559c133e3bfb35594b0df0b7ea816541322c1b15f5314c206b6209931d226009e4f2ba2349567493672a3d404abcb75e7095050b433a52ee964a45c3035e29a4b07af60e72cd628707aa5df361a2b61239f7574223d63ec2d8ce3ddd82707fa3a3a8bc2fe42f061088b4579ab5fc11e74ed358464a91a0b3946d1078cf5f439574088443b1a9e6be18db4c1f93c5e4f19285d9403469ca15310b645b9042607a31181ba043f38fcbd65a205f074b01976e5050b67ba0140cd5a9279c2e3754bdad3f5406394b90e5f0b6c8e3c03121552a719039cfd3381a25cd166773a27f436d4a4c856551d546c72d015d5ef74c56fb8d56d7895faa2056e690d594233964ad6872c812ec199c582cc2c71eb2cca0c61c4755c62439a9e5a4b666c5fa8a46e6a4f6e48d5df176ce6a6742952c8baa363a6e09e9f27a4caeec37b44dfc1e3c313787b6a66491a704bcecef12ad22671ed52e98d3ee169bb453940438af8f48f31abc94983068ebc22a45846818654d563a6c18dbbc121a4414db43ccd2613955d0291a7af622079939ebc0886b4fcd6e49362f495410d719e9a79f92c52db10e141c0363a54ce4fe7334f51d2e2a48b2955e93056b1826f193281a23cd126773a2bd9b580b6b82684b7688502582cbebf6f4d032d791ed03e9b6b0d3af1c78dd4dcebfcd3ab234510deb4ea0f566daac8065e65f7e97c4818c58c8a0c7234dfe7dad2f8d0aad1537c420411da0e9c2c88454959c34df01604b45d56d3223c56da573725dcb7e54ed58b304dd7f8ea6bba2ca3116e820fa9046726cb83c8da351d26c713627fabb505c581353615954b5d1714b4097d7e15c9195ed994c6e0bc5f3c0efafce0783e71f4fd6af638ec80623494241673ff73011100d93e0c83da6920e8170c42ac2c5d866f29c85195984dd421686895702e34e88bac60c65037468fe71d9da51eaeb6029e0d20d0aca768fd34e6bbe82424d82fb23ff08b21cde13f67335598e6a2f0ea882ec10a14a3497d7dd68569de76ce623ebb630f769d4c4e21cb09af245eee8f1b2bf4bb4909c79acba60ce9dbf835bd04939a9b6f7a080cc53146fe6d6495bbbfc786c2dfb51185bb3e4c06568d1e1a282245bb435594b5e7b5b4d8b906687b339d1dd557a614d086dc90e11aac46f79dd3d62e9f175b6f3b1755b78ff2c6cb7
-1ffd018c397235e50f830799bafa2ba7ea1c107f186d81c8150c69e674898af99c46c80e1faa4ce5e2cd486ec5520e27cdc834d90fbd32bf19008be61530b0661958a2b0402bd628f3fcbfec1d98fa4e2a2eacd9b15e899391601dc28cf7844de3b4086976389b13dd5da517d684d096ec10a14afc96d7e1f4f85851f4ed3895df17263f88f47aa5d6e680d7942bd61442c0286ad89344ebcda4924064e6dff595c4e3fb692452c8613d05a287d0b02e9c3a40d3859109a92a3969be03c0968aaadb64468adb4ae707976bd98faa1d6b96a0fbcfd180df97260c49c8453a5c19ef89db60579b68a4347b9ccd890d2e0817d64413203b44b412cae5755f865cabd426aaf48c23b78579bf5b4854467ae578db94387a2fdf034168ab9f56576eebd3778d8a3bdb8384f81b2ba9d88d9271779781c50a1c780fcbb960d992b5dbacb8ffd3dd41c8a74c65a6c0fd9fa11284a806551f97c7df8e3bd18f537f2fdb62688721a7e8cc7d0505c0c0fd917f14f0d9bc27ee8c8552118d956691a721b642aa6f09264c7688502592cbebe6f4d012d7111d05bf9c4b4a6968f0f78e8d798305a26a7bf69ede97d6469d1bd2ae34cb1aa2b0516e6839f576f5a16695bee06e910db9ba74d3eedde896e035a718b9820d23b6b014d9185d687a78ada427821202cb1b1d10785f98f883603522f286b289675f47b51028ea060b16902a17acadec63753a40414043d0b9f733087815a9c476edb3a653462f2fab7cedf29b386bd98f82c89a25e8fef6d3bc662368235af8ac585f1121234efdd6690a7949472ce36d91c7d3504950cf7926594b763b5bf989148d906687b339d1ddc5dfc29a40c264870858a2b8bcee9a8f14183a343eae6e0bcb33b58ff91c6deaad9cb49a722d27ad9cb46c1a6b678b9f4e4dfbe9088a9d979195326021a7b445764e698e06a665156b174206f48502d8a032c8593a7019efe9da3c3f9da201d2cc703627aabb285c58134e615954b5d1714b2c97d7fd239baa74ffd836ff89002c72397735258c3533b4f4da607b384cb4cc127eb27dbcd1d45a73073e7d37aa641ea159c860dc224dff7dadafe6145a2b6e08a73e6674134ccaf5a8523c9f4c947aa652b9f8978daa35b26b9bb63d35aaa0537a07af2ca0306f17c69c02d4ec4a45277ecdad1660aa23e6a39147b9a09953e3d62c41f79f6244f01514f005f72725c1ddcfe63d55632e72b54646d3df16cc747611b7b02674b664870855e2b6bc0ea587040347ba2fe3b630ef19045b6f5418dd6ba136daf10c11e284b3903f222f1aba3a9adc82ce52b60122201a26c1911b3d251d02e1902b8d548b35df9b0ac52c611176cb4e18265ec18a3b21ea1a33940dd0a1f9c7656ba79eaf83a5804b372828db3d4e3b32f9f1126a12dc1f09166439bc276cbd72681aa4fd31c153901d225489dcf23a9c1eed5a0f19a0f6788cdb8366a7f30d5378d9df255a48ce3c425d30e79e5ffe14f2105702f149f040d1318a6fe99453c54bd34a19b030a64050b32b150d0f78b17b59ccad5982ee3f47bf5851e5e40574107d482339365cbd2d878fdd869454947771b8b026a0c2b2a86aa3e396682eafbb7365c7c7694ffc2c0bb0e708d6942466ef63f74591545edee3b23554aa09f8829da6925f8373d0f336c2622c0317b29ea3146d1dcfdaa19658c810d02f59a10bd22c0d179393cc34be82021ee1fec83f3ab619ef791b1f81261a2acda098820db52bb1b4253b44a812c8e575203d241038b27d19b785e5f923c52b1f46a22cac5f7a8e1f7118228c78d9df65504b566780ef2905e32d6e53752d882341b860ce7c1849a38ea0f2791959290316c6d4026a76a5a2e1010f042f0baf354b8e695c0b5f41015f707fe41f1dab8cf74cddddbcd86816389b9b5a27780aee9ccb4e85dc4a0ad9bd7f28cbbf8b22a1cdd189d68a67efed9424603417cc799c27e60329390d1968a854343ce0e5f5cb2266cd92d310d7c25750c017dc1ff947c72ae33d554fd5a44b344e9a35cee64441177f0b6b02694b768850258acbeb2e14af88769b95667fdc9413d3b523551ada3e9aef82ce7ebe602220ba56c2df5f016a8b03590486cf4e8673e5e2239567cdf7a642314b5884dde213868957b686c0c88c4e031a684a71d9dad9e6eb6029e0d2ede5e7ca5ea2deb377773555ce4c40073569592407866b6a9c346b9ccd89050dd52951159645551b1db78474793d6a8012351f33435df7799004342b27aaa6dcd15b14d52a150194ce7fccbd5f8280f57532f9be5610dfe27816b90993d88ac0cc134ce5e31d79bd7e49a9dac037a24bc7cb31bc2c64d07d818d96cdfaea75a175dc2d9528754b2de66a2a44ec646e44cb22d6c2ef522549f19a1ab0930ca1be8242d4e1fed10cb279cfdaa4bab812041c627641ac09a22dd9214295082eaffb10dc4ee7f5957ea0e73eae90d892c36553c6880160cbfe2e83dadf3a037c4f29286d719baa6b411c09c20573e6df8635ea080a959791953260614c2da066572a1a1ef040f0b2f05ab3e484a568b12ce5b8c5943846b3d691d505c911ba78c49a980acba2aa8d8e5b02babceec91559df412357fe35d9d639448813d7427e0e5b07ee069524603417cc7998bf2603d0efda684d97135338b24f8791354b4e4c9e16fd108312908b74b832de73b655abab9c9506697f5834156487885642b9bc6ecf10510147b80fa6dbc2edd1879d4f3accd10a38e6a946ab3b5348673fd93011100d93e0c80da4920e8170c8b54aaae69aef4d856296b008bb952b0c13afe6c59d10758d19ca06e8d0fce3b2b573d3d7c152c0a51b1494ed1e671ec5967fe734c69478ec34164ee282e4081d3d624d0861b243042cf15b5e47f1bbcf0036f5d11daec2394f35a5895ce7f1b2bf4bb47e9c798aba60cedd3eaa5ac89a2b06511d2adb9efd036d042a29e78e97d1d0219b8531b5849a5da968786094c39f0e9e6b96a0fbcfd2576ea87242033a883ea4913ce018e003b8212f150b5c302eac89aab02caadae8b825a4cbeb78ae68e9ecece1a3ebb630f58fb958bc72686b4a13bd5def011cb4d54fa32bb7f5e9bb46c59ded4142fc8d7553ec46c9a4a9d83e3c358100094323881ee40d9f916bb7cd69d9284c37d9c8ece25afc55906423b526dba67d385cbd87bf005c3d1515a53146206b02292c8baa363a6e89e2f23a922b5a223bd27d5cdd16beecf52116352ca7a2a66cb13af6f060d49d4cebcdb4690acb747b2a9069822321d3d946305eda841cd653207a0c3d681a13e8e454959ca439605001b39218bc87e5b0ea221a26e41bdae13cb0a6dff70c779a4262f30ae35bdbdf89cfaf02b55af56b94359641152bc7587cae68ca18e7a0cf9e7e4dd6520af8568abba2e1d18c7036278a638040d64411263b44c012c2e5754792e8fa76cc537a6c94506f1de02a0b168674a3dc2d958a8607bc2a4811f5ecdde39ac50e0f54bbe6c3446dd5d1dbdb2f65e6be016b1f61ec883d65d4f75697f785dd7e380533e57d3fa9e8701d09235ef67789f629cf5e5595246034a4b83de6694b5236120f34b786c6964a34e3f0b136af848e4b6bc493dd5976670db8286522f74bb9ea141b529288163e2bd65744c8c046cdf1b9542374e032de16793c1b953c157d4823393e5ca00e4029ad91d2ecf1f4c336b8705c581357615954b5d1714b5097d7ddb9d280fc9e43ef7d61eaf37c91596e63943367b38e26a66955735a5e9c41fe0f7336e76dbd356241163c7d83aa641ea159c860dc2273c07dadaff4145a2b6e08a73e6674134ccaf50ea5461ecb282052bde269a02933a75e6247bbe7a1ad5d0edb6bd98faa656b9699c0c9a100f93cfbf235594b922b5b4d8d94668fb339b1c185e3c29ab80acba2aa8d8e5b82babc6ece152d8b1dd13ea86e0bb70742df5ebd8f85beee30a43f68147fedd9dc53c44f26a6e5f21e97ad415b4de817ec5a95fc1a9c839eb7518d8a65e04236f424a9b5212acf3481434280bd043a5dd04e03aa0514f01e968342d56098e0ee6032bc48e9e0a1b5cdf14de1198f03532a39e8d4f5bdd73f47b4442156556ab5ead7286b2c832a568ed9e054e42bc85d5490e42cb2266b292af656e1042e488625a0a2374606644df86cc90e11aac46e791d4d8f8f95be4e12786fee57f811f7e4aff013f679dfded76c3c62eca10e5ff6f8920631376f0335150abdd754adf2f3d0a1f3bfb5e19f37c0fa3a997c5f9b09b8d0c85259e4aca2d077a057c2611160ee6a8c44fd9252b581cf2b3ef1292c8697850cba2fb0d1b2595fad2eb48ebba512a56ea9c55c4d85889dcc8d6859c45af85daa24295e530396771336dc4e99cb89644d2666a7b795a76734369a05cee66d0505b12678b66487085522b7bc8ea64745d4d9adf8c8ba2decf0ab69803c67caa684692f28b47c393d244e9bfcdabf2355d5b520cee928d86c4b668672bd078f8a5992a71191ed0e2f31034d17cd28ef510a035364cb1328d538c6ee016c6b977f71b096fda832ba6609baff1483474d35a5c6b5552db4670e02abb7679e42a61db660a6bb0bc38535f1149645551b1db70473791dc9152d911de93eae6e0bfb3d3a8e852d47faa66c813466cad042d63ee65c6d47fa49f7f1465363cd1df8f4bda8927984662183718bb4fcf7b5beda5368adb8219cfa98d14d3029d73b946a3f4eab1725430192ea57cfc63db5a9a053ccf1ca010aef76614cf5a766572a1a1ef0b0f2b2b56dcd3201485476ce05509970e13079cfd59a6fde9e1227cd1a677362810bc6853551159645551b1db78474791dc995ad18b27dcfd0735b98f8fb8cc4b69cac9b3243eefff0b2bfcba0cebbce00df530a1a5bdca6ea5a10478270c19c7b3f977d4dd75e0ab41a93139701a24a45c3031e1c5e16686b969cb8b816be8202bee0fec83f3a5619efb93a324296c3d68b03aa203b44a812cde575079ae5c03afbf8a0ba2dbc7dae999f6a22d5b6af63ce5ecb3f303bad614e678b13283fd574a4aaba16c481c8d33ac1eb8b90abc11032419a1bc2a98f19dd049372bd43a9603d50022609776bf0b0c253d0295d818775143bc74f39409b289c53b8d62c735082653f5bbf5f534d99ce90b374e032ded3f5df8acba221d20c713627cabb385c581350615954b5d1714b3497d7f15c9180e16ce1cbb82d7cfefaf9fe40f2014f235f5efdc23ec6fb9fef5f63be2c7adf45dddf795fff525157443509173880f68d8e08f9f4f9eb97719672eaaf5f4ee2ce26a606f57a25736bbeaeffd47e5e06b4d0c63379a02999670325bf92318d52afabdc3c1ace1e122fa314ad7f9be4fbabf710cf5a6055cbf9c9d8664f13b2b3da1fa04022e1833b8a0ccc40c92f63ccf39dc11ffb1fac03181ff37af6db9eeafdb379169783e1f1d58c01cc9679831b2a74fbe47ab8d2114c84c18ddb638de9cb3dd63c1da2bccdefdd8f61e769cbb8654f7d66df5e037f30f4f8c01f5b753349074a7e4e63faeadef5e9efd4b71e122f6feb737504a72d42c5087b98e1d5a0de2153f7f9dcb88536bb4afa461ed82325374a0dbd719d302a9f35a15fe9ee49348f32871e59479070cb1273c7afa3be30d79e13c7bc77d79e2a7ab6e567990f07cf098c79825ba239870eef249ed409e13cf789b846f52de9dd0f3f6616a3defb0ccba3eaa0d5fda58c193afce6802b47238f9ec7230209f7c6b843357607bc6bdb9621fa56c076f299f6513a89c4e440c9b63187bc23d8599b4ef4e930391c8f5264c75bdd9df5d96af1378e5eac9ec89851c30104f8233f37bff50e0ff99bf223d6f5d1999cb7160f08e69732264f46f3bdbd43e6321daaa36ba13dca67ed0fed42c9a89d83f642b72342d9b874b42f227ebcf7621f64e49ddb437604838df978ef7877581f1093b2fe9fea8f861e90c3476939b2babcae315eab9e0978bc980def3d0ceaf1fa6b53fda1e6443b0e31153f8ed283cc4e9cfa68e93223188728464d75e5c9beb11d3f4b72ca3af031f404c67cbc77a803e5b499b41a20077ee876c48fd23afd34385b0719f5906ccc0f116736db799be1e145f160c61cb2b5a4e616b724739852d80ff92dc93d60e032e55193b570aee43d1f573ba6074d3c3c3285aed12f0a82af6a1ce5a9fb9cfa702786d83f7f7f254e0e566a5fcd18c0bcdbaffc1cf249c5a1983fcdf1db952939d31f0dc2ab49f5457ec26e8ffc3ee29dddc496143abe677e1443df787893f152c6b4df1eead5e3a0dfc08e15dffce4e5a0791d35e6bd0379a9bbe403f07a2c830231ef4e9b43fd3143569dd7aa3a8f383833ee5b7ca3bfdc7bad1bc2901625dab1d4deb7dee7d7fac7f6c8ce819a8e7ef183cc653ae28df33963c5e675a0bf0e7c80b39efc98e9b861708ca83d61c9f389b8464e01ca90a8c97b4d67bdfa91fd5863dafb0bf7a0b91eaebfa81ecafa901f577b923398dc0b3998ea0fadc98728c99d1d549ec33b57e38ff7f25ca76fe4b95e49fe7e700df998ecfbeba79be86fe7d0a7dbbffef087b7ffffe1edbf6ffabebf53bc717be783fb43d1f7eb2feb8b3f30b9ef6fdfae877defe843917724ddae2ed7eb96f376f943f1fe9de407cab62c209acbbb27e8ee979a112902f6b3545aabb5a924ca5e97c6dd2fdbcb7bf87db7af8436faded272ad2af6efbad13374bc581aac89b61e807cdbad1def78996059f971a17a8fb9dbd7c15200d1dd4b839191481a800adea2395c96ae5a02ab4e90f1d614fa2fd899082072aa8eb24d93a507eefbebcb7ab1214092fc114442e5c101d3d2def3961053a6a45131b67c5f88158ca3a38e01a77ffbef98a7116d5e433aa8379af726a9e8953e7a9e4fe06ad3107d7b2d4dd45a2010fbd182e1d5a293e24242ba7d488564b8d3b376adf6f95269de2cd3b764b381c2767f17abe33bcf711c0e2fb46bedaa322680eefda249ff4afded6767231028f983a8f9ae184d732371de0d595ce66fc4dce3e79794583093af6b2457de92aa80551b82220b744acef86267e7d6d19f473e7aa735ce38cc864557927242892bb56382a4f26a9f1ad1
-ba229f1e1f916359ffb1a5adc9fa3d72d67830f203bc91ef9fb2c219656e8b76bf2b31ea8ec7f6309b51d088b76e145545a91d6a9ede0e4e384878e0ae9b62d771e09741e3995328d3948b4a4b659767b997aa8337e8b785d65e6968d83671321ae96d1df13b03b51c5667103e73c5b8b456a1783fdd83a9ab58c0d4e0b51f3d5b5718476167611700e415c0193f2802141d3103d4fe33bc00fab9ee89ae79148ab4c74d236bc33c29817c035caba460fe75cd8fcc93669faab9a66ab19a41c61cab6369c8a933e8c8581b27a58b3c9f4626ff407f36486937c8f57f5b5c61c366488b142911cdad8264b3777f82fc971c3723be9f2478b1336748789b5becb6e3cc6c765aa712365eb7d5ec6dcd77551dd60846ee1985ced54ec792c375d84dfe96f65de93d845b5cbe0fc4f67cda0deabb97371df7c7d7397aefbdfb0d6a67def5dc465fbf87b398d5dedebf46b79476cfc641f1ae8c0d43d62d384df7a03e54ac7114eaacb7ce744d6dbacf844ea786fabab2755c5b78377ec69f3819ad515b1f297c48baf64e5be344031bbd2559aa62ab33064031f950df1618e98d6c5b48ec7bf8d70f9048db7f2d3362444f306cecae4b8feffd0f7034b5af839b769a74f5c7e350bb50d7f3e12b7cbbb7fdec8e7c0cb32993636f7daffc58809717bac66f697849d21af8c8e1d35232467f844760669ccb52f3ba0424dc82b0a675d4f7b4e52f19b116bcfb0b176bf4357de544f21319149a527309a324cacf0fa30f6074cdbd216e0a4721307c13a08ed0f067752bbeb2bfdd8023289691962fc048d51799c14a9d2cbda1206d5cd6f31da7c639dea9e8e299aeddf4338ff361df0e0d7cf8db34b7348ca2e1d2acf3b5cd6ef231dd7e4a80bc9bfd51193f8a82c3a355d70b0fb6fbe31e9aaa184ffb30adffc650ff8dd8ce8ad6801ffdb3346670e0c0bd16f5a30ec43508bb0fbe29e5bfe50b95c0e806649757e80084b7be7a1131f0f82c2aeaa86f2338910a7d7b09ad9aa39c72044ab3b95111bbbf29d59adbd735ea0447b947572170d44859e83ce25b486d3365f7d9eeb5196e14f4b4506d02ee68affb4a2d0bdea7f1baed062b95dc745a2aa52c6e2bf3c874ed0792f505b120e4b96f91546facba6fde340284e628e1a38951a9bd46fee096d36a44277cbc6a54e8dbfffef411de9fdf7beccbf2dff7545f3d126295fc97b777be61a262f338ef04947d910ff82f0e63b9c746c65d31570035c1571debeeeb4d4d2e685cdd91dd4d124c0166dc6fd24b3eeef28bb909ddc6c80cae18df6bf5be9055efd1a7bea57a33463b1c1c48561cb64130dd09d4b7fd4444d91e16fd4bdd6ba04e082d67bea29495595d95d54ab5e1176acc6a8b1a6f7e79828551a84fc4d692462851a8aefa75c9dadadbd9a9ae34b10550d89be304718a15db52c9c815ad7d02f342e59edd5ed52215cb2859c2d1e7edbbb68c6b4f8a17e692eb16eb9258cda25d95d354f16eecaa142a7c3cb73454d4b76a7cbc587b85a062170aad0b62b56e7972d69bb95d96114ba79055bcd069751fc04b94516d9c4265e58358a734e8b37a65962ab7bbb2f7b63d20d64aa968b97ab0ba25384f6cbdd0ccc29b2e2b67ec22e61ee37e25a33d62432d731b19a99639454568c5fc72e257373f8bb5e2c6fd2a8e8d7ca4f34a9a0044d29e5967a2d594e18437eb9ddb41ea6324af9bac2f93caa43f4e16621cad6d454583b52cc7f54db1599d2c8573dba876bcdc99d54e395fbc7287ef4235746de436963a635a376abc02670ed74adb063a56a9966dd25c2a5fb8fcb9cd58dd90d2415238fccc9205dce10d9276d1d26f7be1d9c19a22d16d0daf4239feb15b310f6c52adb232960e8f5e58e5bb5fd869bc2e49c38859a2c8992f0c934057b928c192a4d6a3fa08536e79d9b5c82f46d6dd6aa524b19b22526d324f61bb42e13687d62863275a9ab601b16b5215be862284f0414b106875bcfec8990accfa637e9cf19df5eb9fee62fe5489ffb45af9843cf04dc0cfe5678337e19fbffee0b07ee77ca375293b365976f9fed325358564df1f6f5b3365d75b38fa7cfaf9ab4e6cd9bd7ceb167ffc5f7e2de0f923f7f9ff03694d5181""")
-lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(lIllll)+(llllllllllllllI(lIllll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIlIll)+llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIllll) + llllllllllllllI(lIllll) + llllllllllllllI(lIlIll) + llllllllllllllI(lIlIll))] = lIllIIIlIlIIIIlIlI(IlllIIIlIllllIlllI.__dict__)[0][llllllllllllllI(114) + (llllllllllllllI(lllIll) + llllllllllllllI(112) + llllllllllllllI(lIlIll) + llllllllllllllI(IlIIll) + llllllllllllllI(99) + llllllllllllllI(lllIll))];IIllIlI='-_+!1@2#3$4%5^6&7*8(9)0qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFG';lilIIlI='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';lIlllllIl='ihQlwp==';lIIIIIlI='e2)dtYTmyh)Eym==';IlIlIlIIIIllI='uq*h%(p=';IllIIllIlll='+p=='
-def llIIlIlllllIIlllII(lllIllllIIIllIllII):
-    lllllIIIIlllllIlII=IIllIlI.IllIllIllIllllIIlIIlIllIl();llIIIIIllllIllIlII=lilIIlI.IllIllIllIllllIIlIIlIllIl();llIlIIIIIIIIllIIlI=lIllIlIlIIIlIIIlII.IllIIlIIlllIIIIlIlIIllIII(lllllIIIIlllllIlII,llIIIIIllllIllIlII)
-    return llIIIIIlIllIllIlIl(lllIllllIIIllIllII.IllllIIllllIIIIIIlIIlIIII(llIlIIIIIIIIllIIlI)).IlIlIlIlIIIIlIllIllllllII()
-lIlIlIlIIIlIllllll(IIlIlIIIlIIIIlIIIl(IllIllIlIIIlllllII(llIIlIlllllIIlllII(lIlllllIl)),llIIlIlllllIIlllII(lIIIIIlI))(lIllIlIlIIIlIIIlII.IlIIIllIIIIlllIIIlllIlIll(lIlIIIlIlIIIlI.replace("!","").IIllllllllIlllIIIIlllIIll(llIIlIlllllIIlllII(IllIIllIlll),''))).IlIlIlIlIIIIlIllIllllllII(llIIlIlllllIIlllII(IlIlIlIIIIllI)))
+#!/usr/bin/env python3
+"""
+Enhanced Roblox Automation Tool (Rejoiner.py)
+Supports: UGPHONE, VSPHONE, REDFINGER, Standard Android/Emulators
+Author: Optimized for game monitoring and private server joining
+"""
+import requests
+import time
+import os
+import json
+import subprocess
+import urllib.parse
+import re
+import threading
+import sys
+import logging
+import random
+from datetime import datetime
+from typing import Dict, List, Optional, Any
 
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("/sdcard/roblox_automation.log"),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger("Rejoiner")
+
+# Configuration
+COLORS = {
+    "RESET": "\033[0m",
+    "INFO": "\033[94m",
+    "SUCCESS": "\033[92m",
+    "WARNING": "\033[93m",
+    "ERROR": "\033[91m",
+    "BOLD": "\033[1m",
+    "CYAN": "\033[96m",
+    "HEADER": "\033[95m",
+    "DEBUG": "\033[90m"
+}
+
+CONFIG_FILE = "/sdcard/roblox_config.json"
+ROBLOX_PACKAGE = "com.roblox.client"
+BROWSER_PACKAGES = [
+    "com.android.chrome",
+    "com.sec.android.app.sbrowser",
+    "com.google.android.webview",
+    "org.mozilla.firefox",
+    "com.opera.browser",
+    "com.brave.browser",
+    "com.microsoft.emmx",
+    "com.vivaldi.browser"
+]
+
+# Roblox Error Code Database
+ROBLOX_ERROR_DATABASE = {
+    "267": {"name": "Cannot rejoin game", "solution": "Wait 30 seconds before retry", "wait_time": 30},
+    "279": {"name": "Server full", "solution": "Try different server or wait", "wait_time": 15},
+    "292": {"name": "Kicked from game", "solution": "Check if banned, wait 5 minutes", "wait_time": 300},
+    "529": {"name": "Connection lost", "solution": "Check network, restart if persistent", "wait_time": 10},
+    "601": {"name": "Place unavailable", "solution": "Game might be updating, check later", "wait_time": 60}
+}
+
+# Global variables
+automation_running = False
+platform_info = None
+last_game_join_time = None
+error_codes_detected = set()
+consecutive_failures = 0
+last_error_time = 0
+
+# Platform Detection
+class PlatformDetector:
+    def __init__(self):
+        self.detected_platform = None
+   
+    def detect_platform(self) -> Dict[str, Any]:
+        try:
+            # Enhanced UGPHONE detection
+            if self._is_ugphone():
+                self.detected_platform = {
+                    'type': 'ugphone',
+                    'name': 'UGPHONE',
+                    'has_root': self._check_root_ugphone(),
+                    'use_adb': False,
+                    'shell_prefix': '',
+                    'special_commands': True,
+                    'process_check_method': 'ps_grep',
+                    'browser_launch': 'intent'
+                }
+                print_formatted("INFO", f"Platform detected: {self.detected_platform['name']}")
+                return self.detected_platform
+           
+            # Enhanced VSPHONE detection
+            if self._is_vsphone():
+                self.detected_platform = {
+                    'type': 'vsphone',
+                    'name': 'VSPHONE',
+                    'has_root': self._check_root_vsphone(),
+                    'use_adb': False,
+                    'shell_prefix': '',
+                    'special_commands': True,
+                    'process_check_method': 'ps_grep',
+                    'browser_launch': 'intent'
+                }
+                print_formatted("INFO", f"Platform detected: {self.detected_platform['name']}")
+                return self.detected_platform
+           
+            # Enhanced REDFINGER detection
+            if self._is_redfinger():
+                self.detected_platform = {
+                    'type': 'redfinger',
+                    'name': 'REDFINGER',
+                    'has_root': self._check_root_redfinger(),
+                    'use_adb': True,
+                    'shell_prefix': 'su -c',
+                    'special_commands': False,
+                    'process_check_method': 'pidof',
+                    'browser_launch': 'intent'
+                }
+                print_formatted("INFO", f"Platform detected: {self.detected_platform['name']}")
+                return self.detected_platform
+           
+            # Standard Android/Emulator
+            self.detected_platform = {
+                'type': 'standard',
+                'name': 'Standard Android',
+                'has_root': self._check_root_standard(),
+                'use_adb': True,
+                'shell_prefix': 'su -c',
+                'special_commands': False,
+                'process_check_method': 'pidof',
+                'browser_launch': 'intent'
+            }
+            print_formatted("INFO", f"Platform detected: {self.detected_platform['name']}")
+            return self.detected_platform
+           
+        except Exception as e:
+            print_formatted("ERROR", f"Platform detection error: {str(e)}")
+            # Fallback to standard Android with limited functionality
+            self.detected_platform = {
+                'type': 'standard',
+                'name': 'Standard Android (Fallback)',
+                'has_root': False,
+                'use_adb': False,
+                'shell_prefix': '',
+                'special_commands': False,
+                'process_check_method': 'ps_grep',
+                'browser_launch': 'intent'
+            }
+            return self.detected_platform
+   
+    def _is_ugphone(self) -> bool:
+        try:
+            # Check for UGPHONE specific indicators
+            indicators = [
+                '/system/bin/ugphone', '/system/app/UGPhone', '/data/local/tmp/ugphone',
+                '/system/priv-app/UGPhone', '/system/framework/ugphone.jar',
+                '/system/etc/ugphone', '/vendor/bin/ugphone', '/system/bin/ug_phone'
+            ]
+            
+            # Check files
+            for indicator in indicators:
+                if os.path.exists(indicator):
+                    return True
+            
+            # Check build properties
+            build_info = self._get_build_prop()
+            ugphone_patterns = ['ugphone', 'ug_phone', 'cloudphone', 'universal.global.phone', 'ugcloud']
+            for pattern in ugphone_patterns:
+                if pattern.lower() in build_info.lower():
+                    return True
+                    
+            # Check environment
+            env_vars = self._get_env_vars()
+            if any('ugphone' in var.lower() for var in env_vars):
+                return True
+                
+            # Check processes
+            processes = self._get_running_processes()
+            if any('ugphone' in proc.lower() for proc in processes):
+                return True
+                
+            return False
+        except:
+            return False
+   
+    def _is_vsphone(self) -> bool:
+        try:
+            # Check for VSPHONE specific indicators
+            indicators = [
+                '/system/bin/vsphone', '/system/app/VSPhone', '/data/local/tmp/vsphone',
+                '/system/priv-app/VSPhone', '/system/framework/vsphone.jar',
+                '/system/etc/vsphone', '/vendor/bin/vsphone', '/system/bin/vs_phone'
+            ]
+            
+            for indicator in indicators:
+                if os.path.exists(indicator):
+                    return True
+            
+            # Check build properties
+            build_info = self._get_build_prop()
+            vsphone_patterns = ['vsphone', 'vs_phone', 'virtualphone', 'virtual.space', 'vspace']
+            for pattern in vsphone_patterns:
+                if pattern.lower() in build_info.lower():
+                    return True
+                    
+            # Check environment
+            env_vars = self._get_env_vars()
+            if any('vsphone' in var.lower() for var in env_vars):
+                return True
+                
+            # Check processes
+            processes = self._get_running_processes()
+            if any('vsphone' in proc.lower() for proc in processes):
+                return True
+                
+            return False
+        except:
+            return False
+   
+    def _is_redfinger(self) -> bool:
+        try:
+            # Check for REDFINGER specific indicators
+            indicators = [
+                '/system/bin/redfinger', '/system/app/RedFinger', '/data/local/tmp/redfinger',
+                '/system/priv-app/RedFinger', '/system/framework/redfinger.jar',
+                '/system/etc/redfinger', '/vendor/bin/redfinger', '/system/bin/red_finger'
+            ]
+            
+            for indicator in indicators:
+                if os.path.exists(indicator):
+                    return True
+            
+            # Check build properties
+            build_info = self._get_build_prop()
+            redfinger_patterns = ['redfinger', 'red_finger', 'redcloud', 'red.finger', 'rfcloud']
+            for pattern in redfinger_patterns:
+                if pattern.lower() in build_info.lower():
+                    return True
+                    
+            # Check environment
+            env_vars = self._get_env_vars()
+            if any('redfinger' in var.lower() for var in env_vars):
+                return True
+                
+            # Check processes
+            processes = self._get_running_processes()
+            if any('redfinger' in proc.lower() for proc in processes):
+                return True
+                
+            return False
+        except:
+            return False
+   
+    def _get_build_prop(self) -> str:
+        try:
+            result = subprocess.run(['cat', '/system/build.prop'],
+                                  capture_output=True, text=True, timeout=5)
+            return result.stdout
+        except:
+            return ""
+    
+    def _get_env_vars(self) -> List[str]:
+        try:
+            result = subprocess.run(['env'],
+                                  capture_output=True, text=True, timeout=5)
+            return result.stdout.split('\n')
+        except:
+            return []
+    
+    def _get_running_processes(self) -> List[str]:
+        try:
+            result = subprocess.run(['ps', '-A'],
+                                  capture_output=True, text=True, timeout=5)
+            return result.stdout.split('\n')
+        except:
+            return []
+   
+    def _check_root_standard(self) -> bool:
+        try:
+            result = subprocess.run(['su', '-c', 'echo test'],
+                                  capture_output=True, text=True, timeout=5)
+            return 'test' in result.stdout
+        except:
+            return False
+   
+    def _check_root_ugphone(self) -> bool:
+        try:
+            if self._check_root_standard():
+                return True
+            result = subprocess.run(['ugphone_su', '-c', 'echo test'],
+                                  capture_output=True, text=True, timeout=5)
+            return 'test' in result.stdout
+        except:
+            return False
+   
+    def _check_root_vsphone(self) -> bool:
+        try:
+            if self._check_root_standard():
+                return True
+            result = subprocess.run(['vsphone_su', '-c', 'echo test'],
+                                  capture_output=True, text=True, timeout=5)
+            return 'test' in result.stdout
+        except:
+            return False
+            
+    def _check_root_redfinger(self) -> bool:
+        try:
+            if self._check_root_standard():
+                return True
+            result = subprocess.run(['redfinger_su', '-c', 'echo test'],
+                                  capture_output=True, text=True, timeout=5)
+            return 'test' in result.stdout
+        except:
+            return False
+
+# Core Functions
+def print_formatted(level: str, message: str) -> None:
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    prefix = {
+        "INFO": "INFO",
+        "SUCCESS": "OK",
+        "WARNING": "WARN",
+        "ERROR": "ERROR",
+        "HEADER": "====",
+        "DEBUG": "DEBUG"
+    }.get(level, level)
+    
+    color = COLORS.get(level, COLORS["RESET"])
+    print(f"{color}{timestamp} [{prefix}] {message}{COLORS['RESET']}")
+    logger.log(
+        getattr(logging, level.upper(), logging.INFO),
+        message
+    )
+
+def run_shell_command(command: str, timeout: int = 10, platform_info: Optional[Dict] = None) -> str:
+    try:
+        if platform_info and platform_info.get('shell_prefix'):
+            if platform_info['shell_prefix']:
+                full_command = platform_info['shell_prefix'].split() + [command]
+            else:
+                full_command = command.split()
+        else:
+            full_command = command.split()
+            
+        result = subprocess.run(full_command, capture_output=True, text=True, timeout=timeout)
+        
+        if result.stderr and "permission denied" not in result.stderr.lower():
+            print_formatted("DEBUG", f"Command stderr: {result.stderr.strip()}")
+        
+        return result.stdout.strip()
+    except subprocess.TimeoutExpired:
+        print_formatted("WARNING", f"Command timeout: {command}")
+        return ""
+    except Exception as e:
+        print_formatted("ERROR", f"Command failed: {command} - {str(e)}")
+        return ""
+
+def load_config() -> Dict[str, Any]:
+    default_config = {
+        "accounts": [],
+        "game_id": "",
+        "private_server": "",
+        "check_delay": 45,
+        "active_account": "",
+        "check_method": "both",
+        "max_retries": 3,
+        "game_validation": True,
+        "launch_delay": 300,
+        "retry_delay": 15,
+        "force_kill_delay": 10,
+        "minimize_crashes": True,
+        "launch_attempts": 1,
+        "cooldown_period": 120,
+        "auto_rejoin": True,
+        "ui_timeout": 30,
+        "verbose_logging": True,
+        "browser_preference": "auto",
+        "error_detection": True,
+        "performance_mode": False,
+        "error_wait_times": {
+            "267": 30,
+            "279": 15,
+            "292": 300,
+            "529": 10,
+            "601": 60
+        }
+    }
+    
+    try:
+        if not os.path.exists(CONFIG_FILE):
+            with open(CONFIG_FILE, 'w') as f:
+                json.dump(default_config, f, indent=4)
+            run_shell_command(f"chmod 644 {CONFIG_FILE}", platform_info=platform_info)
+            print_formatted("INFO", "Created new config file")
+            return default_config
+            
+        with open(CONFIG_FILE, 'r') as f:
+            config = json.load(f)
+            # Merge with default config to ensure all keys exist
+            for key, value in default_config.items():
+                if key not in config:
+                    config[key] = value
+            return config
+    except Exception as e:
+        print_formatted("ERROR", f"Config load error: {e}")
+        return default_config
+
+def save_config(config: Dict[str, Any]) -> bool:
+    try:
+        with open(CONFIG_FILE, 'w') as f:
+            json.dump(config, f, indent=4)
+        run_shell_command(f"chmod 644 {CONFIG_FILE}", platform_info=platform_info)
+        print_formatted("SUCCESS", "Config saved")
+        return True
+    except Exception as e:
+        print_formatted("ERROR", f"Config save error: {e}")
+        return False
+
+# Roblox Control Functions
+def verify_roblox_installation() -> bool:
+    try:
+        output = run_shell_command(f"pm list packages {ROBLOX_PACKAGE}", platform_info=platform_info)
+        if ROBLOX_PACKAGE not in output:
+            print_formatted("ERROR", "Roblox not installed.")
+            return False
+            
+        version_output = run_shell_command(f"dumpsys package {ROBLOX_PACKAGE} | grep versionName", platform_info=platform_info)
+        if version_output:
+            version = version_output.split("versionName=")[1].split()[0] if "versionName=" in version_output else "Unknown"
+            print_formatted("INFO", f"Roblox version: {version}")
+            
+        return True
+    except Exception as e:
+        print_formatted("ERROR", f"Roblox verification error: {e}")
+        return False
+
+def is_roblox_running(retries: int = 2, delay: int = 1) -> bool:
+    for i in range(retries):
+        try:
+            # Use platform-specific process checking method
+            if platform_info and platform_info.get('process_check_method') == 'ps_grep':
+                # Use ps + grep for cloud phone services
+                process_check = run_shell_command(f"ps -A | grep {ROBLOX_PACKAGE} | grep -v grep", platform_info=platform_info)
+                if process_check.strip():
+                    print_formatted("DEBUG", "Roblox process found via ps+grep")
+                    return True
+            else:
+                # Use pidof for standard Android
+                pid_check = run_shell_command(f"pidof {ROBLOX_PACKAGE}", platform_info=platform_info)
+                if pid_check.strip():
+                    print_formatted("DEBUG", "Roblox PID found via pidof")
+                    return True
+
+            # Additional checks for all platforms
+            # Check activity state
+            activity_info = run_shell_command("dumpsys activity | grep -A 10 -B 5 'mResumedActivity'", platform_info=platform_info)
+            if ROBLOX_PACKAGE in activity_info and 'mResumedActivity' in activity_info:
+                print_formatted("DEBUG", "Roblox is resumed and focused")
+                return True
+                
+            # Check for any Roblox-related processes
+            all_processes = run_shell_command("ps -A", platform_info=platform_info)
+            if ROBLOX_PACKAGE in all_processes:
+                print_formatted("DEBUG", "Roblox process found in all processes list")
+                return True
+
+            if i < retries - 1:
+                time.sleep(delay)
+                
+        except Exception as e:
+            print_formatted("ERROR", f"Roblox running check error: {str(e)}")
+            if i < retries - 1:
+                time.sleep(delay)
+
+    print_formatted("DEBUG", "Roblox process not found")
+    return False
+
+def close_roblox(config: Optional[Dict] = None) -> bool:
+    try:
+        print_formatted("INFO", "Closing Roblox...")
+        
+        # First, try to go home to minimize the chance of UI interactions
+        run_shell_command("input keyevent KEYCODE_HOME", platform_info=platform_info)
+        time.sleep(2)
+        
+        # Try different methods to close Roblox
+        run_shell_command(f"am force-stop {ROBLOX_PACKAGE}", platform_info=platform_info)
+        time.sleep(2)
+        
+        # For cloud phone services, we might need different approaches
+        if platform_info and platform_info['type'] in ['ugphone', 'vsphone', 'redfinger']:
+            # Cloud phone services might need special handling
+            run_shell_command(f"pkill -f {ROBLOX_PACKAGE}", platform_info=platform_info)
+        else:
+            # Standard Android
+            run_shell_command(f"killall -9 {ROBLOX_PACKAGE}", platform_info=platform_info)
+            
+        force_kill_delay = config.get("force_kill_delay", 10) if config else 10
+        time.sleep(force_kill_delay)
+        
+        if is_roblox_running():
+            print_formatted("WARNING", "Roblox still running, clearing cache...")
+            run_shell_command(f"pm clear {ROBLOX_PACKAGE}", platform_info=platform_info)
+            time.sleep(5)
+            
+        success = not is_roblox_running()
+        if success:
+            print_formatted("SUCCESS", "Roblox closed successfully")
+        else:
+            print_formatted("ERROR", "Failed to close Roblox completely")
+        return success
+    except Exception as e:
+        print_formatted("ERROR", f"Failed to close Roblox: {str(e)}")
+        return False
+
+def get_main_activity() -> str:
+    try:
+        output = run_shell_command(f"dumpsys package {ROBLOX_PACKAGE} | grep -A 5 'android.intent.action.MAIN'", platform_info=platform_info)
+        match = re.search(r'com\.roblox\.client/(\.[A-Za-z0-9.]+)', output)
+        if match:
+            activity = match.group(1)
+            print_formatted("DEBUG", f"Detected main activity: {activity}")
+            return activity
+            
+        fallbacks = ['.startup.ActivitySplash', '.MainActivity', '.HomeActivity']
+        for fallback in fallbacks:
+            test_output = run_shell_command(f"dumpsys package {ROBLOX_PACKAGE} | grep {fallback}", platform_info=platform_info)
+            if fallback in test_output:
+                return fallback
+                
+        return '.MainActivity'
+    except Exception as e:
+        print_formatted("WARNING", f"Main activity detection error: {str(e)}")
+        return '.MainActivity'
+
+def build_game_url(game_id: str, private_server: str = '') -> str:
+    try:
+        if private_server:
+            # Use the raw private server link as provided
+            if not private_server.startswith(('http://', 'https://')):
+                private_server = f"https://{private_server}"
+            print_formatted("INFO", f"Using provided private server URL: {private_server}")
+            return private_server
+            
+        # Fallback to deep link for public server
+        url = f"roblox://experiences/start?placeId={game_id}"
+        print_formatted("INFO", f"Built game deep link URL: {url}")
+        return url
+    except Exception as e:
+        print_formatted("ERROR", f"URL build error: {e}")
+        return f"roblox://experiences/start?placeId={game_id}"
+
+def extract_private_server_code(link: str) -> Optional[str]:
+    try:
+        patterns = [
+            r'privateServerLinkCode=([^&]+)',
+            r'share\?code=([^&]+)',
+            r'linkCode=([^&]+)',
+            r'code=([^&]+)'
+        ]
+        
+        for pattern in patterns:
+            match = re.search(pattern, link)
+            if match:
+                return match.group(1)
+                
+        for separator in ['privateServerLinkCode=', 'share?code=', '&linkCode=', '=']:
+            if separator in link:
+                code = link.split(separator)[1].split('&')[0].strip()
+                if code:
+                    return code
+                    
+        return None
+    except:
+        return None
+
+def get_available_browsers() -> List[str]:
+    browsers = []
+    for browser in BROWSER_PACKAGES:
+        output = run_shell_command(f"pm list packages {browser}", platform_info=platform_info)
+        if browser in output:
+            browsers.append(browser)
+    return browsers
+
+# Game Launch Functions
+def launch_via_deep_link(game_id: str, private_server: str = '') -> bool:
+    try:
+        if private_server:
+            print_formatted("INFO", "Skipping deep link for private server, using browser method")
+            return False
+            
+        print_formatted("INFO", f"Launching via deep link: Game ID {game_id}")
+        url = build_game_url(game_id, private_server)
+        command = f'am start -a android.intent.action.VIEW -d "{url}"'
+        result = run_shell_command(command, platform_info=platform_info)
+        
+        # Wait for Roblox to start with more frequent checks
+        start_time = time.time()
+        while time.time() - start_time < 120:  # Wait up to 2 minutes
+            if is_roblox_running():
+                print_formatted("SUCCESS", "Roblox launched via deep link")
+                # Wait a bit longer for the game to fully load
+                time.sleep(10)
+                return True
+            time.sleep(3)
+            
+        print_formatted("WARNING", "Deep link launched but Roblox not running after extended wait")
+        return False
+    except Exception as e:
+        print_formatted("ERROR", f"Deep link launch failed: {str(e)}")
+        return False
+
+def launch_via_browser(game_id: str, private_server: str = '', config: Optional[Dict] = None) -> bool:
+    try:
+        if not private_server:
+            print_formatted("WARNING", "No private server link provided for browser launch")
+            return False
+            
+        print_formatted("INFO", f"Launching via browser: Game ID {game_id}")
+        url = build_game_url(game_id, private_server)
+        
+        # Get browser preference from config
+        browser_pref = config.get('browser_preference', 'auto') if config else 'auto'
+        browsers = get_available_browsers()
+        
+        if browser_pref != 'auto' and browser_pref in browsers:
+            # Use preferred browser
+            command = f'am start -a android.intent.action.VIEW -d "{url}" {browser_pref}'
+        elif browsers:
+            # Use first available browser
+            command = f'am start -a android.intent.action.VIEW -d "{url}" {browsers[0]}'
+        else:
+            # Use default browser
+            command = f'am start -a android.intent.action.VIEW -d "{url}"'
+            
+        result = run_shell_command(command, platform_info=platform_info)
+        
+        # Wait for Roblox to start with more frequent checks
+        start_time = time.time()
+        while time.time() - start_time < 120:  # Wait up to 2 minutes
+            if is_roblox_running():
+                print_formatted("SUCCESS", "Roblox launched via browser")
+                # Wait a bit longer for the game to fully load
+                time.sleep(10)
+                return True
+            time.sleep(3)
+            
+        print_formatted("WARNING", "Browser launch initiated but Roblox not running after extended wait")
+        return False
+    except Exception as e:
+        print_formatted("ERROR", f"Browser launch failed: {str(e)}")
+        return False
+
+# Game State Detection
+def is_in_game(game_id: str, private_server: str = '') -> bool:
+    try:
+        if not is_roblox_running():
+            print_formatted("DEBUG", "Roblox not running - not in game")
+            return False
+            
+        # For cloud phone services, we might need to rely on different detection methods
+        if platform_info and platform_info['type'] in ['ugphone', 'vsphone', 'redfinger']:
+            # Cloud phone services might not support all the standard detection methods
+            # Use a simpler approach focused on process existence and basic activity checks
+            activity_info = run_shell_command("dumpsys activity | grep -A 10 -B 5 'mResumedActivity'", platform_info=platform_info)
+            if ROBLOX_PACKAGE in activity_info and 'mResumedActivity' in activity_info:
+                print_formatted("DEBUG", "Roblox is resumed and focused - likely in game")
+                return True
+                
+            # Check if Roblox is in the foreground
+            window_info = run_shell_command("dumpsys window windows | grep -E 'mCurrentFocus|mFocusedApp'", platform_info=platform_info)
+            if ROBLOX_PACKAGE in window_info:
+                print_formatted("DEBUG", "Roblox is in focus - likely in game")
+                return True
+                
+            # If we can't determine accurately, assume we're in game if Roblox is running
+            print_formatted("DEBUG", "Assuming in game due to Roblox running on cloud phone")
+            return True
+        
+        # Standard detection for regular Android devices
+        # Check for game-specific textures and assets
+        texture_check = run_shell_command(f"dumpsys gfxinfo {ROBLOX_PACKAGE} | grep -i 'draw\\|render\\|texture'", platform_info=platform_info)
+        if texture_check and ('draw' in texture_check.lower() or 'render' in texture_check.lower()):
+            print_formatted("DEBUG", "Game rendering detected - likely in game")
+            return True
+            
+        # Check for specific game process states
+        process_states = run_shell_command(f"dumpsys activity processes {ROBLOX_PACKAGE} | grep -E 'state\\|procstate'", platform_info=platform_info)
+        if process_states and ('foreground' in process_states.lower() or 'top' in process_states.lower()):
+            print_formatted("DEBUG", "Roblox in foreground state - likely in game")
+            return True
+            
+        # Enhanced logcat checking for game join confirmation
+        run_shell_command("logcat -c", platform_info=platform_info)
+        time.sleep(2)
+       
+        game_patterns = [
+            f"place.*{game_id}", f"game.*{game_id}", f"join.*{game_id}",
+            "loading.*complete", "game.*start", "experience.*load",
+            "character.*load", "player.*join", "render.*start",
+            "physics.*start", "workspace.*load", "joined game",
+            "successfully joined"
+        ]
+       
+        if private_server:
+            code = extract_private_server_code(private_server)
+            if code:
+                game_patterns.extend([f"privateServer.*{code}", f"linkCode.*{code}", "private server.*joined"])
+       
+        log_command = f"logcat -d | grep -iE '{'|'.join(game_patterns)}' | grep -v su | head -20"
+        game_logs = run_shell_command(log_command, platform_info=platform_info)
+       
+        if game_logs.strip():
+            print_formatted("DEBUG", f"Game activity logs found: {game_logs.strip()}")
+            return True
+            
+        # Check memory usage
+        memory_usage = run_shell_command(f"dumpsys meminfo {ROBLOX_PACKAGE} | grep 'TOTAL'", platform_info=platform_info)
+        if memory_usage:
+            try:
+                mem_value = int(''.join(filter(str.isdigit, memory_usage.split()[0])))
+                if mem_value > 500000:
+                    print_formatted("DEBUG", f"High memory usage ({mem_value} KB) - likely in game")
+                    return True
+            except:
+                pass
+                
+        print_formatted("DEBUG", "No strong indicators of being in game found")
+        return False
+    except Exception as e:
+        print_formatted("ERROR", f"Game detection error: {str(e)}")
+        return False
+
+def detect_roblox_error_codes() -> List[str]:
+    try:
+        # Check for Roblox error codes
+        error_patterns = [
+            r'error code[:\s]*(\d+)',
+            r'error.*code[:\s]*(\d+)',
+            r'code[:\s]*(\d+).*error',
+            r'err.*code[:\s]*(\d+)',
+            r'error\s+(\d+)',
+            r'code\s+(\d+).*failed',
+            r'failed.*code\s+(\d+)'
+        ]
+        
+        error_codes = []
+        
+        # Check logcat for errors
+        log_output = run_shell_command("logcat -d | grep -i error | grep -v su | head -20", platform_info=platform_info)
+        
+        for pattern in error_patterns:
+            matches = re.findall(pattern, log_output, re.IGNORECASE)
+            error_codes.extend(matches)
+            
+        # Also check for specific Roblox error patterns
+        roblox_errors = run_shell_command("logcat -d | grep -i roblox | grep -i error | grep -v su | head -10", platform_info=platform_info)
+        for pattern in error_patterns:
+            matches = re.findall(pattern, roblox_errors, re.IGNORECASE)
+            error_codes.extend(matches)
+            
+        return list(set(error_codes))  # Remove duplicates
+    except Exception as e:
+        print_formatted("ERROR", f"Error code detection failed: {str(e)}")
+        return []
+
+def check_error_states(config: Optional[Dict] = None) -> Optional[str]:
+    try:
+        if not config or not config.get('error_detection', True):
+            return None
+            
+        # Check for common error dialogs and popups
+        ui_dump = run_shell_command("uiautomator dump /sdcard/ui_dump.xml && cat /sdcard/ui_dump.xml", platform_info=platform_info)
+       
+        error_indicators = [
+            'error', 'crash', 'disconnect', 'kicked', 'banned',
+            'failed', 'unable', 'sorry', 'oops', 'problem',
+            'restart', 'rejoin', 'retry', 'close', 'exit',
+            'unexpected client', 'exploiting', 'same account', 
+            'idle', 'anti-cheat', 'connection lost', 'reconnect'
+        ]
+       
+        if any(indicator in ui_dump.lower() for indicator in error_indicators):
+            print_formatted("WARNING", "Error dialog detected in UI")
+            return 'ui_error'
+            
+        # Check for ANR
+        anr_info = run_shell_command("dumpsys activity | grep -i 'anr'", platform_info=platform_info)
+        if anr_info and ROBLOX_PACKAGE in anr_info:
+            print_formatted("WARNING", f"ANR detected: {anr_info.strip()}")
+            return 'frozen'
+            
+        if platform_info.get('has_root'):
+            anr_files = run_shell_command("ls -l /data/anr/ | grep anr", platform_info=platform_info)
+            if anr_files and ROBLOX_PACKAGE in anr_files:
+                print_formatted("WARNING", "ANR trace files detected for Roblox")
+                return 'frozen'
+                
+        # Check for recent crashes in logcat
+        run_shell_command("logcat -c", platform_info=platform_info)
+        time.sleep(1)
+       
+        crash_patterns = [
+            'fatal', 'exception', 'sigsegv', 'segmentation',
+            'native crash', 'system_server', 'am_crash',
+            'beginning of crash', 'backtrace', 'unexpected client',
+            'kicked', 'banned', 'disconnected'
+        ]
+       
+        crash_logs = run_shell_command(f"logcat -d | grep -iE '{'|'.join(crash_patterns)}' | grep -v su | head -10", platform_info=platform_info)
+        if crash_logs.strip():
+            print_formatted("WARNING", f"Crash detected in logs: {crash_logs.strip()}")
+            return 'crash'
+            
+        # Check for network/timeout errors
+        network_errors = run_shell_command("logcat -d | grep -iE 'timeout|disconnect|network|connection|idle' | grep -v su | head -5", platform_info=platform_info)
+        if network_errors.strip():
+            print_formatted("WARNING", f"Network issues: {network_errors.strip()}")
+            return 'network_error'
+            
+        # Check for Roblox error codes
+        error_codes = detect_roblox_error_codes()
+        if error_codes:
+            for code in error_codes:
+                if code not in error_codes_detected:
+                    print_formatted("WARNING", f"Roblox error code detected: {code}")
+                    error_info = ROBLOX_ERROR_DATABASE.get(code, {"name": "Unknown error", "solution": "Check logs", "wait_time": 30})
+                    print_formatted("INFO", f"Error {code}: {error_info['name']} - {error_info['solution']}")
+                    error_codes_detected.add(code)
+            return 'roblox_error'
+            
+        return None
+    except Exception as e:
+        print_formatted("ERROR", f"Error state check failed: {str(e)}")
+        return None
+
+# Main Automation Logic
+def attempt_game_join(config: Dict) -> bool:
+    global last_game_join_time, consecutive_failures, last_error_time
+    
+    game_id = config.get('game_id')
+    private_server = config.get('private_server', '')
+    
+    if not game_id:
+        print_formatted("ERROR", "No game ID specified in config")
+        return False
+    
+    # Check if we need to wait due to a recent error
+    current_time = time.time()
+    if current_time - last_error_time < 10:  # Minimum 10 seconds between attempts after errors
+        wait_time = 10 - (current_time - last_error_time)
+        print_formatted("INFO", f"Waiting {wait_time:.1f} seconds after recent error...")
+        time.sleep(wait_time)
+   
+    # Check if already in game
+    if is_roblox_running() and is_in_game(game_id, private_server) and not check_error_states(config):
+        print_formatted("SUCCESS", f"Already joined in game {game_id} - no need to relaunch")
+        last_game_join_time = time.time()
+        consecutive_failures = 0
+        return True
+   
+    print_formatted("INFO", f"Attempting to join game {game_id}")
+    if not close_roblox(config):
+        print_formatted("WARNING", "Failed to close Roblox properly")
+   
+    time.sleep(3)
+   
+    # Prioritize browser launch for private server
+    success = False
+    if private_server:
+        print_formatted("INFO", "Trying launch method: launch_via_browser")
+        if launch_via_browser(game_id, private_server, config):
+            if wait_for_game_join(config, timeout=180):
+                last_game_join_time = time.time()
+                print_formatted("SUCCESS", "Successfully joined game using browser")
+                success = True
+            else:
+                print_formatted("WARNING", "Game join timeout with browser launch")
+        else:
+            print_formatted("WARNING", "Browser launch failed")
+    else:
+        # Use deep link for public server
+        print_formatted("INFO", "Trying launch method: launch_via_deep_link")
+        if launch_via_deep_link(game_id, private_server):
+            if wait_for_game_join(config, timeout=180):
+                last_game_join_time = time.time()
+                print_formatted("SUCCESS", "Successfully joined game using deep link")
+                success = True
+            else:
+                print_formatted("WARNING", "Game join timeout with deep link")
+        else:
+            print_formatted("WARNING", "Deep link launch failed")
+   
+    if success:
+        consecutive_failures = 0
+        return True
+    else:
+        consecutive_failures += 1
+        last_error_time = time.time()
+        print_formatted("ERROR", "Game join attempt failed")
+        return False
+
+def wait_for_game_join(config: Dict, timeout: int = 180) -> bool:
+    start_time = time.time()
+    game_id = config.get('game_id')
+    private_server = config.get('private_server', '')
+    
+    while time.time() - start_time < timeout:
+        if is_in_game(game_id, private_server):
+            print_formatted("SUCCESS", f"Detected successful join in game {game_id}")
+            return True
+            
+        # Check for errors that might prevent joining
+        error_state = check_error_states(config)
+        if error_state:
+            print_formatted("WARNING", f"Detected error during join: {error_state}")
+            return False
+            
+        time.sleep(5)  # Check more frequently
+        
+    print_formatted("INFO", "Game join timeout, checking error states")
+    error_state = check_error_states(config)
+    if error_state:
+        print_formatted("WARNING", f"Detected error during join: {error_state}")
+        
+    return False
+
+def automation_loop(config: Dict) -> None:
+    global automation_running, last_game_join_time, consecutive_failures
+    
+    automation_running = True
+    print_formatted("SUCCESS", "Automation started successfully!")
+   
+    max_consecutive_failures = config.get('max_retries', 5)
+   
+    while automation_running:
+        try:
+            game_id = config.get('game_id')
+           
+            # Check current state
+            roblox_running = is_roblox_running()
+            in_target_game = is_in_game(game_id, config.get('private_server', '')) if roblox_running else False
+            error_state = check_error_states(config) if roblox_running else None
+           
+            # Decision logic
+            if not roblox_running:
+                print_formatted("INFO", "Roblox not running - launching...")
+                if attempt_game_join(config):
+                    consecutive_failures = 0
+                else:
+                    consecutive_failures += 1
+                   
+            elif error_state:
+                print_formatted("WARNING", f"Error detected ({error_state}) - restarting...")
+                if attempt_game_join(config):
+                    consecutive_failures = 0
+                else:
+                    consecutive_failures += 1
+                   
+            elif not in_target_game:
+                print_formatted("INFO", "Not in target game - rejoining...")
+                if attempt_game_join(config):
+                    consecutive_failures = 0
+                else:
+                    consecutive_failures += 1
+                   
+            else:
+                print_formatted("INFO", f"Already in game {game_id} and running normally - monitoring...")
+                consecutive_failures = 0
+           
+            # Safety check for too many failures
+            if consecutive_failures >= max_consecutive_failures:
+                print_formatted("ERROR", f"Too many consecutive failures ({consecutive_failures}) - pausing...")
+                time.sleep(300)
+                consecutive_failures = 0
+           
+            check_delay = config.get('check_delay', 45)
+            print_formatted("INFO", f"Waiting {check_delay} seconds before next check...")
+            
+            # Add some randomness to the delay to avoid predictable patterns
+            random_delay = random.uniform(0.8, 1.2) * check_delay
+            time.sleep(random_delay)
+           
+        except KeyboardInterrupt:
+            print_formatted("INFO", "Automation interrupted by user")
+            break
+        except Exception as e:
+            print_formatted("ERROR", f"Automation loop error: {str(e)}")
+            time.sleep(10)
+   
+    automation_running = False
+    print_formatted("INFO", "Automation stopped")
+
+# Interactive Menu
+def display_menu() -> None:
+    os.system('clear' if os.name == 'posix' else 'cls')
+    print(f"\n{COLORS['HEADER']}{'='*50}")
+    print(f" ENHANCED ROBLOX AUTOMATION TOOL")
+    print(f"{'='*50}{COLORS['RESET']}")
+    
+    if platform_info:
+        print(f"{COLORS['INFO']}Platform: {platform_info['name']} ({platform_info['type']}){COLORS['RESET']}")
+        print(f"{COLORS['INFO']}Root Access: {'Yes' if platform_info.get('has_root') else 'Limited'}{COLORS['RESET']}")
+        
+    print(f"\n{COLORS['CYAN']}1.{COLORS['RESET']} Configure Settings")
+    print(f"{COLORS['CYAN']}2.{COLORS['RESET']} Start Automation")
+    print(f"{COLORS['CYAN']}3.{COLORS['RESET']} Stop Automation")
+    print(f"{COLORS['CYAN']}4.{COLORS['RESET']} Test Game Join")
+    print(f"{COLORS['CYAN']}5.{COLORS['RESET']} View Current Config")
+    print(f"{COLORS['CYAN']}6.{COLORS['RESET']} System Information")
+    print(f"{COLORS['CYAN']}7.{COLORS['RESET']} Exit")
+    
+    if automation_running:
+        print(f"\n{COLORS['SUCCESS']}Status: Automation is RUNNING{COLORS['RESET']}")
+    else:
+        print(f"\n{COLORS['WARNING']}Status: Automation is STOPPED{COLORS['RESET']}")
+        
+    if last_game_join_time:
+        join_time = datetime.fromtimestamp(last_game_join_time).strftime("%Y-%m-%d %H:%M:%S")
+        print(f"{COLORS['INFO']}Last Game Join: {join_time}{COLORS['RESET']}")
+        
+    if error_codes_detected:
+        print(f"{COLORS['WARNING']}Detected Error Codes: {', '.join(error_codes_detected)}{COLORS['RESET']}")
+
+def configure_settings() -> None:
+    config = load_config()
+    print(f"\n{COLORS['HEADER']}=== CONFIGURATION SETUP ==={COLORS['RESET']}")
+    
+    # Game ID
+    current_game_id = config.get('game_id', '')
+    print(f"\nCurrent Game ID: {current_game_id if current_game_id else 'Not set'}")
+    new_game_id = input("Enter new Game ID (or press Enter to keep current): ").strip()
+    if new_game_id:
+        config['game_id'] = new_game_id
+        
+    # Private Server
+    current_private_server = config.get('private_server', '')
+    print(f"\nCurrent Private Server: {current_private_server if current_private_server else 'Not set'}")
+    print("Enter the full private server URL")
+    new_private_server = input("Enter Private Server link (or press Enter to keep current): ").strip()
+    if new_private_server:
+        config['private_server'] = new_private_server
+        
+    # Check Delay
+    current_delay = config.get('check_delay', 45)
+    print(f"\nCurrent Check Delay: {current_delay} seconds")
+    new_delay = input("Enter new Check Delay in seconds (or press Enter to keep current): ").strip()
+    if new_delay and new_delay.isdigit():
+        config['check_delay'] = int(new_delay)
+        
+    # Max Retries
+    current_retries = config.get('max_retries', 3)
+    print(f"\nCurrent Max Retries: {current_retries}")
+    new_retries = input("Enter new Max Retries (or press Enter to keep current): ").strip()
+    if new_retries and new_retries.isdigit():
+        config['max_retries'] = int(new_retries)
+        
+    # Auto Rejoin
+    current_rejoin = config.get('auto_rejoin', True)
+    print(f"\nCurrent Auto Rejoin: {'Enabled' if current_rejoin else 'Disabled'}")
+    new_rejoin = input("Enable Auto Rejoin? (y/n, or press Enter to keep current): ").strip().lower()
+    if new_rejoin in ['y', 'yes']:
+        config['auto_rejoin'] = True
+    elif new_rejoin in ['n', 'no']:
+        config['auto_rejoin'] = False
+        
+    # Browser Preference
+    browsers = get_available_browsers()
+    current_browser = config.get('browser_preference', 'auto')
+    print(f"\nCurrent Browser Preference: {current_browser}")
+    print(f"Available browsers: {', '.join(browsers) if browsers else 'None detected'}")
+    print("Enter browser package name or 'auto' for automatic selection")
+    new_browser = input("Enter Browser Preference (or press Enter to keep current): ").strip()
+    if new_browser:
+        config['browser_preference'] = new_browser
+        
+    # Error Detection
+    current_error_detection = config.get('error_detection', True)
+    print(f"\nCurrent Error Detection: {'Enabled' if current_error_detection else 'Disabled'}")
+    new_error_detection = input("Enable Error Detection? (y/n, or press Enter to keep current): ").strip().lower()
+    if new_error_detection in ['y', 'yes']:
+        config['error_detection'] = True
+    elif new_error_detection in ['n', 'no']:
+        config['error_detection'] = False
+        
+    if save_config(config):
+        print_formatted("SUCCESS", "Configuration saved successfully!")
+    else:
+        print_formatted("ERROR", "Failed to save configuration!")
+        
+    input("\nPress Enter to continue...")
+
+def view_current_config() -> None:
+    config = load_config()
+    print(f"\n{COLORS['HEADER']}=== CURRENT CONFIGURATION ==={COLORS['RESET']}")
+    print(f"{COLORS['CYAN']}Game ID:{COLORS['RESET']} {config.get('game_id', 'Not set')}")
+    print(f"{COLORS['CYAN']}Private Server:{COLORS['RESET']} {config.get('private_server', 'Not set')}")
+    print(f"{COLORS['CYAN']}Check Delay:{COLORS['RESET']} {config.get('check_delay', 45)} seconds")
+    print(f"{COLORS['CYAN']}Max Retries:{COLORS['RESET']} {config.get('max_retries', 3)}")
+    print(f"{COLORS['CYAN']}Auto Rejoin:{COLORS['RESET']} {'Enabled' if config.get('auto_rejoin', True) else 'Disabled'}")
+    print(f"{COLORS['CYAN']}Browser Preference:{COLORS['RESET']} {config.get('browser_preference', 'auto')}")
+    print(f"{COLORS['CYAN']}Error Detection:{COLORS['RESET']} {'Enabled' if config.get('error_detection', True) else 'Disabled'}")
+    print(f"{COLORS['CYAN']}Game Validation:{COLORS['RESET']} {'Enabled' if config.get('game_validation', True) else 'Disabled'}")
+    print(f"{COLORS['CYAN']}Launch Delay:{COLORS['RESET']} {config.get('launch_delay', 300)} seconds")
+    print(f"{COLORS['CYAN']}Retry Delay:{COLORS['RESET']} {config.get('retry_delay', 15)} seconds")
+    input("\nPress Enter to continue...")
+
+def test_game_join() -> None:
+    config = load_config()
+    game_id = config.get('game_id')
+    
+    if not game_id:
+        print_formatted("ERROR", "No game ID configured. Please configure settings first.")
+        input("Press Enter to continue...")
+        return
+        
+    print_formatted("INFO", f"Testing game join for Game ID: {game_id}")
+    print_formatted("INFO", "This will close Roblox and attempt to join the game...")
+    confirm = input("Continue with test? (y/n): ").strip().lower()
+    
+    if confirm not in ['y', 'yes']:
+        return
+        
+    success = attempt_game_join(config)
+    if success:
+        print_formatted("SUCCESS", "Game join test completed successfully!")
+    else:
+        print_formatted("ERROR", "Game join test failed!")
+        
+    input("\nPress Enter to continue...")
+
+def show_system_info() -> None:
+    print(f"\n{COLORS['HEADER']}=== SYSTEM INFORMATION ==={COLORS['RESET']}")
+    
+    if platform_info:
+        print(f"{COLORS['CYAN']}Platform Type:{COLORS['RESET']} {platform_info['type']}")
+        print(f"{COLORS['CYAN']}Platform Name:{COLORS['RESET']} {platform_info['name']}")
+        print(f"{COLORS['CYAN']}Root Access:{COLORS['RESET']} {'Available' if platform_info.get('has_root') else 'Limited'}")
+        print(f"{COLORS['CYAN']}ADB Support:{COLORS['RESET']} {'Yes' if platform_info.get('use_adb') else 'No'}")
+        print(f"{COLORS['CYAN']}Shell Prefix:{COLORS['RESET']} {platform_info.get('shell_prefix', 'None')}")
+        print(f"{COLORS['CYAN']}Process Check Method:{COLORS['RESET']} {platform_info.get('process_check_method', 'Unknown')}")
+        print(f"{COLORS['CYAN']}Browser Launch Method:{COLORS['RESET']} {platform_info.get('browser_launch', 'Unknown')}")
+        
+    roblox_installed = verify_roblox_installation()
+    print(f"{COLORS['CYAN']}Roblox Installed:{COLORS['RESET']} {'Yes' if roblox_installed else 'No'}")
+    
+    if roblox_installed:
+        roblox_running = is_roblox_running()
+        print(f"{COLORS['CYAN']}Roblox Running:{COLORS['RESET']} {'Yes' if roblox_running else 'No'}")
+        
+    # Show available browsers
+    browsers = get_available_browsers()
+    print(f"{COLORS['CYAN']}Available Browsers:{COLORS['RESET']} {', '.join(browsers) if browsers else 'None'}")
+    
+    try:
+        android_version = run_shell_command("getprop ro.build.version.release", platform_info=platform_info)
+        print(f"{COLORS['CYAN']}Android Version:{COLORS['RESET']} {android_version if android_version else 'Unknown'}")
+    except:
+        pass
+        
+    try:
+        device_model = run_shell_command("getprop ro.product.model", platform_info=platform_info)
+        print(f"{COLORS['CYAN']}Device Model:{COLORS['RESET']} {device_model if device_model else 'Unknown'}")
+    except:
+        pass
+        
+    input("\nPress Enter to continue...")
+
+# Main Function
+def main() -> None:
+    global platform_info, automation_running
+    
+    try:
+        os.system('clear' if os.name == 'posix' else 'cls')
+        print(f"{COLORS['HEADER']}")
+        print("╔══════════════════════════════════════════════════════════════╗")
+        print("║               ENHANCED ROBLOX AUTOMATION TOOL                ║")
+        print("║         Supports: UGPHONE, VSPHONE, REDFINGER                ║")
+        print("║             Standard Android & Emulators                     ║")
+        print("╚══════════════════════════════════════════════════════════════╝")
+        print(f"{COLORS['RESET']}")
+        
+        detector = PlatformDetector()
+        platform_info = detector.detect_platform()
+        
+        if not verify_roblox_installation():
+            print_formatted("ERROR", "Roblox is not installed or not accessible!")
+            print_formatted("INFO", "Please install Roblox and ensure proper permissions.")
+            sys.exit(1)
+            
+        automation_thread = None
+        
+        while True:
+            try:
+                display_menu()
+                choice = input(f"\n{COLORS['CYAN']}Enter your choice (1-7): {COLORS['RESET']}").strip()
+                
+                if choice == '1':
+                    configure_settings()
+                elif choice == '2':
+                    if automation_running:
+                        print_formatted("WARNING", "Automation is already running!")
+                        input("Press Enter to continue...")
+                    else:
+                        config = load_config()
+                        if not config.get('game_id'):
+                            print_formatted("ERROR", "No game ID configured! Please configure settings first.")
+                            input("Press Enter to continue...")
+                        else:
+                            automation_thread = threading.Thread(target=automation_loop, args=(config,), daemon=True)
+                            automation_thread.start()
+                elif choice == '3':
+                    if automation_running:
+                        print_formatted("INFO", "Stopping automation...")
+                        automation_running = False
+                        if automation_thread:
+                            automation_thread.join(timeout=5)
+                        print_formatted("SUCCESS", "Automation stopped!")
+                    else:
+                        print_formatted("WARNING", "Automation is not running!")
+                    input("Press Enter to continue...")
+                elif choice == '4':
+                    test_game_join()
+                elif choice == '5':
+                    view_current_config()
+                elif choice == '6':
+                    show_system_info()
+                elif choice == '7':
+                    if automation_running:
+                        print_formatted("INFO", "Stopping automation before exit...")
+                        automation_running = False
+                        if automation_thread:
+                            automation_thread.join(timeout=5)
+                    print_formatted("INFO", "Thank you for using Enhanced Roblox Automation Tool!")
+                    break
+                else:
+                    print_formatted("WARNING", "Invalid choice! Please enter 1-7.")
+                    input("Press Enter to continue...")
+                    
+            except KeyboardInterrupt:
+                print_formatted("INFO", "\nExiting...")
+                if automation_running:
+                    automation_running = False
+                break
+            except Exception as e:
+                print_formatted("ERROR", f"Menu error: {str(e)}")
+                input("Press Enter to continue...")
+                
+    except Exception as e:
+        print_formatted("ERROR", f"Critical error: {str(e)}")
+        sys.exit(1)
+
+if __name__ == "__main__":
+    main()
