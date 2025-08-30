@@ -25,8 +25,18 @@ termux-setup-storage
 sleep 2
 echo "Storage access configured"
 
-pkg update -y
-pkg install python python-pip curl -y
+# Clear package cache to free up space
+pkg clean
+apt-get clean
+
+# Update and install packages with more specific approach
+pkg update -y && pkg upgrade -y
+pkg install python -y
+pkg install curl -y
+
+# Install pip using ensurepip (built into Python)
+python -m ensurepip --upgrade
+python -m pip install --upgrade pip
 
 PYTHON_VERSION=$(python --version 2>&1 | cut -d' ' -f2)
 if [[ ! "$PYTHON_VERSION" =~ ^3\.[6-9]|^3\.[1-9][0-9] ]]; then
@@ -47,14 +57,21 @@ if [ $? -ne 0 ]; then
 fi
 echo "urllib.parse module verified"
 
-pip install --upgrade pip
-pip install requests psutil prettytable
+# Install required Python packages
+python -m pip install requests psutil prettytable
 echo "Python libraries installed: requests, psutil, prettytable"
 
+# Download Rejoiner.py
 curl -Ls "https://raw.githubusercontent.com/vthangsinkyi/setup-termux/refs/heads/main/Rejoiner.py" -o /sdcard/Download/Rejoiner.py
 su -c "chmod 644 /sdcard/Download/Rejoiner.py"
 echo "Rejoiner.py downloaded to /sdcard/Download"
 
 if ! su -c "pm list packages com.roblox.client" | grep -q "com.roblox.client"; then
     echo "Warning: Roblox is not installed."
+    echo "Please install Roblox from the Play Store or download the APK."
 fi
+
+echo ""
+echo "Setup completed successfully!"
+echo "To run the tool:"
+echo "cd /sdcard/Download && python Rejoiner.py"
