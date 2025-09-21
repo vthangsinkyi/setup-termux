@@ -25,6 +25,7 @@ COLORS = {
     "SUCCESS": "\033[92m",
     "WARNING": "\033[93m",
     "ERROR": "\033[91m",
+    "DEBUG": "\033[90m",  # Dark gray for debug messages
     "BOLD": "\033[1m",
     "CYAN": "\033[96m",
     "HEADER": "\033[95m"
@@ -236,6 +237,7 @@ def print_formatted(level, message):
         "SUCCESS": "OK",
         "WARNING": "WARN",
         "ERROR": "ERROR",
+        "DEBUG": "DEBUG",
         "HEADER": "===="
     }.get(level, level)
     print(f"{COLORS[level]}{timestamp} [{prefix}] {message}{COLORS['RESET']}")
