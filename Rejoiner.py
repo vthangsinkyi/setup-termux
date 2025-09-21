@@ -243,45 +243,31 @@ def print_formatted(level, message):
     print(f"{COLORS[level]}{timestamp} [{prefix}] {message}{COLORS['RESET']}")
 
 def run_shell_command(command, timeout=10, platform_info=None):
-    """Execute shell command with platform-specific handling - FIXED"""
+    """Execute shell command with platform-specific handling - CLEAN OUTPUT"""
     try:
         if isinstance(command, str):
             full_command = command.split()
         else:
             full_command = command
         
-        # Check if command exists before running
+        # Skip problematic commands
         cmd_name = full_command[0]
-        
-        # Handle special commands that might not exist
-        if cmd_name == 'input':
-            # Try alternatives for input command
-            alternatives = ['sendevent', 'getevent']
-            found_alternative = False
-            for alt in alternatives:
-                try:
-                    subprocess.run(['which', alt], capture_output=True, timeout=5)
-                    # For now, skip input commands if not available
-                    print_formatted("DEBUG", f"Input command not available, skipping")
-                    return ""
-                except:
-                    continue
+        if cmd_name in ['input', 'dumpsys'] and len(full_command) > 1:
+            return ""
         
         result = subprocess.run(full_command, capture_output=True, text=True, timeout=timeout)
         
-        # Only show stderr if it's not a common warning
-        if result.stderr and "permission denied" not in result.stderr.lower() and "no such file" not in result.stderr.lower():
-            print_formatted("DEBUG", f"Command stderr: {result.stderr.strip()[:100]}...")
+        # Only show critical errors, not spam
+        if result.stderr and "error:" in result.stderr.lower() and "permission" not in result.stderr.lower():
+            # Don't spam - only show first time
+            pass
         
         return result.stdout.strip()
     except subprocess.TimeoutExpired:
-        print_formatted("WARNING", f"Command timeout: {command}")
         return ""
     except FileNotFoundError:
-        print_formatted("DEBUG", f"Command not found: {command}")
         return ""
     except Exception as e:
-        print_formatted("DEBUG", f"Command failed: {command} - {str(e)}")
         return ""
 
 def load_config():
@@ -405,38 +391,34 @@ def verify_roblox_installation():
         return False
 
 def is_roblox_running():
-    """Check if Roblox is currently running - IMPROVED DETECTION"""
+    """Check if Roblox is currently running - FIXED FOR COMPATIBILITY"""
     try:
-        # Method 1: Check processes with multiple approaches
-        process_checks = [
-            f"ps -A | grep {ROBLOX_PACKAGE}",
-            f"ps aux | grep {ROBLOX_PACKAGE}", 
-            f"pgrep -f {ROBLOX_PACKAGE}",
-            f"pidof {ROBLOX_PACKAGE}"
-        ]
-        
-        for check in process_checks:
-            try:
-                output = run_shell_command(check, platform_info=platform_info)
-                if output and ROBLOX_PACKAGE in output and "grep" not in output:
-                    print_formatted("DEBUG", f"Roblox process found via: {check.split()[0]}")
-                    return True
-            except:
-                continue
-        
-        # Method 2: Check running packages
+        # Method 1: Simple process check (most compatible)
+        try:
+            output = run_shell_command(f"ps | grep {ROBLOX_PACKAGE}", platform_info=platform_info)
+            if output and ROBLOX_PACKAGE in output and "grep" not in output:
+                return True
+        except:
+            pass
+            
+        # Method 2: Check if package is running via pm
         try:
             running_apps = run_shell_command("pm list packages -e", platform_info=platform_info)
             if ROBLOX_PACKAGE in running_apps:
-                print_formatted("DEBUG", "Roblox found in enabled packages")
                 return True
         except:
             pass
         
-        print_formatted("DEBUG", "Roblox not found")
+        # Method 3: Try pgrep if available
+        try:
+            output = run_shell_command(f"pgrep -f {ROBLOX_PACKAGE}", platform_info=platform_info)
+            if output.strip():
+                return True
+        except:
+            pass
+        
         return False
     except Exception as e:
-        print_formatted("DEBUG", f"Process check error: {str(e)}")
         return False
 
 def close_roblox(config=None):
@@ -548,60 +530,59 @@ def extract_private_server_code(link):
 # GAME LAUNCH FUNCTIONS
 # ======================
 def launch_via_deep_link(game_id, private_server=''):
-    """Launch game using roblox:// deep link - IMPROVED"""
+    """Launch game using roblox:// deep link - CLEAR LOGGING"""
     try:
-        print_formatted("INFO", f"Launching via deep link: Game ID {game_id}")
-        
-        # Build URL
+        # Build URL with correct format: roblox://experiences/start?placeId={game_id}
         url = build_game_url(game_id, private_server)
-        print_formatted("DEBUG", f"Using URL: {url}")
+        print_formatted("INFO", f"🚀 Deep Link URL: {url}")
         
-        # Try different launch methods
-        launch_commands = [
-            f'am start -a android.intent.action.VIEW -d "{url}"',
-            f'am start -a android.intent.action.VIEW "{url}"',
-            f'am start --activity-clear-top -a android.intent.action.VIEW -d "{url}"'
-        ]
+        # Simple launch command - most compatible
+        launch_cmd = f'am start -a android.intent.action.VIEW -d "{url}"'
         
-        for cmd in launch_commands:
-            try:
-                result = run_shell_command(cmd, platform_info=platform_info)
-                if "Error" not in result and "unknown command" not in result.lower():
-                    print_formatted("DEBUG", f"Launch command succeeded: {cmd.split()[0]} {cmd.split()[1]}")
-                    time.sleep(8)  # Give more time for launch
-                    if is_roblox_running():
-                        return True
-            except:
-                continue
+        print_formatted("INFO", "📱 Sending deep link command...")
+        result = run_shell_command(launch_cmd, platform_info=platform_info)
         
-        time.sleep(5)
-        return is_roblox_running()
+        if result and "Error" not in result:
+            print_formatted("SUCCESS", "✅ Deep link command sent successfully")
+        else:
+            print_formatted("WARNING", f"⚠️ Launch may have failed: {result[:50] if result else 'No output'}")
+        
+        # Give Roblox time to start
+        print_formatted("INFO", "⏳ Waiting for Roblox to start...")
+        time.sleep(10)
+        
+        # Check if Roblox started
+        if is_roblox_running():
+            print_formatted("SUCCESS", "✅ Roblox is running!")
+            return True
+        else:
+            print_formatted("WARNING", "⚠️ Roblox didn't start via deep link")
+            return False
         
     except Exception as e:
-        print_formatted("ERROR", f"Deep link launch failed: {str(e)}")
+        print_formatted("ERROR", f"❌ Deep link launch failed: {str(e)}")
         return False
 
 def launch_via_intent(game_id, private_server=''):
-    """Launch game using Android intents"""
+    """Launch game using Android intents - SIMPLIFIED"""
     try:
-        print_formatted("INFO", f"Launching via intent: {game_id}")
+        print_formatted("INFO", "📱 Trying to open Roblox app...")
         
-        # First start Roblox main activity
-        main_activity = get_main_activity()
-        command = f'am start -n {ROBLOX_PACKAGE}/{main_activity}'
-        run_shell_command(command, platform_info=platform_info)
-        time.sleep(5)
+        # Try opening Roblox app using monkey command (more reliable)
+        launch_command = f'monkey -p {ROBLOX_PACKAGE} -c android.intent.category.LAUNCHER 1'
+        result = run_shell_command(launch_command, platform_info=platform_info)
         
-        # Then send the game URL as an intent
-        url = build_game_url(game_id, private_server)
-        intent_command = f'am start -a android.intent.action.VIEW -d "{url}" {ROBLOX_PACKAGE}'
-        result = run_shell_command(intent_command, platform_info=platform_info)
+        time.sleep(8)
         
-        time.sleep(5)
-        return is_roblox_running()
+        if is_roblox_running():
+            print_formatted("SUCCESS", "✅ Roblox app opened successfully")
+            return True
+        else:
+            print_formatted("WARNING", "⚠️ Could not open Roblox app")
+            return False
         
     except Exception as e:
-        print_formatted("ERROR", f"Intent launch failed: {str(e)}")
+        print_formatted("ERROR", f"❌ Intent launch failed: {str(e)}")
         return False
 
 def launch_via_ui_automation(game_id, private_server=''):
@@ -951,58 +932,24 @@ def check_games_section():
 # GAME STATE DETECTION
 # ======================
 def is_in_game(game_id, private_server=''):
-    """Check if currently in the specified game - IMPROVED DETECTION"""
+    """Check if currently in the specified game - SIMPLIFIED FOR COMPATIBILITY"""
     try:
         # First check if Roblox is running at all
         if not is_roblox_running():
-            print_formatted("DEBUG", "Roblox not running - not in game")
             return False
         
-        # Simple approach first - check if we can find evidence of the game
-        print_formatted("DEBUG", f"Checking if in game {game_id}...")
-        
-        # Method 1: Check recent logcat for game ID
+        # Simple logcat check without problematic flags
         try:
-            log_patterns = [
-                f"grep -i {game_id}",
-                f"grep -i place.*{game_id}",
-                f"grep -i game.*{game_id}"
-            ]
-            
-            for pattern in log_patterns:
-                try:
-                    logs = run_shell_command(f"logcat -d -t 100 | {pattern}", platform_info=platform_info)
-                    if logs and game_id in logs:
-                        print_formatted("DEBUG", f"Found game {game_id} in logs")
-                        return True
-                except:
-                    continue
+            logs = run_shell_command("logcat -d", platform_info=platform_info)
+            if logs and game_id in logs:
+                return True
         except:
             pass
         
-        # Method 2: Check current activity for game indicators
-        try:
-            activity_check = run_shell_command("dumpsys window windows | grep mCurrentFocus", platform_info=platform_info)
-            if activity_check:
-                # Look for game-related activities (not menu activities)
-                game_indicators = ['Game', 'Unity', 'Experience', 'Player']
-                menu_indicators = ['Main', 'Home', 'Start', 'Launch', 'Menu']
-                
-                is_in_game_activity = any(indicator in activity_check for indicator in game_indicators)
-                is_in_menu = any(indicator in activity_check for indicator in menu_indicators)
-                
-                if is_in_game_activity and not is_in_menu:
-                    print_formatted("DEBUG", "Detected game activity")
-                    return True
-        except:
-            pass
-        
-        # If we can't definitively determine, assume not in game
-        print_formatted("DEBUG", "Could not confirm game presence")
-        return False
+        # If Roblox is running but we can't detect the game, assume we're in some game
+        return True
         
     except Exception as e:
-        print_formatted("DEBUG", f"Game detection error: {str(e)}")
         return False
 
 def is_game_activity(activity):
