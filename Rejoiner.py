@@ -31,7 +31,30 @@ COLORS = {
     "HEADER": "\033[95m"
 }
 
-CONFIG_FILE = "/sdcard/roblox_config.json"
+# Dynamic config file path based on environment
+def get_config_path():
+    """Get appropriate config file path for the environment"""
+    # Try Termux internal storage first
+    termux_path = "/data/data/com.termux/files/home/roblox_config.json"
+    if os.path.exists("/data/data/com.termux/files/home"):
+        return termux_path
+    
+    # Try /sdcard if accessible
+    sdcard_path = "/sdcard/roblox_config.json"
+    try:
+        # Test if we can write to /sdcard
+        test_file = "/sdcard/.test_write"
+        with open(test_file, 'w') as f:
+            f.write("test")
+        os.remove(test_file)
+        return sdcard_path
+    except:
+        pass
+    
+    # Fallback to current directory
+    return "./roblox_config.json"
+
+CONFIG_FILE = get_config_path()
 ROBLOX_PACKAGE = "com.roblox.client"
 
 # Global variables
@@ -243,24 +266,14 @@ def print_formatted(level, message):
     print(f"{COLORS[level]}{timestamp} [{prefix}] {message}{COLORS['RESET']}")
 
 def run_shell_command(command, timeout=10, platform_info=None):
-    """Execute shell command with platform-specific handling - CLEAN OUTPUT"""
+    """Execute shell command with proper shell handling - FIXED"""
     try:
+        # For string commands (with pipes/complex args), use shell=True
         if isinstance(command, str):
-            full_command = command.split()
+            result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=timeout)
         else:
-            full_command = command
-        
-        # Skip problematic commands
-        cmd_name = full_command[0]
-        if cmd_name in ['input', 'dumpsys'] and len(full_command) > 1:
-            return ""
-        
-        result = subprocess.run(full_command, capture_output=True, text=True, timeout=timeout)
-        
-        # Only show critical errors, not spam
-        if result.stderr and "error:" in result.stderr.lower() and "permission" not in result.stderr.lower():
-            # Don't spam - only show first time
-            pass
+            # For list commands, run directly
+            result = subprocess.run(command, capture_output=True, text=True, timeout=timeout)
         
         return result.stdout.strip()
     except subprocess.TimeoutExpired:
@@ -391,31 +404,22 @@ def verify_roblox_installation():
         return False
 
 def is_roblox_running():
-    """Check if Roblox is currently running - FIXED FOR COMPATIBILITY"""
+    """Check if Roblox is currently running - WORKING VERSION"""
     try:
-        # Method 1: Simple process check (most compatible)
-        try:
-            output = run_shell_command(f"ps | grep {ROBLOX_PACKAGE}", platform_info=platform_info)
-            if output and ROBLOX_PACKAGE in output and "grep" not in output:
-                return True
-        except:
-            pass
+        # Method 1: Use pgrep (most reliable)
+        output = run_shell_command(f"pgrep -f {ROBLOX_PACKAGE}", platform_info=platform_info)
+        if output and output.strip():
+            return True
             
-        # Method 2: Check if package is running via pm
-        try:
-            running_apps = run_shell_command("pm list packages -e", platform_info=platform_info)
-            if ROBLOX_PACKAGE in running_apps:
-                return True
-        except:
-            pass
+        # Method 2: Use ps with grep (shell command with pipe)
+        output = run_shell_command(f"ps | grep {ROBLOX_PACKAGE} | grep -v grep", platform_info=platform_info)
+        if output and ROBLOX_PACKAGE in output:
+            return True
         
-        # Method 3: Try pgrep if available
-        try:
-            output = run_shell_command(f"pgrep -f {ROBLOX_PACKAGE}", platform_info=platform_info)
-            if output.strip():
-                return True
-        except:
-            pass
+        # Method 3: Check running packages
+        running_apps = run_shell_command("pm list packages -e", platform_info=platform_info)
+        if running_apps and ROBLOX_PACKAGE in running_apps:
+            return True
         
         return False
     except Exception as e:
@@ -530,37 +534,42 @@ def extract_private_server_code(link):
 # GAME LAUNCH FUNCTIONS
 # ======================
 def launch_via_deep_link(game_id, private_server=''):
-    """Launch game using roblox:// deep link - CLEAR LOGGING"""
+    """Launch game using roblox:// deep link - WORKING VERSION"""
     try:
-        # Build URL with correct format: roblox://experiences/start?placeId={game_id}
+        # Build URL
         url = build_game_url(game_id, private_server)
-        print_formatted("INFO", f"🚀 Deep Link URL: {url}")
+        print_formatted("INFO", f"🚀 Launching: {url}")
         
-        # Simple launch command - most compatible
-        launch_cmd = f'am start -a android.intent.action.VIEW -d "{url}"'
+        # Try different launch approaches
+        launch_commands = [
+            f'am start -a android.intent.action.VIEW -d {url}',  # Without quotes first
+            f'am start -a android.intent.action.VIEW -d "{url}"',  # With quotes
+            f'termux-open-url {url}',  # Termux-specific
+        ]
         
-        print_formatted("INFO", "📱 Sending deep link command...")
-        result = run_shell_command(launch_cmd, platform_info=platform_info)
+        for cmd in launch_commands:
+            print_formatted("INFO", f"📱 Trying: {cmd.split()[0]} {cmd.split()[1]}...")
+            result = run_shell_command(cmd, platform_info=platform_info)
+            
+            # Give it time to work
+            time.sleep(5)
+            
+            if is_roblox_running():
+                print_formatted("SUCCESS", "✅ Roblox started successfully!")
+                return True
+            
+            if "Error" not in result and "not found" not in result.lower():
+                print_formatted("INFO", "⏳ Command sent, waiting longer...")
+                time.sleep(8)
+                if is_roblox_running():
+                    print_formatted("SUCCESS", "✅ Roblox started!")
+                    return True
         
-        if result and "Error" not in result:
-            print_formatted("SUCCESS", "✅ Deep link command sent successfully")
-        else:
-            print_formatted("WARNING", f"⚠️ Launch may have failed: {result[:50] if result else 'No output'}")
-        
-        # Give Roblox time to start
-        print_formatted("INFO", "⏳ Waiting for Roblox to start...")
-        time.sleep(10)
-        
-        # Check if Roblox started
-        if is_roblox_running():
-            print_formatted("SUCCESS", "✅ Roblox is running!")
-            return True
-        else:
-            print_formatted("WARNING", "⚠️ Roblox didn't start via deep link")
-            return False
+        print_formatted("WARNING", "⚠️ Deep link methods didn't start Roblox")
+        return False
         
     except Exception as e:
-        print_formatted("ERROR", f"❌ Deep link launch failed: {str(e)}")
+        print_formatted("ERROR", f"❌ Deep link failed: {str(e)}")
         return False
 
 def launch_via_intent(game_id, private_server=''):
@@ -1429,8 +1438,8 @@ def main():
         print(f"{COLORS['HEADER']}")
         print("╔══════════════════════════════════════════════════════════════╗")
         print("║              ENHANCED ROBLOX AUTOMATION TOOL                 ║")
-        print("║          Supports: UGPHONE, VSPHONE, REDFINGER              ║")
-        print("║                    Standard Android & Emulators             ║")
+        print("║          Supports: UGPHONE, VSPHONE, REDFINGER               ║")
+        print("║               Standard Android & Emulators                   ║")
         print("╚══════════════════════════════════════════════════════════════╝")
         print(f"{COLORS['RESET']}")
         
